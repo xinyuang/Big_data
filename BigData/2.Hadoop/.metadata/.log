@@ -1,0 +1,335 @@
+!SESSION 2018-09-06 22:11:41.710 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=10.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 2 0 2018-09-06 22:13:23.995
+!MESSAGE Builtin LFS support not present/detected
+!STACK 0
+java.lang.ClassNotFoundException: org.eclipse.jgit.lfs.BuiltinLFS cannot be found by org.eclipse.egit.core_5.0.0.201806131550-r
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:508)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Unknown Source)
+	at org.eclipse.egit.core.Activator.registerBuiltinLFS(Activator.java:279)
+	at org.eclipse.egit.core.Activator.start(Activator.java:212)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1002)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:354)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:114)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:505)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:392)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:454)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.egit.ui.Activator$RepositoryChangeScanner.<init>(Activator.java:921)
+	at org.eclipse.egit.ui.Activator.setupRepoChangeScanner(Activator.java:1034)
+	at org.eclipse.egit.ui.Activator.start(Activator.java:336)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1002)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:354)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:114)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:505)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:392)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:470)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:609)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:177)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:931)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:60)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:174)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:104)
+	at org.eclipse.ui.internal.Workbench$34.runWithException(Workbench.java:2378)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:32)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4567)
+	at org.eclipse.ui.internal.StartupThreading.runWithoutExceptions(StartupThreading.java:95)
+	at org.eclipse.ui.internal.Workbench.initializeDefaultServices(Workbench.java:2373)
+	at org.eclipse.ui.internal.Workbench.init(Workbench.java:1654)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2859)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1471)
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-09-06 22:14:04.523
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\xinyu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.mylyn.tasks.index.core 4 0 2018-09-06 22:15:45.943
+!MESSAGE Failed to update task list index
+!STACK 1
+org.eclipse.core.runtime.CoreException: Unexpected exception: C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\.metadata\.mylyn\.taskListIndex\pending_segments_1 -> C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\.metadata\.mylyn\.taskListIndex\segments_1: The process cannot access the file because it is being used by another process.
+
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.maintainIndex(TaskListIndex.java:1117)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.access$0(TaskListIndex.java:1084)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex$MaintainIndexJob.run(TaskListIndex.java:184)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+Caused by: java.nio.file.FileSystemException: C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\.metadata\.mylyn\.taskListIndex\pending_segments_1 -> C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\.metadata\.mylyn\.taskListIndex\segments_1: The process cannot access the file because it is being used by another process.
+
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(Unknown Source)
+	at java.base/java.nio.file.Files.move(Unknown Source)
+	at org.apache.lucene.store.FSDirectory.renameFile(FSDirectory.java:297)
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.renameFile(LockValidatingDirectoryWrapper.java:56)
+	at org.apache.lucene.index.SegmentInfos.finishCommit(SegmentInfos.java:801)
+	at org.apache.lucene.index.IndexWriter.finishCommit(IndexWriter.java:3021)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:2996)
+	at org.apache.lucene.index.IndexWriter.shutdown(IndexWriter.java:1086)
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1129)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.rebuildIndexCompletely(TaskListIndex.java:1262)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.maintainIndex(TaskListIndex.java:1103)
+	... 3 more
+!SUBENTRY 1 org.eclipse.mylyn.tasks.index.core 4 0 2018-09-06 22:15:45.944
+!MESSAGE Unexpected exception: C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\.metadata\.mylyn\.taskListIndex\pending_segments_1 -> C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\.metadata\.mylyn\.taskListIndex\segments_1: The process cannot access the file because it is being used by another process.
+
+!STACK 0
+java.nio.file.FileSystemException: C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\.metadata\.mylyn\.taskListIndex\pending_segments_1 -> C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\.metadata\.mylyn\.taskListIndex\segments_1: The process cannot access the file because it is being used by another process.
+
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(Unknown Source)
+	at java.base/java.nio.file.Files.move(Unknown Source)
+	at org.apache.lucene.store.FSDirectory.renameFile(FSDirectory.java:297)
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.renameFile(LockValidatingDirectoryWrapper.java:56)
+	at org.apache.lucene.index.SegmentInfos.finishCommit(SegmentInfos.java:801)
+	at org.apache.lucene.index.IndexWriter.finishCommit(IndexWriter.java:3021)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:2996)
+	at org.apache.lucene.index.IndexWriter.shutdown(IndexWriter.java:1086)
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1129)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.rebuildIndexCompletely(TaskListIndex.java:1262)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.maintainIndex(TaskListIndex.java:1103)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.access$0(TaskListIndex.java:1084)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex$MaintainIndexJob.run(TaskListIndex.java:184)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+!SUBENTRY 1 org.eclipse.mylyn.tasks.index.core 4 0 2018-09-06 22:15:45.944
+!MESSAGE Unexpected exception: C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\.metadata\.mylyn\.taskListIndex\pending_segments_1 -> C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\.metadata\.mylyn\.taskListIndex\segments_1: The process cannot access the file because it is being used by another process.
+
+!STACK 0
+java.nio.file.FileSystemException: C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\.metadata\.mylyn\.taskListIndex\pending_segments_1 -> C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\.metadata\.mylyn\.taskListIndex\segments_1: The process cannot access the file because it is being used by another process.
+
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(Unknown Source)
+	at java.base/java.nio.file.Files.move(Unknown Source)
+	at org.apache.lucene.store.FSDirectory.renameFile(FSDirectory.java:297)
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.renameFile(LockValidatingDirectoryWrapper.java:56)
+	at org.apache.lucene.index.SegmentInfos.finishCommit(SegmentInfos.java:801)
+	at org.apache.lucene.index.IndexWriter.finishCommit(IndexWriter.java:3021)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:2996)
+	at org.apache.lucene.index.IndexWriter.shutdown(IndexWriter.java:1086)
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1129)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.rebuildIndexCompletely(TaskListIndex.java:1262)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.maintainIndex(TaskListIndex.java:1103)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.access$0(TaskListIndex.java:1084)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex$MaintainIndexJob.run(TaskListIndex.java:184)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-06 22:26:59.154
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-06 22:26:59.797
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 4 0 2018-09-06 22:54:46.393
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine$1Visitor.visit(SelectionEngine.java:1439)
+	at org.eclipse.jdt.internal.compiler.ast.LocalDeclaration.traverse(LocalDeclaration.java:453)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.traverse(MethodDeclaration.java:362)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.selectLocalDeclaration(SelectionEngine.java:1500)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.select(SelectionEngine.java:1072)
+	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:165)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:387)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:380)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:121)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:671)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:667)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:164)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2018-09-06 23:48:49.128
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.1\lib\jrt-fs.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\activation-1.1.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\apacheds-i18n-2.0.0-M15.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\apacheds-kerberos-codec-2.0.0-M15.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\api-asn1-api-1.0.0-M20.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\api-util-1.0.0-M20.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\asm-3.2.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\avro-1.7.4.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\commons-beanutils-1.7.0.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\commons-beanutils-core-1.8.0.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\commons-cli-1.2.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\commons-codec-1.4.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\commons-collections-3.2.2.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\commons-compress-1.4.1.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\commons-configuration-1.6.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\commons-daemon-1.0.13.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\commons-digester-1.8.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\commons-httpclient-3.1.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\commons-io-2.4.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\commons-lang-2.6.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\commons-logging-1.1.3.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\commons-math3-3.1.1.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\commons-net-3.1.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\curator-client-2.7.1.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\curator-framework-2.7.1.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\curator-recipes-2.7.1.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\gson-2.2.4.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\guava-11.0.2.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\hadoop-annotations-2.7.3.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\hadoop-auth-2.7.3.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\hadoop-common-2.7.3-tests.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\hadoop-common-2.7.3.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\hadoop-hdfs-2.7.3-tests.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\hadoop-hdfs-2.7.3.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\hadoop-hdfs-nfs-2.7.3.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\hadoop-nfs-2.7.3.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\hamcrest-core-1.3.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\htrace-core-3.1.0-incubating.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\httpclient-4.2.5.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\httpcore-4.2.5.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\jackson-core-asl-1.9.13.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\jackson-jaxrs-1.9.13.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\jackson-mapper-asl-1.9.13.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\jackson-xc-1.9.13.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\java-xmlbuilder-0.4.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\jaxb-api-2.2.2.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\jaxb-impl-2.2.3-1.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\jersey-core-1.9.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\jersey-json-1.9.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\jersey-server-1.9.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\jets3t-0.9.0.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\jettison-1.1.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\jetty-6.1.26.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\jetty-util-6.1.26.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\jsch-0.1.42.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\jsp-api-2.1.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\jsr305-3.0.0.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\junit-4.11.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\leveldbjni-all-1.8.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\log4j-1.2.17.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\mockito-all-1.8.5.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\netty-3.6.2.Final.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\netty-all-4.0.23.Final.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\paranamer-2.3.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\protobuf-java-2.5.0.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\servlet-api-2.5.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\slf4j-api-1.7.10.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\slf4j-log4j12-1.7.10.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\snappy-java-1.0.4.1.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\stax-api-1.0-2.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\xercesImpl-2.9.1.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\xml-apis-1.3.04.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\xmlenc-0.52.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\xz-1.0.jar
+  [+] C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\BigData\2.Hadoop\jar\zookeeper-3.4.6.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.base/java.lang.Thread.run(Unknown Source)

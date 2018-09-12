@@ -1,0 +1,35 @@
+package multitask_2;
+/**
+ * 
+ * @author xinyu
+ *
+ */
+public class Ticket implements Runnable{
+
+	private int total;
+	//自定义一个锁对象
+	Object mutet = new Object();
+	Ticket(int total) {
+		this.total = total;
+	}
+
+	@Override
+	public void run() {
+		while(total>0){
+			synchronized(mutet) {
+				total--;
+				String name = Thread.currentThread().getName();
+				System.out.println(name + "selling ticket, left: " + total);
+			}
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+
+		
+	}
+}
+

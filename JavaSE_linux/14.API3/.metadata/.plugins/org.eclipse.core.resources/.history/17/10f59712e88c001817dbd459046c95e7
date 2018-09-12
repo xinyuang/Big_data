@@ -1,0 +1,28 @@
+package RegexDemo1;
+/**
+ * 
+ * @version 1.0、
+ * @author xinyu
+ * 
+ */
+
+/*
+ * String 类三个有关正则的方法：
+ * boolean matches (String regex)
+ * 
+ * 
+ * */
+public class RegexDemo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		checkTelNumber();
+	}
+	
+	public static void checkTelNumber() {
+		String tel = "1384467880a0";
+		boolean b = tel.matches("1[34578][a-z]{8}");
+		System.out.println(b);
+	}
+
+}

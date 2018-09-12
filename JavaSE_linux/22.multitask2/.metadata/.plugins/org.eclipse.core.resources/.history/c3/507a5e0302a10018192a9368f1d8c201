@@ -1,0 +1,16 @@
+package notify_wait;
+
+public class thread1 implements Runnable{
+	Object mutex = new Object();
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+			synchronized (mutex) {
+				mutex.notify();
+				System.out.println(Thread.currentThread().getName() + "调用了notify");
+				
+			}	
+			System.out.println(Thread.currentThread().getName() + "释放了锁");
+	}
+
+}

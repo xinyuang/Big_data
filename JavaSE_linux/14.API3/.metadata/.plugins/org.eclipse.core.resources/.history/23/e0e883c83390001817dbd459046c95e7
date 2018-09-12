@@ -1,0 +1,18 @@
+package interface_demo;
+/**
+ * 抽象接口的调用测试
+ * @author xinyu
+ *
+ */
+public class CarTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Polymorphism 多态允许基类的引用指向子类的对象
+		Engine v4 = new V4Engine();
+		Car byd = new BYD(v4);
+		byd.run();
+		
+	}
+
+}

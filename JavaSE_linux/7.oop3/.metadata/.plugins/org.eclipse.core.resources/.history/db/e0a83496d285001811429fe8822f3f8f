@@ -1,0 +1,10 @@
+package com.itstart.demo02;
+
+public class SuperTest01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Tiger tiger = new Tiger();
+	}
+
+}

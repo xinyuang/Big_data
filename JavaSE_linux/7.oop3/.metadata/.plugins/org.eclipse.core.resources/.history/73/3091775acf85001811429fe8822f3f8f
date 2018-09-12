@@ -1,0 +1,10 @@
+package com.itstart.demo1;
+
+public class CompositeTest01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

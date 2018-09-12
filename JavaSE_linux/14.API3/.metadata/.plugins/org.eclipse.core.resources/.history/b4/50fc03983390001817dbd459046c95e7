@@ -1,0 +1,10 @@
+package com.itstart.demo2;
+/**
+ * 
+ * @version 1.0
+ * @author xinyu
+ *
+ */
+public abstract class Car {
+
+}

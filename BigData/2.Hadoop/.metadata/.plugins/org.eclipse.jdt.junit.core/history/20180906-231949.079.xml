@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestUpload" project="HDFSdemo" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="hadoop.TestUpload" time="2.478">
+    <testcase name="testMkdir" classname="hadoop.TestUpload" time="2.478"/>
+  </testsuite>
+</testrun>

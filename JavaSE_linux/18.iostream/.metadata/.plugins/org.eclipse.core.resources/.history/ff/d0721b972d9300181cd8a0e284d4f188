@@ -1,0 +1,20 @@
+package map;
+
+import java.util.Hashtable;
+
+public class hashTable_test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Hashtable<String, String> ht = new Hashtable<String, String>();
+		ht.put("10000", "ct");
+		ht.put("10086", "mv");
+		ht.put("10010", "un");
+		System.out.println("hashtable:" + ht);
+		Set<String> set = ht.keySet();
+		for (String s : set) {
+			System.out.println(ht[s]);
+		}
+	}
+
+}

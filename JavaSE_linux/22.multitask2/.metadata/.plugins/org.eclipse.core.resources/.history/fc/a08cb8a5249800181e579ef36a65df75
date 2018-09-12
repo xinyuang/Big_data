@@ -1,0 +1,12 @@
+package multitask_2;
+/**
+ * 
+ * @author xinyu
+ *
+ */
+public class SaleTicket {
+	public static void main(String[] args) {
+		
+	}
+
+}

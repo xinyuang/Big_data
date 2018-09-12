@@ -1,0 +1,25 @@
+package string;
+
+public class string_api {
+	public static void main(String[] args) {
+		function();
+	}
+	public static void function() {
+		String str = "itstar.com";
+		boolean b = str.contains("it");
+		System.out.println(b);
+		int idx = str.indexOf("s");
+		System.out.println(idx);
+		byte[] bs = str.getBytes();
+		for (int i = 0; i < bs.length; i++) {
+			System.out.println(bs[i]);
+		}
+		char[] c = str.toCharArray();
+		for (int i = 0; i < c.length; i++) {
+			System.out.println(c[i]);
+		}
+		String s2 = "itstar";
+		boolean equal = str.equals(s2);
+		System.out.println(equal);
+	}
+}

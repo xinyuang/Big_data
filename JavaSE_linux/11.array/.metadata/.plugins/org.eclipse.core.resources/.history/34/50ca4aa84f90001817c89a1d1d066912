@@ -1,0 +1,5 @@
+package TypeConverter;
+
+public class array {
+	int array[] = new int[10];
+}

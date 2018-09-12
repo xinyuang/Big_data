@@ -1,0 +1,5 @@
+package hadoop;
+
+public class testMkdir {
+
+}

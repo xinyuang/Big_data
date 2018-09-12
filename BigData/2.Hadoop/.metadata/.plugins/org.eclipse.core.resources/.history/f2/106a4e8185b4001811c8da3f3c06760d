@@ -1,0 +1,21 @@
+package rpc;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.ipc.RPC;
+import org.mortbay.jetty.Server;
+
+public class RPC_demo {
+	public static void main(String[] args) {
+		RPC.Builder builder = new RPC.Builder(new Configuration());
+		builder.setBindAddress("localhost");
+		builder.setPort(8899);
+		
+		builder.setProtocol(MyInterface.class);
+		builder.setInstance(new MyInterfaceImpl());
+		
+		Server server = builder.build();
+		
+		server.start();
+	}
+
+}
