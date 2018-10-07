@@ -1,1 +1,6 @@
-
+# install java1.8.0 JDK
+    1. unzip JDK zipfile:  tar -zxvf jdk-8u144-linux-x64.tar.gz
+    2. set environment variables:
+        (in CentOS) sudo vi ~/.bash_profile
+        (in ubuntu) sudo vi ~/.profile
+        
