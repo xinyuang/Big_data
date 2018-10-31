@@ -1,0 +1,115 @@
+# install java1.8.0 JDK
+    1. unzip JDK zipfile:  tar -zxvf jdk-8u144-linux-x64.tar.gz
+    2. set environment variables:
+        find current path of jdk: pwd
+        (in CentOS) sudo vi ~/.bash_profile
+        (in ubuntu) sudo vi ~/.profile
+        
+        add        
+            JAVA_HOME=/home/xinyuang/test/Hadoop/jdk1.8.0_144
+            export JAVA_HOME
+
+            PATH=$JAVA_HOME/bin:$PATH
+            export PATH
+            
+        update configuration: 
+            (in CentOS) source ~/.bash_profile
+            (in ubuntu) source ~/.profile 
+
+# Turn off firewall
+
+
+# Set host name
+    sudo nano /etc/hosts
+        192.168.19.101 Traxen-0005
+        192.168.19.102 data2
+        
+# set SSH
+    ssh-keygen -t rsa
+    ssh-copy-id -i .ssh/id_rsa.pub xinyuang@Traxen-0005
+
+# install Hadoop2.7.3 at NameNode
+    1. unzip hadoop zipfile: tar -zxvf hadoop-2.7.3.tar.gz
+    2. set environment variables:
+         find current path of jdk: pwd
+        (in CentOS) sudo vi ~/.bash_profile
+        (in ubuntu) sudo vi ~/.profile   
+        
+        add
+            HADOOP_HOME=/home/xinyuang/test/Hadoop/hadoop-2.7.3
+            export HADOOP_HOME
+
+            PATH=$HADOOP_HOME/sbin:$HADOOP_HOME/bin:$PATH
+            export PATH
+
+# configure Hadoop nameNode
+    1. set JAVA_HOME at 25 line
+        echo $JAVA_HOME
+        copy the path of JAVA_HOME
+        cd Hadoop/hadoop-2.7.3/etc/hadoop
+        sudo nano hadoop-env.sh
+            export JAVA_HOME=/home/xinyuang/test/Hadoop/jdk1.8.0_144
+            
+    2. set replication and admin check
+        sudo nano hdfs-site.xml
+        add between <configuration> </configuration>
+            <property>
+                    <name>dfs.replication</name>
+                    <value>2</value>
+            </property>
+
+            <property>
+                    <name>dfs.permissions</name>
+                    <value>false</value>
+            </property>
+            
+    3. set PRC port for NameNode and data direction
+         sudo nano core-site.xml
+         add between <configuration> </configuration>
+       
+           <property>
+                    <name>fs.defaultFS</name>
+                    <value>hdfs://Traxen-0005:9000</value>
+            </property>
+
+            <property>
+                    <name>hadoop.tmp.dir</name>
+                    <value>/home/xinyuang/test/Hadoop/hadoop-2.7.3/test_data</value>
+            </property>
+
+    4. set MR framework
+         cp mapred-site.xml.template mapred-site.xml
+         sudo nano mapred-site.xml
+         add between <configuration> </configuration>
+         <property>
+                <name>mapreduce.framework.name</name>
+                <value>yarn</value>
+         </property>
+         
+     5. set Yarn resourcemanager IP and NodeManager execute way
+          sudo nano yarn-site.xml
+          add between <configuration> </configuration>
+          <property>
+                <name>yarn.resourcemanager.hostname</name>
+                <value>Traxen-0005</value>
+          </property>
+
+          <property>
+                <name>yarn.nodemanager.aux-services</name>
+                <value>mapreduce_shuffle</value>
+          </property>
+     6. set DataNode IP
+          sudo nano slaves
+          delete localhost
+          add datanode IP
+
+     7. format namenode
+          hdfs namenode -format
+          check log: Storage directory /home/xinyuang/test/Hadoop/hadoop-2.7.3/test_data/dfs/name has been successfully formatted.
+   
+# copy configured hadoop to dataNode
+      scp -r hadoop-2.7.3/ root@bigdata112:/root/training
+      
+
+
+        
