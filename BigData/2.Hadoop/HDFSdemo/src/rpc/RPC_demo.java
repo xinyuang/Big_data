@@ -10,8 +10,8 @@ import org.apache.hadoop.ipc.RPC.Server;
 public class RPC_demo {
 	public static void main(String[] args) throws HadoopIllegalArgumentException, IOException {
 		RPC.Builder builder = new RPC.Builder(new Configuration());
-		builder.setBindAddress("localhost");
-		builder.setPort(7788);
+		builder.setBindAddress("192.168.1.113");
+		builder.setPort(7789);
 		
 		builder.setProtocol(MyInterface.class);
 		builder.setInstance(new MyInterfaceImpl());

@@ -1,7 +1,0 @@
-package rpc;
-
-public class RPC_demo {
-	public static void main(String[] args) {
-	}
-
-}

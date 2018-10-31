@@ -10,7 +10,7 @@ public class MyRPCcliendt {
 	public static void main(String[] args) throws IOException {
 		MyInterface proxy = RPC.getProxy(MyInterface.class,
 				                                 MyInterface.versionID, 
-				                                 new InetSocketAddress("localhost", 7788),
+				                                 new InetSocketAddress("192.168.1.113", 7789),
 				                                 new Configuration());
 		
 		String result = proxy.sayHello("tom");
