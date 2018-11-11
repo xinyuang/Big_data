@@ -1,1 +1,59 @@
 tar -zxvf hbase-1.3.1-bin.tar.gz -C ~/training/
+
+vi .bash_profile
+add
+  HBASE_HOME=/root/training/hbase-1.3.1
+  export HBASE_HOME
+
+  PATH=$HBASE_HOME/bin:$PATH
+  export PATH
+
+source .bash_profile
+
+cd training/hbase-1.3.1/conf/
+vi hbase-env.sh 
+add
+  export JAVA_HOME=/root/training/jdk1.8.0_144
+  export HBASE_MANAGES_ZK=true  #use built-in zookeeper
+
+vi hbase-site.xml 
+
+        <!--HBASE dir in HDFS -->
+        <property>
+                <name>hbase.rootdir</name>
+                <value>hdfs://192.168.118.113:9000/hbase</value>
+        </property>
+
+        <property>
+                <name>hbase.cluster.distributed</name>
+                <value>true</value>
+        </property>
+
+        <property>
+                <name>hbase.zookeeper.quorum</name>
+                <value>192.168.118.113</value>
+        </property>
+
+        <property>
+                <name>dfs.replication</name>
+                <value>2</value>
+        </property>
+
+        <!--set max allowed time difference-->
+        <property>
+                <name>hbase.master.maxclockskew</name>
+                <value>180000</value>
+        </property>
+
+vi regionservers 
+  delete localhost
+  add servers IP or hostname
+  
+copy installed hbase file to regionservers
+  scp -r hbase-1.3.1/ root@bigdata132:/root/training
+  scp -r hbase-1.3.1/ root@bigdata133:/root/training
+  scp -r hbase-1.3.1/ root@bigdata134:/root/training
+  scp -r hbase-1.3.1/ root@bigdata135:/root/training
+
+
+
