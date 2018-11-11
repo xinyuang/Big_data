@@ -1,36 +1,31 @@
-package WC;
+package revertedIndex;
 
 import java.io.IOException;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
-public class wordCountMain {
 
+public class revertedIndexMain {
 	public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
-		// TODO Auto-generated method stub
-		//1. create task
 		Job job = Job.getInstance(new Configuration());
-		job.setJarByClass(wordCountMain.class);
+		job.setJarByClass(revertedIndexMain.class);
 		
 		//2. set map and output type
-		job.setMapperClass(wordCountMapper.class);
+		job.setMapperClass(revertedIndexMapper.class);
 		job.setMapOutputKeyClass(Text.class);
-		job.setMapOutputValueClass(IntWritable.class);
+		job.setMapOutputValueClass(Text.class);
 		
-		job.setSortComparatorClass(MyTextComparator.class);
-		
-		job.setCombinerClass(wordCountReducer.class);
+		job.setCombinerClass(revertedIndexCombiner.class);
 		
 		//3. set reduce and output type
-		job.setReducerClass(wordCountReducer.class);
+		job.setReducerClass(revertedIndexReducer.class);
 		job.setOutputKeyClass(Text.class);
-		job.setOutputValueClass(IntWritable.class);
+		job.setOutputValueClass(Text.class);
 		
 		//4. set input path, output path
 		FileInputFormat.setInputPaths(job, new Path(args[0]));
@@ -39,5 +34,4 @@ public class wordCountMain {
 		//5. Execute job
 		job.waitForCompletion(true);
 	}
-
 }

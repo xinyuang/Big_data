@@ -1,4 +1,4 @@
-package WC;
+package MRunit;
 
 import java.io.IOException;
 

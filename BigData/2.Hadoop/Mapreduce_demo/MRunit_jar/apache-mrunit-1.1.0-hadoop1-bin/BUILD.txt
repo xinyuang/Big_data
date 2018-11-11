@@ -1,0 +1,39 @@
+Apache MRUnit Build Instructions
+
+REQUIREMENTS:
+
+- Java 1.6
+- Apache Maven 2.2.1 or higher
+- Access to the internet
+
+BUILDING:
+
+From the command line:
+
+Building MRUnit is dependent upon the version of Hadoop Map Reduce you intend to use.
+
+Hadoop Map Reduce 1.X or 0.20.X:
+$ mvn package
+This produces mrunit-${VERSION}-hadoop1.jar in the target directory.
+
+Hadoop Map Reduce 2.X or 0.23.X:
+$ mvn package -Dhadoop.version=2
+This produces mrunit-${VERSION}-hadoop2.jar in the target directory.
+
+If you wish you skip the unit tests (not advised):
+
+$ mvn package -DskipTests
+
+You can also clean the project by running:
+
+$ mvn clean
+
+From Eclipse:
+
+1. Install the m2eclipse plugin from http://m2eclipse.sonatype.org/
+2. Restart Eclipse
+3. Select File -> Import... -> Existing Maven Project...
+4. After the project has been imported, it may be necessary to right click the
+project in the project explorer and select Maven -> Update Project
+Configuration. This is also normally necessary if you change a build plugin or
+some other element of the build itself. See the m2eclipse docs for details.
