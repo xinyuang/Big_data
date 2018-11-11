@@ -55,5 +55,11 @@ copy installed hbase file to regionservers
   scp -r hbase-1.3.1/ root@bigdata134:/root/training
   scp -r hbase-1.3.1/ root@bigdata135:/root/training
 
+hbase shell
+create 'sudent','info','grade'
+
+setup HA in regionserver
+hbase-daemon.sh start master
+
 
 
