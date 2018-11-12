@@ -54,6 +54,14 @@ copy installed hbase file to regionservers
   scp -r hbase-1.3.1/ root@bigdata133:/root/training
   scp -r hbase-1.3.1/ root@bigdata134:/root/training
   scp -r hbase-1.3.1/ root@bigdata135:/root/training
+  
+vi /etc/hosts
+  192.168.118.113 bigdata113
+  192.168.118.113 bigdata132
+  192.168.118.113 bigdata133
+  192.168.118.113 bigdata134
+  192.168.118.113 bigdata135
+  
 
 hbase shell
 create 'sudent','info','grade'
