@@ -61,18 +61,6 @@ vi /etc/hosts
   192.168.118.113 bigdata133
   192.168.118.113 bigdata134
   192.168.118.113 bigdata135
-  
-
-hbase shell
-create 'sudent','info','grade'
-put 'student','stu1','info:name','Tom'
-put 'student','stu1','grade','99'
-put 'student','stu2','info:name','Marry'
-put 'student','stu2','grade','90'
-get 'student','stu1'
-    ...
-put 'student','stu3','info:name','Bob'
-    ...
     
     
 setup HA in regionserver
