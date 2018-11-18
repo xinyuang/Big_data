@@ -9,5 +9,7 @@ leave safe mode
 
 
 # create file
-`put local_folder hdfs_folder`
-# 
+`hdfs dfs -put local_folder hdfs_folder`
+# delete file
+`hdfs -rmr folder`
+
