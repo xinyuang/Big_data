@@ -1,0 +1,12 @@
+hdfs admin
+enter safe mode 
+leave safe mode 
+`hdfs dfsadmin -safemode leave`
+
+
+
+
+
+# create file
+`put local_folder hdfs_folder`
+# 
