@@ -1,5 +1,6 @@
 hdfs admin
 enter safe mode 
+`hdfs dfsadmin -safemode enter`
 leave safe mode 
 `hdfs dfsadmin -safemode leave`
 
