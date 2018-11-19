@@ -7,6 +7,9 @@ add
 
   PATH=$HBASE_HOME/bin:$PATH
   export PATH
+  
+  export HADOOP_CLASSPATH=$HBASE_HOME/lib/*:$CLASSPATH
+
 
 source .bash_profile
 
