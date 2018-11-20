@@ -20,3 +20,14 @@ rpm -ivh mysql-community-server-5.7.19-1.el7.x86_64.rpm
 rpm -ivh mysql-community-devel-5.7.19-1.el7.x86_64.rpm
 
 service mysqld start
+#get temp password
+cat /var/log/mysqld.log | grep password
+#enter temp password
+mysql -uroot -p
+#set new password
+alter user 'root'@'localhost' identified by 'Welcome_1';
+#create hive account
+create database hive
+create user 'hiveowner'@'%' identified by 'Welcome_1';
+grant all on hive.* TO 'hiveowner'@'%';
+grant all on hive.* TO 'hiveowner'@'localhost' identified by 'Welcome_1';
