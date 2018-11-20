@@ -1,0 +1,12 @@
+tar -zxvf apache-hive-2.3.0-bin.tar.gz -C ~/training
+
+sudo nano ~/.bash_profile
+
+add
+  HIVE_HOME=/root/training/apache-hive-2.3.0-bin
+  export HIVE_HOME
+
+  PATH=$HIVE_HOME/bin:$PATH
+  export PATH
+
+source ~/.bash_profile
