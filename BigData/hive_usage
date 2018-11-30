@@ -17,3 +17,5 @@ hive
 #load local data
     load data local inpath '/root/tmp/emp.csv' into table emp1;
 
+select * from emp1;
+select * from emp1 order by sal;
