@@ -1,6 +1,7 @@
 turn off safe mode of hdfs
 
 hive
+hive -S #without log
   create table emp
     > (empno int,
     > ename string,
