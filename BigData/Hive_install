@@ -31,3 +31,5 @@ create database hive
 create user 'hiveowner'@'%' identified by 'Welcome_1';
 grant all on hive.* TO 'hiveowner'@'%';
 grant all on hive.* TO 'hiveowner'@'localhost' identified by 'Welcome_1';
+
+put mysql-connector-java-5.1.47-bin in hive/bin
