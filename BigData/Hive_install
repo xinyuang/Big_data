@@ -32,4 +32,29 @@ create user 'hiveowner'@'%' identified by 'Welcome_1';
 grant all on hive.* TO 'hiveowner'@'%';
 grant all on hive.* TO 'hiveowner'@'localhost' identified by 'Welcome_1';
 
+sudo nano hive/conf/hive-site.xml
+     <property>
+        <name>javax.jdo.option.ConnectionURL</name>
+        <value>jdbc:mysql://localhost:3306/hive?useSSL=false</value>
+    </property>
+
+    <property>
+        <name>javax.jdo.option.ConnectionDriverName</name>
+        <value>com.mysql.jdbc.Driver</value>
+    </property>
+
+    <property>
+        <name>javax.jdo.option.ConnectionUserName</name>
+        <value>hiveowner</value>
+    </property>
+
+    <property>
+        <name>javax.jdo.option.ConnectionPassword</name>
+        <value>Welcome_1</value>
+    </property>
+
+
 put mysql-connector-java-5.1.47-bin in hive/bin
+# init database
+  schematool -dbType mysql -initSchema
+  
