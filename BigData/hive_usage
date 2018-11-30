@@ -12,4 +12,8 @@ hive
     > deptno int
     > )row format delimited fields terminated by ',';
 
-load data inpath '/scott/emp.csv' into table emp;
+#load hdfs data
+    load data inpath '/scott/emp.csv' into table emp;
+#load local data
+    load data local inpath '/root/tmp/emp.csv' into table emp1;
+
