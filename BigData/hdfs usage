@@ -4,7 +4,8 @@ enter safe mode
 leave safe mode 
 `hdfs dfsadmin -safemode leave`
 
-
+web 50070 hdfs utility
+web 8088 job stats
 
 
 
