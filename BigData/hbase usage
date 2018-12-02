@@ -1,6 +1,10 @@
 # start
 `start-hbase.sh`
+#for python connection  
+pip install happybase
+pip install thrift
 
+`hbase-daemon.sh start thrift` 
 # stop
 `stop-hbase.sh`
 
