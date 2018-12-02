@@ -10,7 +10,6 @@ hive -S #without log
      hiredate string,
      sal int,
      comm int,
-     deptno int
      ) partitioned by (deptno int)
     row format delimited fields terminated by ',';
 
@@ -18,6 +17,10 @@ hive -S #without log
     load data inpath '/scott/emp.csv' into table emp;
 #load local data
     load data local inpath '/root/tmp/emp.csv' into table emp1;
+#insert data
+insert into emp_part partition(deptno=30) select empno, ename, job, mgr, hiredate, sal, comm from emp1 where deptno=30;
 
 select * from emp1;
 select * from emp1 order by sal;
+
+
