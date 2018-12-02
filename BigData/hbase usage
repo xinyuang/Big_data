@@ -4,6 +4,7 @@
 # stop
 `stop-hbase.sh`
 
+192.168.118.113:16010 hbase
 hbase shell
 create 'sudent','info','grade'
 put 'student','stu1','info:name','Tom'
