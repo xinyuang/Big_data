@@ -2,6 +2,8 @@
 192.168.118.113:8088  job status
 #start
 start-all.sh
+#stop
+stop-all.sh
 
 hdfs admin
 enter safe mode 
