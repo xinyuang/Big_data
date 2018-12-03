@@ -7,6 +7,7 @@ pip install thrift
 `hbase-daemon.sh start thrift` 
 # stop
 `stop-hbase.sh`
+`hbase-daemon.sh stop thrift`
 
 192.168.118.113:16010 hbase
 hbase shell
