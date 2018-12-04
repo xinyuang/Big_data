@@ -34,6 +34,11 @@ hive -S #without log
     )clustered by (job) into 4 buckets
     row format delimited fields terminated by ',';
 
+#create view
+    create view view10
+    as
+    select * from emp1 where deptno=10;
+    
 #load hdfs data
     load data inpath '/scott/emp.csv' into table emp;
 #load local data
