@@ -39,6 +39,9 @@ hive -S #without log
     as
     select * from emp1 where deptno=10;
     
+#check table schema
+    DESCRIBE emp;
+
 #load hdfs data
     load data inpath '/scott/emp.csv' into table emp;
 #load local data
