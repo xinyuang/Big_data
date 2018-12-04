@@ -31,4 +31,5 @@ insert into emp_part partition(deptno=30) select empno, ename, job, mgr, hiredat
 select * from emp1;
 select * from emp1 order by sal;
 
+show tables;
 
