@@ -21,6 +21,19 @@ hive -S #without log
     row format delimited fields terminated by ','
     location '/students';
 
+#bucket table
+    create table emp_table
+    (empno int,
+    ename string,
+    job string,
+    mgr int,
+    hiredate string,
+    sal int,
+    comm int,
+    deptno int
+    )clustered by (job) into 4 buckets
+    row format delimited fields terminated by ',';
+
 #load hdfs data
     load data inpath '/scott/emp.csv' into table emp;
 #load local data
