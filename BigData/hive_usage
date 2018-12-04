@@ -2,6 +2,8 @@ turn off safe mode of hdfs
 
 hive
 hive -S #without log
+
+#internal table
   create table emp
      (empno int,
      ename string,
@@ -12,6 +14,12 @@ hive -S #without log
      comm int,
      ) partitioned by (deptno int)
     row format delimited fields terminated by ',';
+    
+#external table
+    create external table ext_student
+    (sid int, sname string, age int)
+    row format delimited fields terminated by ','
+    location '/students';
 
 #load hdfs data
     load data inpath '/scott/emp.csv' into table emp;
