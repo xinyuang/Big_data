@@ -60,3 +60,6 @@ select empno,ename,job,sal,
             else sal+400
    end
    from emp1;
+
+#add user defined function under hive shell
+add jar /root/tmp/myUDF.jar;
