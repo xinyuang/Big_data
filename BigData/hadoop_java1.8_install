@@ -76,6 +76,17 @@
                     <name>hadoop.tmp.dir</name>
                     <value>/home/xinyuang/test/Hadoop/hadoop-2.7.3/test_data</value>
             </property>
+            
+            <property>
+                <name>hadoop.proxyuser.root.hosts</name>
+                <value>*</value>
+            </property>
+
+            <property>
+                <name>hadoop.proxyuser.root.groups</name>
+                <value>*</value>
+            </property>
+
 
     4. set MR framework
          cp mapred-site.xml.template mapred-site.xml
