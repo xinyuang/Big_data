@@ -70,3 +70,6 @@ select empno,ename,sal,check(sal) from emp1;
 create temporary function myconcat as 'UDF.MyConcatString';
 select myconcat('hello','world');
 
+#for JDBC
+hiveserver2 &
+
