@@ -63,3 +63,5 @@ select empno,ename,job,sal,
 
 #add user defined function under hive shell
 add jar /root/tmp/myUDF.jar;
+create temporary function checksal as 'UDF.CheckSalaryGrade';
+create temporary function myconcat as 'UDF.MyConcatString';
