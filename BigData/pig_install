@@ -1,0 +1,15 @@
+tar -zxvf pig-0.17.0.tar.gz -C ~/training/
+sudo nano ~/.profile
+
+    PIG_HOME=/root/training/pig-0.17.0
+    export PIG_HOME
+
+    PATH=$PIG_HOME/bin:$PATH
+    export PATH
+    
+    PIG_CLASSPATH=$HADOOP_HOME/etc/hadoop
+    export PIG_CLASSPATH
+
+
+#local mode
+  pig -x local
