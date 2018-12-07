@@ -12,4 +12,13 @@ sudo nano ~/.profile
 
 
 #local mode
-  pig -x local
+    pig -x local
+  
+#distributed mode
+    pig
+
+#check mr history
+mr-jobhistory-daemon.sh start historyserver
+
+http://192.168.118.113:19888
+
