@@ -1,0 +1,2 @@
+#create table
+emp = load '/scott/emp.csv';
