@@ -1,2 +1,3 @@
 #create table
-emp = load '/scott/emp.csv';
+emp = load '/scott/emp.csv' using PigStorage(',') as (empno:int,ename:chararray,\
+      job:chararray,mgr:int,hiredate:chararray,sal:int,comm:int,deptno:int);
