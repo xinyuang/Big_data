@@ -34,3 +34,7 @@ dump emp;
             grpd = group words by word; 
             cntd = foreach grpd generate group,COUNT(words); 
             dump cntd;      
+
+#Use user defined function
+      register /root/tmp/pig_filter.jar
+      result1 = filter emp by pig_demo.IsSalaryTooHigh(sal);
