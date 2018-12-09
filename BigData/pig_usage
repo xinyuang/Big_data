@@ -1,3 +1,11 @@
 #create table
 emp = load '/scott/emp.csv' using PigStorage(',') as (empno:int,ename:chararray,\
       job:chararray,mgr:int,hiredate:chararray,sal:int,comm:int,deptno:int);
+
+#check table structure
+describe emp;
+
+mr-jobhistory-daemon.sh start historyserver
+
+#export table
+dump emp;
