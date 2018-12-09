@@ -9,3 +9,28 @@ mr-jobhistory-daemon.sh start historyserver
 
 #print table
 dump emp;
+
+            SQL：select empno,ename,sal from emp;
+            PL:  emp1 = foreach emp generate empno,ename,sal;
+            
+            SQL： select * from emp order by sal;
+            PL:   emp2 = order emp by sal;
+            
+            SQL： select deptno,max(sal) from emp group by deptno;
+            PL:    emp3 = group emp by deptno;
+                   emp4 = foreach emp3 generate group,MAX(emp.sal);  
+                   
+           
+            SQL: select * from emp where deptno=10;
+            PL:  emp5 = filter emp by deptno==10;
+            
+            SQL：select dname,ename from emp,dept where emp.deptno=dept.deptno;
+            PL：emp6 = join dept by deptno,emp by deptno;
+                emp7 = foreach emp6 generate dept::dname,emp::ename;
+                
+#Word Count
+            mydata = load '/input/data.txt' as (line:chararray);
+            words = foreach mydata generate flatten(TOKENIZE(line)) as word;
+            grpd = group words by word; 
+            cntd = foreach grpd generate group,COUNT(words); 
+            dump cntd;      
