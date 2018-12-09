@@ -6,3 +6,5 @@ sudo nano ~/.bash_profile
 
   PATH=$SQOOP_HOME/bin:$PATH
   export PATH
+
+tar -zxvf apache-flume-1.7.0-bin.tar.gz -C ~/training/
