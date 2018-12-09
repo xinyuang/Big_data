@@ -37,6 +37,9 @@ dump emp;
 
 #Use user defined function
       register /root/tmp/pig_filter.jar
+      #fileter
       result1 = filter emp by pig_demo.IsSalaryTooHigh(sal);
+      #generator
       result2 = foreach emp generate ename,sal,pig_demo.CheckSalaryGrade(sal);
-
+      #loader
+      records = load '/data/input/a.txt' using pig_demo.myLoadFunc();
