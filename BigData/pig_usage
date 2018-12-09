@@ -38,3 +38,5 @@ dump emp;
 #Use user defined function
       register /root/tmp/pig_filter.jar
       result1 = filter emp by pig_demo.IsSalaryTooHigh(sal);
+      result2 = foreach emp generate ename,sal,pig_demo.CheckSalaryGrade(sal);
+
