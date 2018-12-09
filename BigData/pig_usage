@@ -7,5 +7,5 @@ describe emp;
 
 mr-jobhistory-daemon.sh start historyserver
 
-#export table
+#print table
 dump emp;
