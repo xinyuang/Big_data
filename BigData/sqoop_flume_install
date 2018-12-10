@@ -8,3 +8,5 @@ sudo nano ~/.bash_profile
   export PATH
 
 tar -zxvf apache-flume-1.7.0-bin.tar.gz -C ~/training/
+cd apache-flume-1.7.0-bin
+mkdir myagent
