@@ -10,3 +10,5 @@ sudo nano ~/.bash_profile
 tar -zxvf apache-flume-1.7.0-bin.tar.gz -C ~/training/
 cd apache-flume-1.7.0-bin
 mkdir myagent
+bin/flume-ng agent -n a4 -f myagent/a4.conf -c conf -Dflume.root.logger=INFO,console
+
