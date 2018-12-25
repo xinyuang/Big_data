@@ -17,7 +17,7 @@
             (in ubuntu) source ~/.profile 
 
 # Turn off firewall
-
+    service firewalld stop  
 
 # Set host name
     sudo nano /etc/hosts
