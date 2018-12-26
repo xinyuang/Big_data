@@ -120,7 +120,7 @@
           check log: Storage directory /home/xinyuang/test/Hadoop/hadoop-2.7.3/test_data/dfs/name has been successfully formatted.
    
 # copy configured hadoop to dataNode
-      scp -r hadoop-2.7.3/ root@bigdata112:/root/training
+      scp -r hadoop-2.7.3/ root@bigdata112:/root/training/hadoop-2.7.3/
       
 
 
