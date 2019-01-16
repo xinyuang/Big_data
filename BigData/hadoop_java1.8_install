@@ -63,6 +63,13 @@
                     <name>dfs.permissions</name>
                     <value>false</value>
             </property>
+       
+       make sure hdfs have the right to access these dir
+            <property>
+               <name>dfs.data.dir</name>
+               <value>/home/traxen/Hadoop/dn, /home/traxen/Hadoop2/dn</value>
+           </property>
+
             
     3. set PRC port for NameNode and data direction
          sudo nano core-site.xml
