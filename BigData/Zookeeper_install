@@ -23,5 +23,6 @@ input servername
 zkServer.sh start
 zkServer.sh status
 
+zkCli.sh (login to zookeeper server)
 
 
