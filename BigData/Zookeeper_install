@@ -18,7 +18,7 @@ vi zoo.cnf
 cd conf/tmp
 mkdir myid
 vi myid
-input servername
+input zookeeper servername (only one host)
 
 zkServer.sh start
 zkServer.sh status
