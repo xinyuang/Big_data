@@ -13,7 +13,10 @@ cp zoo_sample.cfg zoo.cfg
 mkdir ../tmp
 vi zoo.cnf
 #12 dataDir=/root/training/zookeeper-3.4.10/tmp
-#28 add server.servername=bigdata111:2888:3888 (syn for 2888, HA for 3888 port)
+#28 add 
+        server.servername=bigdata111:2888:3888 (syn for 2888, HA for 3888 port)
+        server.servername2=bigdata112:2888:3888 (syn for 2888, HA for 3888 port)
+        server.servername3=bigdata113:2888:3888 (syn for 2888, HA for 3888 port)
 
 cd conf/tmp
 mkdir myid
