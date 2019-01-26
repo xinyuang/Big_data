@@ -1,1 +1,7 @@
+zkServer.sh start
+zkServer.sh status
 
+zkCli.sh (login to zookeeper server)
+
+create /node1 "Hello world"
+get /node1
