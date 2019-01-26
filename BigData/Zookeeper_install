@@ -22,6 +22,7 @@ cd conf/tmp
 mkdir myid
 vi myid
 input servername (only current host)
+（every server has its own servername)
 
 zkServer.sh start
 zkServer.sh status
