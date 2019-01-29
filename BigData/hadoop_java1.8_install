@@ -139,6 +139,12 @@
                     </property>
 
        
+            <property>
+                <name>dfs.namenode.name.dir</name>
+                <value>/root/HDFS/dn</value>
+            </property>
+
+       
        # make sure hdfs have the right to access these dir
             <property>
                <name>dfs.data.dir</name>
