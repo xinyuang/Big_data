@@ -1,0 +1,11 @@
+tar
+
+vi conf/spark-env.sh
+  export JAVA_HOME=/root/training/jdk1.8.0_144
+  export SPARK_MASTER_HOST=bigdata111
+  export SPARK_MASTER_PORT=7077
+  
+vi conf/slave
+  bigdata111
+  
+sbin/start-all.sh
