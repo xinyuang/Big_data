@@ -47,6 +47,21 @@ vi hbase-site.xml
                 <name>hbase.master.maxclockskew</name>
                 <value>180000</value>
         </property>
+        
+        <property>
+          <name>hbase.regionserver.lease.period</name>
+          <value>900000</value> <!-- 900 000, 15 minutes -->
+        </property>
+        
+        <property>
+          <name>hbase.rpc.timeout</name>
+          <value>900000</value> <!-- 15 minutes -->
+        </property>
+        
+        <property>
+            <name>zookeeper.session.timeout</name>
+            <value>20000</value>
+        </property>
 
 vi regionservers 
   delete localhost
