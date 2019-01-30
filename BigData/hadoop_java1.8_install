@@ -242,26 +242,28 @@
           sudo nano slaves
           delete localhost
           add datanode IP
-   
-# copy configured hadoop to dataNode
-      scp -r hadoop-2.7.3/ root@bigdata112:/root/training/hadoop-2.7.3/
+
+     7. copy configured hadoop to dataNode
+          scp -r hadoop-2.7.3/ root@bigdata112:/root/training/hadoop-2.7.3/
       
-# start journalnode on assigned server
-        hadoop-daemon.sh start journalnode
+     8. start journalnode on assigned server
+            hadoop-daemon.sh start journalnode
         
-# copy active namenode log to standby namenode
-        cd /root/training/hadoop-2.7.3/tmp_data
-        scp -r dfs/ root@bigdata112:/root/training/hadoop-2.7.3/tmp_data
-            
-     7. format namenode
-      hdfs namenode -format
-      check log: Storage directory /home/xinyuang/test/Hadoop/hadoop-2.7.3/test_data/dfs/name has been successfully formatted.
+     9. format namenode (only on master)
+          hdfs namenode -format
+          check log: Storage directory /home/xinyuang/test/Hadoop/hadoop-2.7.3/test_data/dfs/name has been successfully formatted.
           
-     8. format zookeeper
+     10. copy active namenode log to standby namenode
+            cd /root/training/hadoop-2.7.3/tmp_data
+            scp -r dfs/ root@bigdata112:/root/training/hadoop-2.7.3/tmp_data
+          
+     11. format zookeeper (only on master)
         hdfs zkfc -formatZK
         check log: INFO ha.ActiveStandbyElector: Successfully created /hadoop-ha/ns1 in ZK.
-# start resource manager manually for standby namenode
-      yarn-daemon.sh start resourcemanager
+        
+     12. start resource manager manually for standby namenode
+          (run start-all.sh first) 
+          yarn-daemon.sh start resourcemanager
         
     
 
