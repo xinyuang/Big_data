@@ -252,15 +252,14 @@
 # copy active namenode log to standby namenode
         cd /root/training/hadoop-2.7.3/tmp_data
         scp -r dfs/ root@bigdata112:/root/training/hadoop-2.7.3/tmp_data
-        
-     7. format zookeeper
-            hdfs zkfc -formatZK
-            check log: INFO ha.ActiveStandbyElector: Successfully created /hadoop-ha/ns1 in ZK.
             
      8. format namenode
       hdfs namenode -format
       check log: Storage directory /home/xinyuang/test/Hadoop/hadoop-2.7.3/test_data/dfs/name has been successfully formatted.
           
+     7. format zookeeper
+        hdfs zkfc -formatZK
+        check log: INFO ha.ActiveStandbyElector: Successfully created /hadoop-ha/ns1 in ZK.
 # start resource manager manually for standby namenode
       yarn-daemon.sh start resourcemanager
         
