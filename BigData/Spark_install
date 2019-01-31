@@ -1,11 +1,17 @@
-tar
+tar -zxvf spark-2.1.0-bin-hadoop2.7.tgz -C ../training/
+
+cp spark-env.sh.template spark-env.sh
 
 vi conf/spark-env.sh
   export JAVA_HOME=/root/training/jdk1.8.0_144
   export SPARK_MASTER_HOST=bigdata111
   export SPARK_MASTER_PORT=7077
   
-vi conf/slave
-  bigdata111
+cp slaves.template slaves
+
+vi conf/slaves
+  bigdata112
+  bigdata113
+
   
 sbin/start-all.sh
