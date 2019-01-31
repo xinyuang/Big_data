@@ -4,8 +4,19 @@ cp spark-env.sh.template spark-env.sh
 
 vi conf/spark-env.sh
   export JAVA_HOME=/root/training/jdk1.8.0_144
+
+# HA for standalone mode
   export SPARK_MASTER_HOST=bigdata111
   export SPARK_MASTER_PORT=7077
+# mkdir recovery
+  export SPARK_DAEMON_JAVA_OPTS="-Dspark.deploy.recoveryMode=FILESYSTEM
+  -Dspark.deploy.recoveryDirectory=/root/training/spark-2.1.0-bin-hadoop2.7/recovery"
+    
+# HA use zookeeper
+    export SPARK_DAEMON_JAVA_OPTS="-Dspark.deploy.recoveryMode=ZOOKEEPER 
+    -Dspark.deploy.zookeer.url=bigdata111:2181,bigdata112:2181,bigdata113:2181 -Dspark.deploy.zookeeper.dir=/spark"
+
+    sbin/start-master.sh (start standby master manually)
   
 cp slaves.template slaves
 
