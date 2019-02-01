@@ -13,8 +13,11 @@ vi conf/spark-env.sh
   -Dspark.deploy.recoveryDirectory=/root/training/spark-2.1.0-bin-hadoop2.7/recovery"
     
 # HA use zookeeper
-    export SPARK_DAEMON_JAVA_OPTS="-Dspark.deploy.recoveryMode=ZOOKEEPER 
-    -Dspark.deploy.zookeer.url=bigdata111:2181,bigdata112:2181,bigdata113:2181 -Dspark.deploy.zookeeper.dir=/spark"
+  # make sure /etc/hostname is bigdata111,bigdata112,bigdata113 individually
+  export SPARK_DAEMON_JAVA_OPTS="-Dspark.deploy.recoveryMode=ZOOKEEPER 
+  -Dspark.deploy.zookeeper.url=bigdata111,bigdata112,bigdata113 -Dspark.deploy.zookeeper.dir=/spark"
+  export SPARK_MASTER_PORT=7077
+
 
     sbin/start-master.sh (start standby master manually)
   
