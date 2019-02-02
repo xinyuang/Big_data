@@ -266,7 +266,129 @@
           yarn-daemon.sh start resourcemanager
         
     
+For Federation and ViewFs
+http://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/ViewFs.html#Single_Namenode_Clusters
 
+        Example:
+        
+        1、Settings
+			NameNode：bigdata112  bigdata113
+			DataNode: bigdata114  bigdata115
+		
+		2、on bigdata112
+			core-site.xml	
+				<property>
+					<name>hadoop.tmp.dir</name>
+					<value>/root/training/hadoop-2.7.3/tmp</value>
+				</property>
+			hdfs-site.xml
+				<property>
+					<name>dfs.nameservices</name>
+					<value>ns1,ns2</value>
+				</property>
+				
+				<property>
+					<name>dfs.namenode.rpc-address.ns1</name>
+					<value>192.168.157.112:9000</value>
+				</property>	
+
+				<property>
+					<name>dfs.namenode.http-address.ns1</name>
+					<value>192.168.157.112:50070</value>
+				</property>					
+
+				<property>
+					<name>dfs.namenode.secondaryhttp-address.ns1</name>
+					<value>192.168.157.112:50090</value>
+				</property>	
+
+				<property>
+					<name>dfs.namenode.rpc-address.ns2</name>
+					<value>192.168.157.113:9000</value>
+				</property>	
+
+				<property>
+					<name>dfs.namenode.http-address.ns2</name>
+					<value>192.168.157.113:50070</value>
+				</property>					
+
+				<property>
+					<name>dfs.namenode.secondaryhttp-address.ns2</name>
+					<value>192.168.157.113:50090</value>
+				</property>		
+
+				<property>
+					<name>dfs.replication</name>
+					<value>2</value>
+				</property>					
+			
+				<property>
+					<name>dfs.permissions</name>
+					<value>false</value>
+				</property>	
+
+		mapred-site.xml
+				<property>
+					<name>mapreduce.framework.name</name>
+					<value>yarn</value>
+				</property>
+				
+		yarn-site.xml
+		
+				<property>
+					<name>yarn.resourcemanager.hostname</name>
+					<value>192.168.157.112</value>
+				</property>		
+
+				<property>
+					<name>yarn.nodemanager.aux-services</name>
+					<value>mapreduce_shuffle</value>
+				</property>	
+
+		slaves
+			bigdata114
+			bigdata115
+			
+		set route rules（viewFS）
+			core-site.xml：
+			PS: xdl1 is the name of Federation
+			
+				<property>
+					<name>fs.viewfs.mounttable.xdl1.homedir</name>
+					<value>/home</value>
+				</property>
+
+				<property>
+					<name>fs.viewfs.mounttable.xdl1.link./movie</name>
+					<value>hdfs://192.168.157.112:9000/movie</value>
+				</property>
+
+				<property>
+					<name>fs.viewfs.mounttable.xdl1.link./mp3</name>
+					<value>hdfs://192.168.157.113:9000/mp3</value>
+				</property>
+
+				<property>
+					<name>fs.default.name</name>
+					<value>viewfs://xdl1</value>
+				</property>		
+			
+			PS：it's hard to mantain core-site.xml if there are too many route rules
+			      set mountTable.xml seperately to manage rules   ----> add to core-site.xml
+				  http://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/ViewFs.html
+		
+		3、copy to other nodes
+			scp -r hadoop-2.7.3/ root@bigdata113:/root/training
+			scp -r hadoop-2.7.3/ root@bigdata114:/root/training
+			scp -r hadoop-2.7.3/ root@bigdata115:/root/training
+			
+		4、formate NameNodes（bigdata112 and bigdata113）seperately
+				hdfs namenode -format -clusterId xdl1
+		5、start
+		
+		6、according route rules，mkdir on Namenode
+		     hadoop fs -mkdir hdfs://192.168.157.112:9000/movie
+			 hadoop fs -mkdir hdfs://192.168.157.113:9000/mp3
 
       
 
