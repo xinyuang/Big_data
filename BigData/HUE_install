@@ -16,7 +16,7 @@
   PREFIX=/root/training make install
   
   adduser hue
-	chown -R hue.hue /root/training/hue/
+  chown -R hue.hue /root/training/hue/
   
   cd training/hue/
   find . -name hue.ini
@@ -24,5 +24,8 @@
   sudo vi hdfs-site.xml
         <property>
             <name>dfs.webhdfs.enabled</name>
-				    <value>true</value>
-			  </property>
+	    <value>true</value>
+  </property>
+
+bin/supervisor  
+http://192.168.137.111:8888/ 
