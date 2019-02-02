@@ -27,5 +27,6 @@
 	    <value>true</value>
   </property>
 
+cd /root/training/hue/build/env
 bin/supervisor  
 http://192.168.137.111:8888/ 
