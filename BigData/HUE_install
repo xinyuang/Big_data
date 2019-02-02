@@ -1,0 +1,28 @@
+（rhel-server-7.4-x86_64-dvd.iso）：mount /dev/cdrom /mnt
+#create yum source file
+  vi /etc/yum.repos.d/rhel7.repo
+        [rhel-yum]
+        name=rhel7
+        baseurl=file:///mnt
+        enabled=1
+        gpgcheck=0
+
+  yum install gcc g++ libxml2-devel libxslt-devel cyrus-sasl-devel cyrus-sasl-gssapi mysql-devel python-devel python-setuptools
+  sqlite-devel ant ibsasl2-dev libsasl2-modules-gssapi-mit libkrb5-dev libtidy-0.99-0 mvn openldap-dev 
+  libffi-devel gmp-devel openldap-devel
+	
+  tar -zxvf hue-4.0.1.tgz
+  cd hue-4.0.0/
+  PREFIX=/root/training make install
+  
+  adduser hue
+	chown -R hue.hue /root/training/hue/
+  
+  cd training/hue/
+  find . -name hue.ini
+  
+  sudo vi hdfs-site.xml
+        <property>
+            <name>dfs.webhdfs.enabled</name>
+				    <value>true</value>
+			  </property>
