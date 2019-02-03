@@ -17,7 +17,8 @@
             (in ubuntu) source ~/.profile 
 
 # Turn off firewall
-
+    service firewalld stop 
+    systemctl disable firewalld
 
 # Set host name
     sudo nano /etc/hosts
@@ -63,13 +64,103 @@
                     <value>false</value>
             </property>
             
+            # set for HA (High Avalability)
+                 # set namenodes
+                    <property>
+                        <name>dfs.nameservices</name>
+                        <value>ns1</value>
+                    </property>
+
+                    <property>
+                        <name>dfs.ha.namenodes.ns1</name>
+                        <value>nn1,nn2</value>
+                    </property>
+
+                    <property>
+                        <name>dfs.namenode.rpc-address.ns1.nn1</name>
+                        <value>bigdata111:9000</value>
+                    </property>
+
+                    <property>
+                        <name>dfs.namenode.rpc-address.ns1.nn2</name>
+                        <value>bigdata112:9000</value>
+                    </property>
+
+                    <property>
+                        <name>dfs.namenode.http-address.ns1.nn1</name>
+                        <value>bigdata111:50070</value>
+                    </property>
+
+                    <property>
+                        <name>dfs.namenode.http-address.ns1.nn2</name>
+                        <value>bigdata112:50070</value>
+                    </property>
+   
+                # set jounalnode and failover controller
+                
+                    <property>
+                        <name>dfs.namenode.shared.edits.dir</name>
+                        <value>qjournal://bigdata111:8485;bigdata112:8485;/ns1</value>
+                    </property>
+
+                    <property>
+                        <name>dfs.journalnode.edits.dir</name>
+                        <value>/root/training/hadoop-2.7.3/journal</value>
+                    </property>
+
+                   <property>
+                        <name>dfs.ha.automatic-failover.enabled</name>
+                        <value>true</value>
+                    </property>
+
+                    <property>
+                        <name>dfs.client.failover.proxy.provider.ns1</name>
+                        <value>org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider</value>
+                    </property>
+
+                # set isolation fence
+                
+                    <property>
+                        <name>dfs.ha.fencing.methods</name>
+                        <value>
+                                sshfence
+                                shell(/bin/true)
+                        </value>
+                    </property>
+
+                    <property>
+                        <name>dfs.ha.fencing.ssh.private-key-files</name>
+                        <value>/root/.ssh/id_rsa</value>
+                    </property>
+
+                    <property>
+                        <name>dfs.ha.fencing.ssh.connect-timeout</name>
+                        <value>30000</value>
+                    </property>
+
+       
+            <property>
+                <name>dfs.namenode.name.dir</name>
+                <value>/root/HDFS/dn</value>
+            </property>
+
+       
+       # make sure hdfs have the right to access these dir
+            <property>
+               <name>dfs.data.dir</name>
+               <value>/home/traxen/Hadoop/dn, /home/traxen/Hadoop2/dn</value>
+           </property>
+
+            
     3. set PRC port for NameNode and data direction
          sudo nano core-site.xml
          add between <configuration> </configuration>
        
            <property>
                     <name>fs.defaultFS</name>
-                    <value>hdfs://Traxen-0005:9000</value>
+                    <value>hdfs://Traxen-0005:9000</value>   
+                    # for HA set multiple namenode
+                    # <value>hdfs://ns1</value>
             </property>
 
             <property>
@@ -86,6 +177,12 @@
                 <name>hadoop.proxyuser.root.groups</name>
                 <value>*</value>
             </property>
+            
+           <property>   # set zookeeper server for HA
+                <name>ha.zookeeper.quorum</name>
+                <value>bigdata111:2181,bigdata112:2181,bigdata113:2181</value>
+           </property>
+
 
 
     4. set MR framework
@@ -104,6 +201,38 @@
                 <name>yarn.resourcemanager.hostname</name>
                 <value>Traxen-0005</value>
           </property>
+          
+          # set for HA
+                     <property>
+                            <name>yarn.resourcemanager.ha.enabled</name>
+                            <value>true</value>
+                      </property>
+
+                      <property>
+                            <name>yarn.resourcemanager.cluster-id</name>
+                            <value>yrc</value>
+                      </property>
+
+                      <property>
+                            <name>yarn.resourcemanager.ha.rm-ids</name>
+                            <value>rm1,rm2</value>
+                      </property>
+
+                      <property>
+                            <name>yarn.resourcemanager.hostname.rm1</name>
+                            <value>bigdata111</value>
+                      </property>
+
+                      <property>
+                            <name>yarn.resourcemanager.hostname.rm2</name>
+                            <value>bigdata112</value>
+                      </property>
+
+                      <property>
+                            <name>yarn.resourcemanager.zk-address</name>
+                            <value>bigdata111:2181,bigdata112:2181,bigdata113:2181</value>
+                      </property>
+
 
           <property>
                 <name>yarn.nodemanager.aux-services</name>
@@ -114,13 +243,151 @@
           delete localhost
           add datanode IP
 
-     7. format namenode
+     7. copy configured hadoop to dataNode
+          scp -r hadoop-2.7.3/ root@bigdata112:/root/training/hadoop-2.7.3/
+      
+     8. start journalnode on assigned server
+            hadoop-daemon.sh start journalnode
+        
+     9. format namenode (only on master)
           hdfs namenode -format
           check log: Storage directory /home/xinyuang/test/Hadoop/hadoop-2.7.3/test_data/dfs/name has been successfully formatted.
-   
-# copy configured hadoop to dataNode
-      scp -r hadoop-2.7.3/ root@bigdata112:/root/training
-      
-
-
+          
+     10. copy active namenode log to standby namenode
+            cd /root/training/hadoop-2.7.3/tmp_data
+            scp -r dfs/ root@bigdata112:/root/training/hadoop-2.7.3/tmp_data
+          
+     11. format zookeeper (only on master)
+        hdfs zkfc -formatZK
+        check log: INFO ha.ActiveStandbyElector: Successfully created /hadoop-ha/ns1 in ZK.
         
+     12. start resource manager manually for standby namenode
+          (run start-all.sh first) 
+          yarn-daemon.sh start resourcemanager
+        
+    
+For Federation and ViewFs
+http://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/ViewFs.html#Single_Namenode_Clusters
+
+        Example:
+        
+        1、Settings
+			NameNode：bigdata112  bigdata113
+			DataNode: bigdata114  bigdata115
+		
+		2、on bigdata112
+			core-site.xml	
+				<property>
+					<name>hadoop.tmp.dir</name>
+					<value>/root/training/hadoop-2.7.3/tmp</value>
+				</property>
+			hdfs-site.xml
+				<property>
+					<name>dfs.nameservices</name>
+					<value>ns1,ns2</value>
+				</property>
+				
+				<property>
+					<name>dfs.namenode.rpc-address.ns1</name>
+					<value>192.168.157.112:9000</value>
+				</property>	
+
+				<property>
+					<name>dfs.namenode.http-address.ns1</name>
+					<value>192.168.157.112:50070</value>
+				</property>					
+
+				<property>
+					<name>dfs.namenode.secondaryhttp-address.ns1</name>
+					<value>192.168.157.112:50090</value>
+				</property>	
+
+				<property>
+					<name>dfs.namenode.rpc-address.ns2</name>
+					<value>192.168.157.113:9000</value>
+				</property>	
+
+				<property>
+					<name>dfs.namenode.http-address.ns2</name>
+					<value>192.168.157.113:50070</value>
+				</property>					
+
+				<property>
+					<name>dfs.namenode.secondaryhttp-address.ns2</name>
+					<value>192.168.157.113:50090</value>
+				</property>		
+
+				<property>
+					<name>dfs.replication</name>
+					<value>2</value>
+				</property>					
+			
+				<property>
+					<name>dfs.permissions</name>
+					<value>false</value>
+				</property>	
+
+		mapred-site.xml
+				<property>
+					<name>mapreduce.framework.name</name>
+					<value>yarn</value>
+				</property>
+				
+		yarn-site.xml
+		
+				<property>
+					<name>yarn.resourcemanager.hostname</name>
+					<value>192.168.157.112</value>
+				</property>		
+
+				<property>
+					<name>yarn.nodemanager.aux-services</name>
+					<value>mapreduce_shuffle</value>
+				</property>	
+
+		slaves
+			bigdata114
+			bigdata115
+			
+		set route rules（viewFS）
+			core-site.xml：
+			PS: xdl1 is the name of Federation
+			
+				<property>
+					<name>fs.viewfs.mounttable.xdl1.homedir</name>
+					<value>/home</value>
+				</property>
+
+				<property>
+					<name>fs.viewfs.mounttable.xdl1.link./movie</name>
+					<value>hdfs://192.168.157.112:9000/movie</value>
+				</property>
+
+				<property>
+					<name>fs.viewfs.mounttable.xdl1.link./mp3</name>
+					<value>hdfs://192.168.157.113:9000/mp3</value>
+				</property>
+
+				<property>
+					<name>fs.default.name</name>
+					<value>viewfs://xdl1</value>
+				</property>		
+			
+			PS：it's hard to mantain core-site.xml if there are too many route rules
+			      set mountTable.xml seperately to manage rules   ----> add to core-site.xml
+				  http://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/ViewFs.html
+		
+		3、copy to other nodes
+			scp -r hadoop-2.7.3/ root@bigdata113:/root/training
+			scp -r hadoop-2.7.3/ root@bigdata114:/root/training
+			scp -r hadoop-2.7.3/ root@bigdata115:/root/training
+			
+		4、formate NameNodes（bigdata112 and bigdata113）seperately
+				hdfs namenode -format -clusterId xdl1
+		5、start
+		
+		6、according route rules，mkdir on Namenode
+		     hadoop fs -mkdir hdfs://192.168.157.112:9000/movie
+			 hadoop fs -mkdir hdfs://192.168.157.113:9000/mp3
+
+      
