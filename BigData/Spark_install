@@ -27,5 +27,24 @@ vi conf/slaves
   bigdata112
   bigdata113
 
-  
 sbin/start-all.sh
+
+# python connect hbase to spark  
+pip install pyspark
+
+mkdir /root/training/spark-2.1.0-bin-hadoop2.7/jars/hbase
+cd /root/training/spark-2.1.0-bin-hadoop2.7/jars/hbase # copy hbase jars file to spark/jars/hbase
+    cp $HBASE_HOME/lib/hbase*.jar ./
+
+    cp $HBASE_HOME/lib/guava-12.0.1.jar ./
+
+    cp $HBASE_HOME/lib/htrace-core-3.1.0-incubating.jar ./
+
+    cp $HBASE_HOME/lib/protobuf-java-2.5.0.jar ./
+
+    cp $HBASE_HOME/lib/metrics-core-*.jar ./
+    
+download spark-examples_2.11-1.6.0-typesafe-001.jar to /root/training/spark-2.1.0-bin-hadoop2.7/jars/hbase
+    
+vi conf/spark-env.sh
+  export SPARK_DIST_CLASSPATH=/root/training/spark-2.1.0-bin-hadoop2.7/jars/hbase/*
