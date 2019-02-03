@@ -7,6 +7,6 @@ examples/jars/spark-examples_2.11-2.1.0.jar 100
   bin/spark-shell
   
 # cluster mode
-  bin/spark-shell --master spark://bigdata111
+  bin/spark-shell --master spark://bigdata111:7077
   
 
