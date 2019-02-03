@@ -18,13 +18,14 @@ vi hbase-env.sh
 add
   export JAVA_HOME=/root/training/jdk1.8.0_144
   export HBASE_MANAGES_ZK=true  #use built-in zookeeper
+  export HBASE_MANAGES_ZK=false  #use existing zookeeper
 
 vi hbase-site.xml 
 
         <!--HBASE dir in HDFS -->
         <property>
                 <name>hbase.rootdir</name>
-                <value>hdfs://192.168.118.113:9000/hbase</value>
+                <value>hdfs://192.168.118.113:9000/hbase</value>  # namenode dir
         </property>
 
         <property>
