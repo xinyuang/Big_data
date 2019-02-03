@@ -1,0 +1,54 @@
+package reflection;
+
+import java.lang.reflect.Constructor;
+
+public class reflectionTest2 {
+
+	public static void main(String[] args) throws ClassNotFoundException, Throwable, SecurityException {
+		// TODO Auto-generated method stub
+		// 先获得Class对象
+		try {
+			Class stuClass = Class.forName("reflection.student");
+			// 2. getConstructors() 返回
+			Constructor[] conArray = stuClass.getConstructors();
+			// 3.输出构造函数
+			System.out.println("输出公共构造函数----");
+			for (Constructor c : conArray) {
+				System.out.println(c);
+				// System.out.println(c.getName() + c.getParameterCount());
+			}
+
+			Constructor[] conArray2 = stuClass.getDeclaredConstructors();
+			System.out.println("输出所有构造函数----");
+			
+			for (Constructor c : conArray2) {
+				System.out.println(c);
+			}
+			
+			//调用构造方法
+			//1获得一个参数的构造方法
+			Constructor con = stuClass.getConstructor(String.class);
+			System.out.println(con);
+			//obj = stuClass.getDeclaredConstructor(String.class);
+			Object obj = new Object();
+			obj = con.newInstance("XINYU");
+			System.out.println(obj);
+			
+			//1获得4个参数的构造方法
+			Constructor con2 = stuClass.getDeclaredConstructor(String.class, String.class, char.class, int.class);
+			System.out.println(con2);
+			//obj = stuClass.getDeclaredConstructor(String.class);
+			Object obj2 = new Object();
+			con2.setAccessible(true);
+			obj2 = con2.newInstance("XINYU", "123445", "F", 18);
+			
+			System.out.println(obj2);
+			
+		} catch (ClassNotFoundException e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+
+	}
+
+}

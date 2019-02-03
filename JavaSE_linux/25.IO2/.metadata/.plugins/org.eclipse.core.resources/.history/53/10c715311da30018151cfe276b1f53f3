@@ -1,0 +1,10 @@
+package OutPut02;
+
+import java.io.File;
+
+public class filereader {
+	public static void main(String[] args) {
+		File file = new File("test.txt");
+		FileReader
+	}
+}

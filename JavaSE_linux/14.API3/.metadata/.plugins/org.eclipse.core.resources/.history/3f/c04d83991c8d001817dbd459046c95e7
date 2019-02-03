@@ -1,0 +1,7 @@
+package com.itstar.demo1;
+
+public abstract class printer {
+	private String name;
+	private int size;
+	public Printter
+}

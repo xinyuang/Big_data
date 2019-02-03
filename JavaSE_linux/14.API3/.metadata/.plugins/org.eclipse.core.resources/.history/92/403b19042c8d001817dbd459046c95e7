@@ -1,0 +1,10 @@
+package com.itstar.demo1;
+
+public class AbstractTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

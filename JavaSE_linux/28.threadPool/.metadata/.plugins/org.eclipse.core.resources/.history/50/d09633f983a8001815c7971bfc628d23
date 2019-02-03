@@ -1,0 +1,21 @@
+package threadpool;
+
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
+
+public class threadPollTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ThreadPoolExecutor executor = new ThreadPoolExecutor(5,10, 200, TimeUnit.MILLISECONDS, 
+				new ArrayBlockingQueue<Runnable>(5));
+		for (int i = 0; i < 15; i++) {
+			task mytask = new task(i);
+			executor.execute(mytask);
+			System.out.println("number of task" + executor.getPoolSize() + "waiting number" + executor.getQueue() + "done task" + executor.getCompletedTaskCount());
+		}
+	}
+	executor.shutdown();
+
+}
