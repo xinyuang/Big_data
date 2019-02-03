@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;poi.java&apos; to &apos;db/src/poi&apos;&#x0D;&#x0A;- Original project: &apos;db&apos;&#x0D;&#x0A;- Destination element: &apos;db/src/poi&apos;&#x0D;&#x0A;- Original element: &apos;db.poi.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;poi" element1="/src&lt;db{poi.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1534641466863" units="1" version="1.0"/>
+</session>

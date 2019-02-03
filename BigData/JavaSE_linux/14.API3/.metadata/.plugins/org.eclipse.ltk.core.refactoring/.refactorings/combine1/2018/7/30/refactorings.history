@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;date&apos; from expression &apos;new Date()&apos;&#x0D;&#x0A;- Original project: &apos;combine1&apos;&#x0D;&#x0A;- Variable name: &apos;date&apos;&#x0D;&#x0A;- Destination method: &apos;demo1.DateDemo1.function2()&apos;&#x0D;&#x0A;- Variable expression: &apos;new Date()&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;date&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;demo1{DateDemo1.java" name="date" replace="true" selection="472 0" stamp="1532437367065" version="1.0"/>
+</session>

@@ -1,0 +1,5 @@
+package com.itstar.demo1;
+
+public abstract class printer {
+
+}

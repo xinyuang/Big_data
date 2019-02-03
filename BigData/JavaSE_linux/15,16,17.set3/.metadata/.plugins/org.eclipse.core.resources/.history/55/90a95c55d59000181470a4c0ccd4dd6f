@@ -1,0 +1,16 @@
+package set3;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class CollectionDemo {
+	public static void main(String[] args) {
+		function();
+	}
+	public static void function() {
+		Collection<String> coll = new ArrayList<String>();
+		coll.add("hello");
+		coll.add("world");
+		System.out.println(coll);
+	}
+}

@@ -1,0 +1,18 @@
+package jdbc;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public class jdbc_test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Connection conn = null;
+		Statement stmt = null;
+		ResultSet rs = null;
+		
+		String connectionString = "jdbc:mysql://127.0.0.1:3306/";
+	}
+
+}

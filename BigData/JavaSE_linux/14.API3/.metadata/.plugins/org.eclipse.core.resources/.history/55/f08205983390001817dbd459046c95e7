@@ -1,0 +1,10 @@
+package com.itstart.demo2;
+/**
+ * @author xinyu
+ * @version 1.0
+ * 
+ * */
+public interface Engine {
+	public abstract void start();
+	public void stop();
+}

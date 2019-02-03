@@ -1,0 +1,44 @@
+package RegexDemo1;
+/**
+ * 
+ * @version 1.0、
+ * @author xinyu
+ * 
+ */
+
+/*
+ * String 类三个有关正则的方法：
+ * boolean matches (String regex)
+ * 
+ * 
+ * */
+public class RegexDemo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		checkTelNumber();
+		split();
+		replace();
+	}
+	
+	public static void checkTelNumber() {
+		String tel = "b1384467880a";
+		boolean b = tel.matches("b?1[34578][0-9]{8}[a-z]$");
+		System.out.println(b);
+	}
+	
+	public static void split( ) {
+		String str = "22-33-44-55";
+		String[] arr = str.split("-");
+		System.out.println(arr.length);
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println(arr[i]);
+		}
+	}
+	
+	public static void replace() {
+		String s = "123abc";
+		s.replaceAll("\\d", "+");
+		System.out.println(s);
+	}
+}

@@ -1,0 +1,14 @@
+package FileTest;
+
+import java.io.File;
+
+public class FileTest01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		File file = new File("a.txt");
+		System.out.println(file.exists());
+		System.out.println(file);
+	}
+
+}

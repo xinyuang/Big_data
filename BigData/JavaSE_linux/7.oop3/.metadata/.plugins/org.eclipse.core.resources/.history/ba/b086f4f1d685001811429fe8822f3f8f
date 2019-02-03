@@ -1,0 +1,13 @@
+package com.itstart.demo02;
+/**
+ * 多重继承 演示super指向
+ * @author xinyu
+ *
+ */
+public class NEtiger extends Tiger {
+	
+	public NEtiger() {
+		//super.getName();
+		System.out.println(super.name);
+	}
+}
