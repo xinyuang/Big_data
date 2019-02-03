@@ -1,0 +1,32 @@
+
+tar -zxvf zookeeper-3.4.10.tar.gz -C ~/training
+cd ~/training/zookeeper-3.4.10/
+vi ~/.bash_profile
+ZOOKEEPER_HOME=/root/training/zookeeper-3.4.10
+export ZOOKEEPER_HOME
+PATH=$ZOOKEEPER_HOME/bin:$PATH
+export PATH
+source ~/.bash_profile
+
+cd conf
+cp zoo_sample.cfg zoo.cfg
+mkdir ../tmp
+vi zoo.cnf
+#12 dataDir=/root/training/zookeeper-3.4.10/tmp
+#28 add 
+        server.servername=bigdata111:2888:3888 (syn for 2888, HA for 3888 port)
+        server.servername2=bigdata112:2888:3888 (syn for 2888, HA for 3888 port)
+        server.servername3=bigdata113:2888:3888 (syn for 2888, HA for 3888 port)
+
+cd tmp
+mkdir myid
+vi myid
+input servername (only current host)
+（every server has its own servername)
+
+zkServer.sh start
+zkServer.sh status
+
+zkCli.sh (login to zookeeper server)
+
+

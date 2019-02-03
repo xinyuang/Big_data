@@ -1,0 +1,60 @@
+tar -zxvf apache-hive-2.3.0-bin.tar.gz -C ~/training
+
+sudo nano ~/.bash_profile
+
+add
+  HIVE_HOME=/root/training/apache-hive-2.3.0-bin
+  export HIVE_HOME
+
+  PATH=$HIVE_HOME/bin:$PATH
+  export PATH
+
+source ~/.bash_profile
+
+# install mysql
+tar -xvf mysql-5.7.19-1.el7.x86_64.rpm-bundle.tar
+rpm -ivh mysql-community-common-5.7.19-1.el7.x86_64.rpm
+rpm -ivh mysql-community-libs-5.7.19-1.el7.x86_64.rpm
+rpm -ivh mysql-community-client-5.7.19-1.el7.x86_64.rpm
+rpm -ivh mysql-community-server-5.7.19-1.el7.x86_64.rpm
+rpm -ivh mysql-community-devel-5.7.19-1.el7.x86_64.rpm
+
+service mysqld start
+#get temp password
+cat /var/log/mysqld.log | grep password
+#enter temp password
+mysql -uroot -p
+#set new password
+alter user 'root'@'localhost' identified by 'Welcome_1';
+#create hive account
+create database hive
+create user 'hiveowner'@'%' identified by 'Welcome_1';
+grant all on hive.* TO 'hiveowner'@'%';
+grant all on hive.* TO 'hiveowner'@'localhost' identified by 'Welcome_1';
+
+sudo nano hive/conf/hive-site.xml
+     <property>
+        <name>javax.jdo.option.ConnectionURL</name>
+        <value>jdbc:mysql://localhost:3306/hive?useSSL=false</value>
+    </property>
+
+    <property>
+        <name>javax.jdo.option.ConnectionDriverName</name>
+        <value>com.mysql.jdbc.Driver</value>
+    </property>
+
+    <property>
+        <name>javax.jdo.option.ConnectionUserName</name>
+        <value>hiveowner</value>
+    </property>
+
+    <property>
+        <name>javax.jdo.option.ConnectionPassword</name>
+        <value>Welcome_1</value>
+    </property>
+
+
+put mysql-connector-java-5.1.47-bin in hive/bin
+# init database
+  schematool -dbType mysql -initSchema
+  

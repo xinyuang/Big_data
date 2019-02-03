@@ -1,0 +1,219 @@
+Release Notes - MRUnit - Version 1.1.0
+
+** Bug
+    * [MRUNIT-129] - Key object re-use in Reducer is inconsistent with MapReduce behaviour (new API)
+    * [MRUNIT-157] - allow null keys and values as output, expected output
+    * [MRUNIT-185] - IllegalFormatException for '%' in Output
+    * [MRUNIT-186] - method context.getNumReduceTasks() does not work
+    * [MRUNIT-188] - Throw assertion error if drivers are reused
+    * [MRUNIT-189] - MapDriverBase.withInput comments state same as setInput but uses addInput
+    * [MRUNIT-190] - Use mvn enforcer plugin to ensure that a non-vulnerable version of java is used for javadoc generation
+    * [MRUNIT-192] - MRUNIT-180 requires values be comparble
+    * [MRUNIT-193] - Serialization.copy throws NPE instead of ISE (missing serilization impl) for Hadoop 2.x
+    * [MRUNIT-198] - Serialization is missing in MockMultipleOutputs
+    * [MRUNIT-199] - Mapper.Context and Reducer.Context are not fully mocked
+    * [MRUNIT-203] - tarballs should extract to dirs with the same name as tarball
+    * [MRUNIT-204] - Jira and Wiki tutorial are outdated
+    * [MRUNIT-209] - Can't use the maven dependency plugin with maven 3 on mrunit (Alexandre Normand via Dave Beech)
+    * [MRUNIT-208] - mrunit unnecessarily depends on mockito-all (Alexandre Normand via Dave Beech)
+    * [MRUNIT-207] - Test failure on trunk-hadoop1 branch (Jason E Tedor via Brock Noland)
+
+** Improvement
+    * [MRUNIT-164] - Remove duplicated InputPathStoringMapper classes
+    * [MRUNIT-180] - Being able to use a comparator on runTest
+    * [MRUNIT-182] - TemporaryPath should support test data in subdirectories
+    * [MRUNIT-194] - Update versions of Hadoop we compile against
+
+
+** New Feature
+    * [MRUNIT-13] - Add support for MultipleOutputs
+    * [MRUNIT-162] - MapReduce testing utilties
+    * [MRUNIT-205] - Add support for MultipleInputs
+
+Release Notes - MRUnit - Version 1.0.0
+
+** Sub-task
+    * [MRUNIT-144] - Change repository location on MRunit website
+    * [MRUNIT-145] - Change repository location on Jenkins
+    * [MRUNIT-146] - Change repository location in source code
+    * [MRUNIT-172] - Branch trunk should use hadoop 2
+    * [MRUNIT-173] - Create instructions on building hadoop1 and hadoop2 source/binary tarball
+    * [MRUNIT-174] - Remove portions of MRUNIT-161 which don't compile on trunk-hadoop1
+    * [MRUNIT-176] - Branch trunk-hadoop1 should use hadoop 1
+    * [MRUNIT-183] - Binary distribution should include only jar with correct classifier
+
+** Bug
+    * [MRUNIT-105] - testJavaSerialization methods fail in Java 7 because they do not set a group comparator
+    * [MRUNIT-114] - should support calling configure on sorting and grouping comparators if applicable
+    * [MRUNIT-115] - set JobConf specific to the inputformat reading the results of the outputformat/copying when not using a real outputformat
+    * [MRUNIT-116] - Setting of configuration on Mappers/Reducers in MapDriver and ReduceDriver is inconsistent
+    * [MRUNIT-124] - DistributedCache should move files from getCacheFiles to getLocalCacheFiles
+    * [MRUNIT-126] - Counter tests are ignored if test is executed using run() rather than runTest()
+    * [MRUNIT-127] - Key grouping with GroupingComparators is not consistent with MapReduce behaviour
+    * [MRUNIT-130] - Download page does not point to KEYS; no hashes in download area; must not advertise snapshot builds
+    * [MRUNIT-131] - Comparators registered using WritableComparator.define are not used during tests
+    * [MRUNIT-132] - Spelling mistakes in TestReducerInputValueReuse
+    * [MRUNIT-159] - MRUnit not compiling with hadoop 0.23.3
+    * [MRUNIT-161] - some distributed cache apis not working - JobContext getCacheArchives()
+    * [MRUNIT-163] - getTaskAttemptID is missing from context
+    * [MRUNIT-165] - MapReduceDriver calls Mapper#cleanup for each input instead of once
+    * [MRUNIT-167] - context passed to an OuputFormatter is ignored by the framework
+    * [MRUNIT-178] - Remove portions of MRUNIT-167 on trunk-hadoop1 which do not compile
+    * [MRUNIT-179] - Set mapred.output.dir and mapred.input.dir in trunk
+
+** Dependency upgrade
+    * [MRUNIT-112] - upgrade hadoop 1 dependency to hadoop-core 1.0.3
+    * [MRUNIT-113] - upgrade hadoop 2 dependency to 2.0.0-alpha
+
+** Improvement
+    * [MRUNIT-95] - use Serialization framework to change all set/add input/output methods to serialize, deserialize to do defensive copying
+    * [MRUNIT-100] - Maven doesn't generate md5/sha1 files automatically
+    * [MRUNIT-118] - InputSplit should support a configurable filename
+    * [MRUNIT-119] - Counter tests should support assertions that counters are not present
+    * [MRUNIT-121] - Configure RAT to ignore IntelliJ IDEA files
+    * [MRUNIT-122] - Context should be mockable
+    * [MRUNIT-123] - Driver.runTest should not wrap IOException in RuntimeException
+    * [MRUNIT-125] - reduce duplicate code related to fluent methods with generics
+    * [MRUNIT-133] - MapInput stuff should be moved from TestDriver to MapDriver.
+    * [MRUNIT-136] - PipelineMapReduceDriver needs withAll/addAll methods
+    * [MRUNIT-137] - Remove duplicated set/add/withOutput methods
+    * [MRUNIT-138] - Multiple calls to withInput should be supported
+    * [MRUNIT-142] - withKeyGroupingComparator/withKeyOrderComparator should be in MapReduceDriverBase
+    * [MRUNIT-158] - withOutput doesn't generate useful information with MapWritable on error
+    * [MRUNIT-168] - .gitignore does not exist
+    * [MRUNIT-169] - rat exclude does not list .gitignore
+
+** New Feature
+    * [MRUNIT-64] - Multiple Input Key, Value Pairs should be supported
+    * [MRUNIT-98] - DistributedCache support
+    * [MRUNIT-101] - allow use of real OutputFormats such as TextOutputFormat instead of the MockOutputCollector/MockContextWrapper classes
+
+** Task
+    * [MRUNIT-104] - move non user classes into internal package
+    * [MRUNIT-107] - remove unused internal classes: MockOutputCommitter, MockRawKeyValueIterator and mapreduce.MockReporter
+    * [MRUNIT-108] - copy ExtendedAssert.assertListEquals to src/test/java and deprecate entire class and all methods in ExtendedAssert in src/main/java
+    * [MRUNIT-110] - remove disclaimer and update links in the pom to new TLP resources
+    * [MRUNIT-140] - TestDriver should use composition and have less responsilibities
+    * [MRUNIT-141] - Fix grammatical errors in counter log messages
+    * [MRUNIT-143] - Handle repository migration to GIT 
+    * [MRUNIT-147] - upgrade parent pom to version 11
+    * [MRUNIT-149] - bind analyze-only goal from dependency plugin to prepare-package to make sure dependencies are correct
+    * [MRUNIT-150] - remove unnecessary log4j dependency
+
+
+Release Notes - MRUnit - Version 0.9.0
+
+** Bug
+    * [MRUNIT-54] - Driver.runTest throws RuntimeException should it throw AssertionError?
+    * [MRUNIT-70] - copy(orig, conf) in Serialization shouldn't require objects to have a no-args constructor, and copy(orig, copy, conf) seems to violate contract for deserializer.deserialize()
+    * [MRUNIT-77] - cannot use serializations that do not clone into object, or serializations without no arg constructors with reduce driver
+    * [MRUNIT-86] - Configuration not passed to individual mappers/reducers in mapred MapReducerDriver, PipelineMapReduceDriver
+    * [MRUNIT-97] - InputSplit causes NullPointerException in mapreduce api
+    * [MRUNIT-99] - dont force K2 in MapReduceDriver's to be Comparable since Hadoop dont enforce this on the map output key and value classes
+
+** Dependency upgrade
+    * [MRUNIT-90] - upgrade junit to 4.10 and change ExpectedSuppliedException to implement TestRule instead 
+
+** Improvement
+    * [MRUNIT-45] - MockOutputCollector.deepCopy should use o.a.h.mrunit.Serialization.copy
+    * [MRUNIT-46] - Tests should use *Driver.new*Driver factory methods for cleaner code
+    * [MRUNIT-48] - Test and Deprecate Driver.{*OutputFromString,*InputFromString} Methods
+    * [MRUNIT-49] - o.a.h.mrunit.mapreduce.ReduceDriverBase.ValueClassInstanceReuseList Configuration not modifable
+    * [MRUNIT-62] - Add Maven Profile Build Information to BUILD.txt
+    * [MRUNIT-65] - return better error message when mapper or reducer is null for MapDriver or ReduceDriver
+    * [MRUNIT-66] - null input checks and behavior on no input to a driver are inconsistent
+    * [MRUNIT-72] - MRUnit pom.xml should not depend on 0.23.1-SNAPSHOT
+    * [MRUNIT-74] - Matching output but at incorrect position is not returned as an Error in the message string thrown in the RuntimeException
+    * [MRUNIT-75] - cleanup exception checking in tests to use a @Rule ExpectedException
+    * [MRUNIT-85] - Run java conventions formatter that comes with eclipse on all source code
+    * [MRUNIT-89] - add static convenience methods to PipelineMapReduceDriver class
+    * [MRUNIT-91] - runTest() should optionally ignore output order
+    * [MRUNIT-92] - cleanup multiple release profile and javadoc handling in pom
+    * [MRUNIT-96] - Cleanup release: remove unnecesssary artifacts from nexus and distribute single binary distribution with 2 build artifacts, 1 for hadoop 1+ and 1 for hadoop 2+
+
+** New Feature
+    * [MRUNIT-67] - o.a.h.mrunit.mapreduce.MapReduceDriver should support a combiner
+    * [MRUNIT-68] - Support custom counter checking
+
+** Task
+    * [MRUNIT-61] - Build separate source and binary tar balls
+    * [MRUNIT-94] - upgrade parent pom to version 10 and remove info in pom that is inherited from parent
+    * [MRUNIT-103] - JUnit license not in NOTICE.txt in a binary tarball
+
+Release Notes - MRUnit - Version 0.8.1
+
+** Bug
+    * [MRUNIT-55] - Hadoop dependency should be 'provided'
+    * [MRUNIT-56] - 0.8.0 release does not work with Hadoop 0.23
+    * [MRUNIT-58] - Javadoc for org.apache.hadoop.mrunit Package Ends
+    * Prematurely
+
+** Improvement
+    * [MRUNIT-57] - profile for hadoop 1.0.0
+
+** Task
+    * [MRUNIT-59] - Only assemble tar.gz, not .zip
+    * [MRUNIT-60] - Remove special characters from classifers
+
+
+Release Notes - MRUnit - Version 0.8.0
+
+** Sub-task
+    * [MRUNIT-27] - Remove unused variables/imports
+    * [MRUNIT-28] - remove generic types compiler warnings
+    * [MRUNIT-29] - squash warnings for depreciated classes/methods
+
+** Bug
+    * [MRUNIT-19] - MRunit ReduceDriver does not fully replicate the reducers
+    * behaviour with reusing pointers over the iterator
+
+** Improvement
+    * [MRUNIT-14] - Support JobConfigurable and Closable interfaces
+    * [MRUNIT-15] - runTests() should throw meaningful error messages
+    * [MRUNIT-18] - Squash all compiler warnings
+    * [MRUNIT-30] - Methods {add,set}{Input,Output}FromString have poor error
+    * messages
+    * [MRUNIT-31] - Support Hadoop 0.22 and 0.23
+    * [MRUNIT-42] - Push -javadoc.jar and -sources.jar to maven
+    * [MRUNIT-44] - Remove AllTests classes
+    * [MRUNIT-47] - Change new ArrayList and new HashMap to List.newArrayList
+    * and Maps.newHashMap
+
+** New Feature
+    * [MRUNIT-43] - Driver methods should have static factory methods similar
+    * to Guava Lists.newArrayList()
+
+** Task
+    * [MRUNIT-2] - Create a project site
+
+
+Release Notes - MRUnit - Version 0.5.0
+
+** Bug
+    * [MRUNIT-6] - Reverse MAPREDUCE-954 in trunk
+    * [MRUNIT-7] - Remove empty MockMapContext.java file accidentally added
+    * [MRUNIT-8] - Fix failing testConfiguration tests
+    * [MRUNIT-9] - Fix failing testDoubleIteration test
+    * [MRUNIT-10] - Version in pom should contain -incubating per policy
+    * [MRUNIT-33] - maven assembly fails with no assembly descriptors found
+
+** Improvement
+    * [MRUNIT-1] - Port build system to Maven
+    * [MRUNIT-11] - Test output should be redirected to files
+    * [MRUNIT-17] - Bind maven assembly to package phase
+    * [MRUNIT-37] - Use maven deploy plugin
+
+** New Feature
+    * [MRUNIT-3] - Add Apache RAT support to the build
+    * [MRUNIT-16] - Generate distribution artifacts from maven
+
+** Task
+    * [MRUNIT-4] - Create README, LICENSE, and other necessary files for independent release
+    * [MRUNIT-5] - Setup CI builds for MRUnit
+    * [MRUNIT-20] - Add a KEYS file containing dev pgp keys to the repo 
+    * [MRUNIT-21] - Add the ASF incubator disclaimer to the README
+    * [MRUNIT-22] - Add build instructions document
+    * [MRUNIT-23] - Create a CHANGES file
+    * [MRUNIT-24] - Fix RAT license check failures since adding CHANGES file
+    * [MRUNIT-25] - Updated BUILD instructions
+    * [MRUNIT-32] - Add Brock Noland's key to dist/KEYS file

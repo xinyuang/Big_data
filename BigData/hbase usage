@@ -1,0 +1,22 @@
+# start
+`start-hbase.sh`
+#for python connection  
+pip install happybase
+pip install thrift
+
+`hbase-daemon.sh start thrift` 
+# stop
+`stop-hbase.sh`
+`hbase-daemon.sh stop thrift`
+
+192.168.118.113:16010 hbase
+hbase shell
+create 'sudent','info','grade'
+put 'student','stu1','info:name','Tom'
+put 'student','stu1','grade','99'
+put 'student','stu2','info:name','Marry'
+put 'student','stu2','grade','90'
+get 'student','stu1'
+    ...
+put 'student','stu3','info:name','Bob'
+    ...

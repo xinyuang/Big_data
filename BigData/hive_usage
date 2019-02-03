@@ -1,0 +1,75 @@
+turn off safe mode of hdfs
+
+hive
+hive -S #without log
+
+#internal table
+  create table emp
+     (empno int,
+     ename string,
+     job string,
+     mgr int,
+     hiredate string,
+     sal int,
+     comm int,
+     ) partitioned by (deptno int)
+    row format delimited fields terminated by ',';
+    
+#external table
+    create external table ext_student
+    (sid int, sname string, age int)
+    row format delimited fields terminated by ','
+    location '/students';
+
+#bucket table
+    create table emp_table
+    (empno int,
+    ename string,
+    job string,
+    mgr int,
+    hiredate string,
+    sal int,
+    comm int,
+    deptno int
+    )clustered by (job) into 4 buckets
+    row format delimited fields terminated by ',';
+
+#create view
+    create view view10
+    as
+    select * from emp1 where deptno=10;
+    
+#check table schema
+    DESCRIBE emp;
+
+#load hdfs data
+    load data inpath '/scott/emp.csv' into table emp;
+#load local data
+    load data local inpath '/root/tmp/emp.csv' into table emp1;
+#insert data
+insert into emp_part partition(deptno=30) select empno, ename, job, mgr, hiredate, sal, comm from emp1 where deptno=30;
+
+select * from emp1;
+select * from emp1 order by sal;
+
+show tables;
+
+select empno,ename,job,sal,
+   case job when 'PRESIDENT' then sal+1000
+            when 'MANAGER' then sal+800
+            else sal+400
+   end
+   from emp1;
+
+#add user defined function under hive shell
+add jar /root/tmp/myUDF.jar;
+
+create temporary function checksal as 'UDF.CheckSalaryGrade';
+select empno,ename,sal,check(sal) from emp1;
+
+create temporary function myconcat as 'UDF.MyConcatString';
+select myconcat('hello','world');
+
+#for JDBC
+hiveserver2 &
+

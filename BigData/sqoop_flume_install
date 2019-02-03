@@ -1,0 +1,14 @@
+tar -zxvf sqoop-1.4.5.bin__hadoop-0.23.tar.gz -C ~/training/
+
+sudo nano ~/.bash_profile
+  SQOOP_HOME=/root/training/sqoop-1.4.5.bin__hadoop-0.23
+  export SQOOP_HOME
+
+  PATH=$SQOOP_HOME/bin:$PATH
+  export PATH
+
+tar -zxvf apache-flume-1.7.0-bin.tar.gz -C ~/training/
+cd apache-flume-1.7.0-bin
+mkdir myagent
+bin/flume-ng agent -n a4 -f myagent/a4.conf -c conf -Dflume.root.logger=INFO,console
+
