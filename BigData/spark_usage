@@ -11,9 +11,9 @@ examples/jars/spark-examples_2.11-2.1.0.jar 100
   
   bin/pyspark
   
-    >>>host= '127.0.0.1'
+    >>>host= '192.168.137.111'
 
-    >>>inputtable= 'hbase_1102'
+    >>>inputtable= 'traxen_test'
 
     >>>hbaseconf={"hbase.zookeeper.quorum":host,"hbase.mapreduce.inputtable":inputtable}
 
@@ -24,3 +24,8 @@ examples/jars/spark-examples_2.11-2.1.0.jar 100
     >>>hbase_rdd=sc.newAPIHadoopRDD("org.apache.hadoop.hbase.mapreduce.TableInputFormat","org.apache.hadoop.hbase.io.ImmutableBytesWritable","org.apache.hadoop.hbase.client.Result",keyConverter=keyConv,valueConverter=valueConv,conf=hbaseconf)
 
     >>>hbase_rdd.count()
+        
+    >>>hbase_rdd.cache()
+    >>>output = hbase_rdd.collect()
+    >>>for (k, v) in output:
+    >>>       print (k, v)
