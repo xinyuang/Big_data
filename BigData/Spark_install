@@ -46,10 +46,7 @@ cd /root/training/spark-2.1.0-bin-hadoop2.7/jars/hbase # copy hbase jars file to
     
 download spark-examples_2.11-1.6.0-typesafe-001.jar to /root/training/spark-2.1.0-bin-hadoop2.7/jars/hbase
    
-   
-cp spark-defaults.conf.template spark-defaults.conf
-vi spark-defaults.conf
+vi conf/spark-env.sh
+  export SPARK_DIST_CLASSPATH= $SPARK_HOME/jars/hbase/*
 
-  spark.executor.extraClassPath=/root/training/spark-2.1.0-bin-hadoop2.7/jars/hbase/
-  spark.driver.extraClassPath=/root/training/spark-2.1.0-bin-hadoop2.7/jars/hbase/
 
