@@ -29,3 +29,19 @@ examples/jars/spark-examples_2.11-2.1.0.jar 100
     >>>output = hbase_rdd.collect()
     >>>for (k, v) in output:
     >>>       print (k, v)
+
+from pyspark.sql import SparkSession
+from pyspark import SparkContext,SparkConf
+ 
+spark=SparkSession.builder.appName("abv").getOrCreate() 
+print('spark sc created')
+host = 'learn'
+table = 'student'
+keyConv = "org.apache.spark.examples.pythonconverters.StringToImmutableBytesWritableConverter"
+valueConv = "org.apache.spark.examples.pythonconverters.StringListToPutConverter"
+conf = {"hbase.zookeeper.quorum": host,"hbase.mapred.outputtable": table,"mapreduce.outputformat.class": "org.apache.hadoop.hbase.mapreduce.TableOutputFormat","mapreduce.job.output.key.class": "org.apache.hadoop.hbase.io.ImmutableBytesWritable","mapreduce.job.output.value.class": "org.apache.hadoop.io.Writable"}
+ 
+rawData = ['3,info,name,Rongcheng','4,info,name,Guanhua']
+#( rowkey , [ row key , column family , column name , value ] )
+print('write into hbase')
+spark.sparkContext.parallelize(rawData).map(lambda x: (x[0],x.split(','))).saveAsNewAPIHadoopDataset(conf=conf,keyConverter=keyConv,valueConverter=valueConv)
