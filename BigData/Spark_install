@@ -1,5 +1,8 @@
 tar -zxvf spark-2.1.0-bin-hadoop2.7.tgz -C ../training/
 
+sudo nano ~/.profile
+    export LD_LIBRARY_PATH=$HADOOP_HOME/lib/native/:$LD_LIBRARY_PATH
+
 cp spark-env.sh.template spark-env.sh
 
 vi conf/spark-env.sh
