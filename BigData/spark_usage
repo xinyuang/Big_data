@@ -3,6 +3,9 @@ zookeeper -> hdfs -> hbase -> thrift -> spark
 bin/spark-submit --master spark://bigdata111:7077 --class org.apache.spark.examples.SparkPi
 examples/jars/spark-examples_2.11-2.1.0.jar 100
 
+bin/spark-submit --master spark://bigdata111:7077 --class demo.JavaSparkWC2 /root/test/javaSparkWC.jar hdfs://192.168.137.111:9000/user/root/input/myword.txt
+
+
 # local mode 
   bin/spark-shell
   
