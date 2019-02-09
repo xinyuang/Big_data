@@ -1,75 +1,116 @@
 bin/spark-shell
 
+List example
+Key,Value exapmle
+HDFS file checkpoint and cache
+Aggregate example (partition with index)
+
 List example:
 
-scala> val rdd1 = sc.parallelize(Array(5,6,7,8,9,1,2,3))
-rdd1: org.apache.spark.rdd.RDD[Int] = ParallelCollectionRDD[0] at parallelize at <console>:24
+    scala> val rdd1 = sc.parallelize(Array(5,6,7,8,9,1,2,3))
+    rdd1: org.apache.spark.rdd.RDD[Int] = ParallelCollectionRDD[0] at parallelize at <console>:24
 
-scala> val rdd2 = rdd1.map(_*2).sortBy(x=>x,true)
-rdd2: org.apache.spark.rdd.RDD[Int] = MapPartitionsRDD[6] at sortBy at <console>:26
+    scala> val rdd2 = rdd1.map(_*2).sortBy(x=>x,true)
+    rdd2: org.apache.spark.rdd.RDD[Int] = MapPartitionsRDD[6] at sortBy at <console>:26
 
-scala> rdd2.collect
-res0: Array[Int] = Array(2, 4, 6, 10, 12, 14, 16, 18)
+    scala> rdd2.collect
+    res0: Array[Int] = Array(2, 4, 6, 10, 12, 14, 16, 18)
 
-scala> val rdd3 = rdd2.filter(_>10)
-rdd3: org.apache.spark.rdd.RDD[Int] = MapPartitionsRDD[7] at filter at <console>:28
+    scala> val rdd3 = rdd2.filter(_>10)
+    rdd3: org.apache.spark.rdd.RDD[Int] = MapPartitionsRDD[7] at filter at <console>:28
 
-scala> rdd3.collect
-res1: Array[Int] = Array(12, 14, 16, 18)
+    scala> rdd3.collect
+    res1: Array[Int] = Array(12, 14, 16, 18)
 
-scala> val rdd4 = sc.parallelize(List("a b c", "d e f","z x y"))
-rdd4: org.apache.spark.rdd.RDD[String] = ParallelCollectionRDD[8] at parallelize at <console>:24
+    scala> val rdd4 = sc.parallelize(List("a b c", "d e f","z x y"))
+    rdd4: org.apache.spark.rdd.RDD[String] = ParallelCollectionRDD[8] at parallelize at <console>:24
 
-scala> val rdd5 = rdd4.flatMap(_.split(" "))
-rdd5: org.apache.spark.rdd.RDD[String] = MapPartitionsRDD[9] at flatMap at <console>:26
+    scala> val rdd5 = rdd4.flatMap(_.split(" "))
+    rdd5: org.apache.spark.rdd.RDD[String] = MapPartitionsRDD[9] at flatMap at <console>:26
 
-scala> rdd5.collect
-res2: Array[String] = Array(a, b, c, d, e, f, z, x, y)
+    scala> rdd5.collect
+    res2: Array[String] = Array(a, b, c, d, e, f, z, x, y)
 
-scala> val rdd6 = sc.parallelize(List(5,6,7,8,9,2,34))
-rdd6: org.apache.spark.rdd.RDD[Int] = ParallelCollectionRDD[10] at parallelize at <console>:24
+    scala> val rdd6 = sc.parallelize(List(5,6,7,8,9,2,34))
+    rdd6: org.apache.spark.rdd.RDD[Int] = ParallelCollectionRDD[10] at parallelize at <console>:24
 
-scala> val rdd7 = sc.parallelize(List(1,2,3,4,5,6,7))
-rdd7: org.apache.spark.rdd.RDD[Int] = ParallelCollectionRDD[11] at parallelize at <console>:24
+    scala> val rdd7 = sc.parallelize(List(1,2,3,4,5,6,7))
+    rdd7: org.apache.spark.rdd.RDD[Int] = ParallelCollectionRDD[11] at parallelize at <console>:24
 
-scala> val rdd8 = rdd6.union(rdd7).collect
-rdd8: Array[Int] = Array(5, 6, 7, 8, 9, 2, 34, 1, 2, 3, 4, 5, 6, 7)
+    scala> val rdd8 = rdd6.union(rdd7).collect
+    rdd8: Array[Int] = Array(5, 6, 7, 8, 9, 2, 34, 1, 2, 3, 4, 5, 6, 7)
 
-scala> val rdd9 = rdd6.intersection(rdd7).collect
-rdd9: Array[Int] = Array(6, 7, 5, 2)
+    scala> val rdd9 = rdd6.intersection(rdd7).collect
+    rdd9: Array[Int] = Array(6, 7, 5, 2)
 
 Key,Value exapmle:
 
-scala> val rdd1 = sc.parallelize(List(("Tom",1000),("Jerry",3000),("Marry",2000)))
-rdd1: org.apache.spark.rdd.RDD[(String, Int)] = ParallelCollectionRDD[1] at parallelize at <console>:24
+    scala> val rdd1 = sc.parallelize(List(("Tom",1000),("Jerry",3000),("Marry",2000)))
+    rdd1: org.apache.spark.rdd.RDD[(String, Int)] = ParallelCollectionRDD[1] at parallelize at <console>:24
 
-scala> val rdd2 = sc.parallelize(List(("Mike",2000),("Jerry",1000),("Tom",3000)))
-rdd2: org.apache.spark.rdd.RDD[(String, Int)] = ParallelCollectionRDD[2] at parallelize at <console>:24
+    scala> val rdd2 = sc.parallelize(List(("Mike",2000),("Jerry",1000),("Tom",3000)))
+    rdd2: org.apache.spark.rdd.RDD[(String, Int)] = ParallelCollectionRDD[2] at parallelize at <console>:24
 
-scala> val rdd3 = rdd1 union rdd2  
-  or
-scala> val rdd3 = rdd1.union(rdd2)
-rdd3: org.apache.spark.rdd.RDD[(String, Int)] = UnionRDD[4] at union at <console>:28
+    scala> val rdd3 = rdd1 union rdd2  
+      or
+    scala> val rdd3 = rdd1.union(rdd2)
+    rdd3: org.apache.spark.rdd.RDD[(String, Int)] = UnionRDD[4] at union at <console>:28
 
-scala> rdd3.collect
-res1: Array[(String, Int)] = Array((Tom,1000), (Jerry,3000), (Marry,2000), (Mike,2000), (Jerry,1000), (Tom,3000))
+    scala> rdd3.collect
+    res1: Array[(String, Int)] = Array((Tom,1000), (Jerry,3000), (Marry,2000), (Mike,2000), (Jerry,1000), (Tom,3000))
 
-scala> val rdd4 = rdd3.groupByKey.collect
-rdd4: Array[(String, Iterable[Int])] = Array((Mike,CompactBuffer(2000)), (Marry,CompactBuffer(2000)), (Jerry,CompactBuffer(3000, 1000)), (Tom,CompactBuffer(1000, 3000)))
+    scala> val rdd4 = rdd3.groupByKey.collect
+    rdd4: Array[(String, Iterable[Int])] = Array((Mike,CompactBuffer(2000)), (Marry,CompactBuffer(2000)), (Jerry,CompactBuffer(3000, 1000)), (Tom,CompactBuffer(1000, 3000)))
 
-scala> val rdd5 = rdd1.cogroup(rdd2).collect
-rdd5: Array[(String, (Iterable[Int], Iterable[Int]))] = Array((Mike,(CompactBuffer(),CompactBuffer(2000))), (Tom,(CompactBuffer(1000),CompactBuffer(3000))), (Marry,(CompactBuffer(2000),CompactBuffer())), (Jerry,(CompactBuffer(3000),CompactBuffer(1000))))
+    scala> val rdd5 = rdd1.cogroup(rdd2).collect
+    rdd5: Array[(String, (Iterable[Int], Iterable[Int]))] = Array((Mike,(CompactBuffer(),CompactBuffer(2000))), (Tom,(CompactBuffer(1000),CompactBuffer(3000))), (Marry,(CompactBuffer(2000),CompactBuffer())), (Jerry,(CompactBuffer(3000),CompactBuffer(1000))))
 
-scala> val rdd6 = rdd3.reduceByKey(_+_).collect
-rdd4: Array[(String, Int)] = Array((Mike,2000), (Marry,2000), (Jerry,4000), (Tom,4000))
+    scala> val rdd6 = rdd3.reduceByKey(_+_).collect
+    rdd4: Array[(String, Int)] = Array((Mike,2000), (Marry,2000), (Jerry,4000), (Tom,4000))
 
-scala> val rdd7 = rdd6.map(t=>(t._2,t._1)).sortByKey(false).map(t=>(t._2,t._1)).collect
-rdd7: Array[(String, Int)] = Array((Jerry,4000), (Tom,4000), (Mike,2000), (Marry,2000))
+    scala> val rdd7 = rdd6.map(t=>(t._2,t._1)).sortByKey(false).map(t=>(t._2,t._1)).collect
+    rdd7: Array[(String, Int)] = Array((Jerry,4000), (Tom,4000), (Mike,2000), (Marry,2000))
 
 HDFS file checkpoint and cache
-scala> sc.setCheckpointDir("hdfs://bigdata111:9000/sparkckpt")
-scala> var rdd1 = sc.textFile("hdfs://bigdata111:9000/data")
-scala> rdd1.checkpoint
-scala> rdd1.cache
-scala> rdd1.count
+    scala> sc.setCheckpointDir("hdfs://bigdata111:9000/sparkckpt")
+    scala> var rdd1 = sc.textFile("hdfs://bigdata111:9000/data")
+    scala> rdd1.checkpoint
+    scala> rdd1.cache
+    scala> rdd1.count
+
+Aggregate example
+    scala> val rdd1 = sc.parallelize(List(1,2,3,4,5,6,7,8,9),2)
+    scala> def func1(index:Int,iter:Iterator[Int]):Iterator[String]={iter.toList.map(x=>"[PartID:"+index+",value="+x+"]").iterator}
+    scala> rdd1.mapPartitionsWithIndex(func1).collect
+    res0: Array[String] = Array([PartID:0,value=1], [PartID:0,value=2], [PartID:0,value=3], [PartID:0,value=4], [PartID:1,value=5], [PartID:1,value=6], [PartID:1,value=7], [PartID:1,value=8], [PartID:1,value=9])
+
+    scala> val rdd2 = sc.parallelize(List(1,2,3,4,5),2)
+    rdd2: org.apache.spark.rdd.RDD[Int] = ParallelCollectionRDD[2] at parallelize at <console>:24
+    scala> rdd2.mapPartitionsWithIndex(func1).collect
+    res1: Array[String] = Array([PartID:0,value=1], [PartID:0,value=2], [PartID:1,value=3], [PartID:1,value=4], [PartID:1,value=5])
+    scala> rdd2.aggregate(0)(math.max(_,_),_+_)
+    res2: Int = 7
+    scala> rdd2.aggregate(10)(math.max(_,_),_+_)  # 10 is the initial value
+    res3: Int = 30
+    scala> rdd2.aggregate(0)(_+_,_+_)
+    res4: Int = 15
+    scala> rdd2.aggregate(10)(_+_,_+_)
+    res6: Int = 45
+    
+    scala> val rdd2 = sc.parallelize(List("a b c d e f", "e d f e s"),2).flatMap(_.split(" "))
+    scala> def func2(index:Int,iter:Iterator[String]):Iterator[String]={iter.toList.map(x=>"[PartID:"+index+",value="+x+"]").iterator}
+    scala> rdd2.mapPartitionsWithIndex(func2).collect
+    res5: Array[String] = Array([PartID:0,value=a], [PartID:0,value=b], [PartID:0,value=c], [PartID:0,value=d], [PartID:0,value=e], [PartID:0,value=f], [PartID:1,value=e], [PartID:1,value=d], [PartID:1,value=f], [PartID:1,value=e], [PartID:1,value=s])   
+    scala> rdd2.aggregate("")(_+_,_+_)
+    res4: String = abcdefedfes
+    scala> rdd2.aggregate("*")(_+_,_+_)
+    res2: String = **abcdef*edfes
+
+
+
+
+
+
+
+
 
