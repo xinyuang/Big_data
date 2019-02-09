@@ -66,4 +66,10 @@ rdd4: Array[(String, Int)] = Array((Mike,2000), (Marry,2000), (Jerry,4000), (Tom
 scala> val rdd7 = rdd6.map(t=>(t._2,t._1)).sortByKey(false).map(t=>(t._2,t._1)).collect
 rdd7: Array[(String, Int)] = Array((Jerry,4000), (Tom,4000), (Mike,2000), (Marry,2000))
 
+HDFS file checkpoint and cache
+scala> sc.setCheckpointDir("hdfs://bigdata111:9000/sparkckpt")
+scala> var rdd1 = sc.textFile("hdfs://bigdata111:9000/data")
+scala> rdd1.checkpoint
+scala> rdd1.cache
+scala> rdd1.count
 
