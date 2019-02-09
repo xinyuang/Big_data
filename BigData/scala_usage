@@ -107,6 +107,18 @@ Aggregate example
     res2: String = **abcdef*edfes
 
 
+    scala> val pairRDD = sc.parallelize(List( ("cat",2), ("cat", 5), ("mouse", 4),("cat", 12), ("dog", 12), ("mouse", 2)), 2)
+    scala> def func3(index: Int, iter: Iterator[(String, Int)]) : Iterator[String] = {
+         |   iter.toList.map(x => "[partID:" +  index + ", val: " + x + "]").iterator
+         | }
+    scala> pairRDD.mapPartitionsWithIndex(func3).collect
+    res5: Array[String] = Array([partID:0, val: (cat,2)], [partID:0, val: (cat,5)], [partID:0, val: (mouse,4)], [partID:1, val: (cat,12)], [partID:1, val: (dog,12)], [partID:1, val: (mouse,2)])
+    scala> pairRDD.aggregateByKey(0)(math.max(_, _), _ + _).collect
+    res4: Array[(String, Int)] = Array((dog,12), (cat,17), (mouse,6))
+    scala> pairRDD.aggregateByKey(0)(_+_, _ + _).collect
+    res7: Array[(String, Int)] = Array((dog,12), (cat,19), (mouse,6))
+    scala> pairRDD.reduceByKey(_+_).collect
+    res8: Array[(String, Int)] = Array((dog,12), (cat,19), (mouse,6))
 
 
 
