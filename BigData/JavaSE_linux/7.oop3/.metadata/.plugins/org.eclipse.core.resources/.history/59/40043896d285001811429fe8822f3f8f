@@ -1,9 +1,0 @@
-package com.itstart.demo02;
-
-public class Tiger extends Animal{
-	private String name;
-	public Tiger() {
-		super();
-		System.out.println("子类无参构造");
-	}
-}

@@ -1,8 +1,0 @@
-package demo4;
-
-public class calender1 {
-	public static void main(String[] args) {
-		Calender c = Calender.getInstance();
-		System.out.println(c);
-	}
-}

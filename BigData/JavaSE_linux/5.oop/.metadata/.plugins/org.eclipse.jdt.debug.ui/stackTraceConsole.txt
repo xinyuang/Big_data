@@ -1,4 +1,0 @@
-	public void thisTest(String name, char sex) {
-		this.name = name;
-		this.setSex(sex);
-	}

@@ -1,5 +1,0 @@
-INDEX VERSION 1.131+C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\JavaSE_linux\10.Polymorphism\.metadata\.plugins\org.eclipse.jdt.core
-1865190662.index
-4083530874.index
-2923524206.index
-2782714679.index

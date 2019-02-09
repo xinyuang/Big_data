@@ -1,2 +1,0 @@
-INDEX VERSION 1.131+C:\Users\xinyu\Dropbox\gg\Job_hunting\big data\JavaSE_linux\7.oop3\.metadata\.plugins\org.eclipse.jdt.core
-3940141100.index

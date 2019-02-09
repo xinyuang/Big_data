@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author xinyu
- *
- */
-module DB {
-}
