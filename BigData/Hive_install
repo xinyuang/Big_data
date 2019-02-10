@@ -12,6 +12,7 @@ add
 source ~/.bash_profile
 
 # install mysql
+yum remove mysql-libs
 tar -xvf mysql-5.7.19-1.el7.x86_64.rpm-bundle.tar
 rpm -ivh mysql-community-common-5.7.19-1.el7.x86_64.rpm
 rpm -ivh mysql-community-libs-5.7.19-1.el7.x86_64.rpm
