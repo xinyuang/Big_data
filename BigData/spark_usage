@@ -48,3 +48,6 @@ rawData = ['3,info,name,Rongcheng','4,info,name,Guanhua']
 #( rowkey , [ row key , column family , column name , value ] )
 print('write into hbase')
 spark.sparkContext.parallelize(rawData).map(lambda x: (x[0],x.split(','))).saveAsNewAPIHadoopDataset(conf=conf,keyConverter=keyConv,valueConverter=valueConv)
+
+  # hive spark
+  scala> spark.sql("show tables").show
