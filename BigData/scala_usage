@@ -6,6 +6,7 @@ List example
 Key,Value exapmle
 HDFS file checkpoint and cache
 Aggregate example (partition with index)
+sparkSQL
 
 List example:
 
@@ -126,6 +127,36 @@ Aggregate example
     scala> val rdd4 = rdd2.coalesce(3,true)
     scala> rdd4.partitions.length
     res3: Int = 3
+
+sparkSQL
+
+    scala> case class Emp(empno:Int,ename:String,job:String,mgr:Int,hiredata:String,sal:Int,comm:Int,deptno:Int)
+    defined class Emp
+    scala> val lines=sc.textFile("hdfs://bigdata111:9000/csv_data/emp").map(_.split(","))
+    lines: org.apache.spark.rdd.RDD[Array[String]] = MapPartitionsRDD[2] at map at <console>:24
+    scala> val allEmp=lines.map(x=>Emp(x(0).toInt,x(1),x(2),x(3).toInt,x(4),x(5).toInt,x(6).toInt,x(7).toInt))
+    allEmp: org.apache.spark.rdd.RDD[Emp] = MapPartitionsRDD[3] at map at <console>:28
+    scala> val df1 = allEmp.toDF
+    df1: org.apache.spark.sql.DataFrame = [empno: int, ename: string ... 6 more fields]
+    scala> df1.show
+    +-----+------+---------+----+----------+----+----+------+
+    |empno| ename|      job| mgr|  hiredata| sal|comm|deptno|
+    +-----+------+---------+----+----------+----+----+------+
+    | 7369| SMITH|    CLERK|7902|1980/12/17| 800|   0|    20|
+    | 7499| ALLEN| SALESMAN|7698| 1981/2/20|1600| 300|    30|
+
+    scala> val df = spark.read.json("/root/training/spark-2.1.0-bin-hadoop2.7/examples/src/main/resources/people.json").show
+    scala> val df = spark.read.format("json").load("/root/training/spark-2.1.0-bin-hadoop2.7/examples/src/main/resources/people.json").show
+    scala> df.printSchema
+    scala> df1.select($"ename",$"sal",$"sal" + 100).show
+    scala> df1.filter($"sal">2000).show
+    scala> df1.groupBy($"deptno").count.show
+    
+    scala> df1.createOrReplaceTempView("emp")
+    scala> spark.sql("select * from emp").show
+
+
+
 
 
 
