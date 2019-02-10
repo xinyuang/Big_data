@@ -34,6 +34,10 @@ grant all on hive.* TO 'hiveowner'@'%';
 grant all on hive.* TO 'hiveowner'@'localhost' identified by 'Welcome_1';
 
 sudo nano hive/conf/hive-site.xml
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+
      <property>
         <name>javax.jdo.option.ConnectionURL</name>
         <value>jdbc:mysql://localhost:3306/hive?useSSL=false</value>
@@ -53,9 +57,9 @@ sudo nano hive/conf/hive-site.xml
         <name>javax.jdo.option.ConnectionPassword</name>
         <value>Welcome_1</value>
     </property>
+</configuration>
 
-
-put mysql-connector-java-5.1.47-bin in hive/bin
+put mysql-connector-java-5.1.47-bin in hive/lib
 # init database
   schematool -dbType mysql -initSchema
   
