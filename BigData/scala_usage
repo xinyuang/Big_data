@@ -122,6 +122,10 @@ Aggregate example
     scala> pairRDD.reduceByKey(_+_).collect
     res8: Array[(String, Int)] = Array((dog,12), (cat,19), (mouse,6))
 
+    scala> val rdd3 = rdd2.repartition(3)
+    scala> val rdd4 = rdd2.coalesce(3,true)
+    scala> rdd4.partitions.length
+    res3: Int = 3
 
 
 
