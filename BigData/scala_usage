@@ -155,6 +155,12 @@ sparkSQL
     scala> df1.createOrReplaceTempView("emp")
     scala> spark.sql("select * from emp").show
 
+    scala> case class Dept(deptno:Int,dname:String,loc:String)
+    scala> val deptlines=sc.textFile("hdfs://bigdata111:9000/csv_data/dept").map(_.split(","))
+    scala> val allDept = deptlines.map(x=>Dept(x(0).toInt,x(1),x(2)))
+    scala> val df2 = allDept.toDF
+    scala> df2.createOrReplaceTempView("dept")
+    scala> spark.sql("select dname,ename from emp,dept where emp.deptno=dept.deptno").show
 
 
 
