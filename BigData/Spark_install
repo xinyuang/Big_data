@@ -32,7 +32,7 @@ vi conf/slaves
 
 sbin/start-all.sh
 
-# python connect hbase to spark  
+# connect hbase to spark  
 pip install pyspark
 
 mkdir /root/training/spark-2.1.0-bin-hadoop2.7/jars/hbase
@@ -51,5 +51,16 @@ download spark-examples_2.11-1.6.0-typesafe-001.jar to /root/training/spark-2.1.
    
 vi conf/spark-env.sh
   export SPARK_DIST_CLASSPATH= $SPARK_HOME/jars/hbase/*
+
+# connect hive to spark
+
+    sudo cp ~/training/apache-hive-2.3.0-bin/conf/hive-site.xml ~/training/spark-2.1.0-bin-hadoop2.7/conf/
+    sudo cp ~/training/hadoop-2.7.3/etc/hadoop/core-site.xml ~/training/spark-2.1.0-bin-hadoop2.7/conf/
+    sudo cp ~/training/hadoop-2.7.3/etc/hadoop/hdfs-site.xml ~/training/spark-2.1.0-bin-hadoop2.7/conf/
+    sudo cp mysql-connector-java-5.1.47-bin.jar ~/training/spark-2.1.0-bin-hadoop2.7/jars/
+    
+    start-dfs.sh
+    spark/sbin/start-all.sh
+    
 
 
