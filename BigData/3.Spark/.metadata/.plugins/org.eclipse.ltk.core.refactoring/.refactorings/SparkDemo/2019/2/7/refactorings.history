@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SparkDemo/src/TomcatLog/Partitioner.scala&apos; to &apos;demoPartitioner.scala&apos;" description="Rename resource &apos;Partitioner.scala&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/TomcatLog/Partitioner.scala" name="demoPartitioner.scala" stamp="1549771041178" updateReferences="true"/>
+</session>
