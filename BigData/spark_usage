@@ -51,3 +51,5 @@ spark.sparkContext.parallelize(rawData).map(lambda x: (x[0],x.split(','))).saveA
 
   # hive spark
   scala> spark.sql("show tables").show
+  scala> spark.sql("create table emp (empno int, ename string, job string, mgr string, hiredate string,sal int, comm int) row format delimited fields terminated by ','")
+
