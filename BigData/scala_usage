@@ -1,5 +1,7 @@
 bin/spark-shell
 
+http://homepage.cs.latrobe.edu.au/zhe/ZhenHeSparkRDDAPIExamples.html
+
 List example
 Key,Value exapmle
 HDFS file checkpoint and cache
