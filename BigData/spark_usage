@@ -52,4 +52,11 @@ spark.sparkContext.parallelize(rawData).map(lambda x: (x[0],x.split(','))).saveA
   # hive spark
   scala> spark.sql("show tables").show
   scala> spark.sql("create table emp (empno int, ename string, job string, mgr string, hiredate string,sal int, comm int) row format delimited fields terminated by ','")
+  scala> spark.sql("load data inpath '/csv_data/emp' into table emp")
+  scala> val DF1 = spark.sql("select * from emp") 
+  scala> DF1.registerTempTable("tem_emp")
+  scala> spark.sqlContext.cacheTable("tem_emp")
+  scala> spark.sql("select * from tem_emp").show
+  scala> spark.sqlContext.clearCache  
 
+  
