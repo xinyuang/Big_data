@@ -164,6 +164,7 @@ sparkSQL
     
     val usersDF = spark.read.load("/root/resources/users.parquet")
     usersDF.select($"name",$"favorite_color").write.save("/root/result/parquet")
+    usersDF.select($"name").write.mode("overwrite").save("/root/result/parquet1")
 
 
 
