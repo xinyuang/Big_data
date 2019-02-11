@@ -48,7 +48,7 @@ cd /root/training/spark-2.1.0-bin-hadoop2.7/jars/hbase # copy hbase jars file to
     cp $HBASE_HOME/lib/metrics-core-*.jar ./
     
 download spark-examples_2.11-1.6.0-typesafe-001.jar to /root/training/spark-2.1.0-bin-hadoop2.7/jars/hbase
-   
+download hbase-spark-2.0.0-20160316.173537-2.jar to /root/training/spark-2.1.0-bin-hadoop2.7/jars/hbase http://maven.wso2.org/nexus/content/repositories/Apache/org/apache/hbase/hbase-spark/2.0.0-SNAPSHOT/    
 vi conf/spark-env.sh
   export SPARK_DIST_CLASSPATH= $SPARK_HOME/jars/hbase/*
 
