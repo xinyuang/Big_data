@@ -61,8 +61,8 @@ scala> def catalog = s"""{
      | "rowkey":"key",
      | "columns":{
      | "rowkey":{"cf":"rowkey", "col":"key", "type":"string"},
-     | "logGPS":{"cf":"log","col":"gps","type":"string"}，
-     | "logSpeed":{"cf":"log","col":"speed","type":"string"}，
+     | "logGPS":{"cf":"log","col":"gps","type":"string"},
+     | "logSpeed":{"cf":"log","col":"speed","type":"string"},
      | "logInfo":{"cf":"log","col":"info","type":"string"}
      | }
      | }""".stripMargin
