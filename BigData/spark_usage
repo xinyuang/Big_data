@@ -49,6 +49,26 @@ rawData = ['3,info,name,Rongcheng','4,info,name,Guanhua']
 print('write into hbase')
 spark.sparkContext.parallelize(rawData).map(lambda x: (x[0],x.split(','))).saveAsNewAPIHadoopDataset(conf=conf,keyConverter=keyConv,valueConverter=valueConv)
 
+
+ import org.apache.spark.sql.{SQLContext, _}
+ import org.apache.spark.sql.execution.datasources.hbase._
+ import org.apache.spark.{SparkConf, SparkContext}
+ import spark.sqlContext.implicits._
+
+scala> def catalog = s"""{
+     | "table":{"namespace":"traxen", "name":"test"},
+     | "rowkey":"key",
+     | "columns":{
+     | "rowkey":{"cf":"rowkey", "col":"key", "type":"string"},
+     | "logGPS":{"cf":"log","col":"gps","type":"string"}，
+     | "logSpeed":{"cf":"log","col":"speed","type":"string"}，
+     | "logInfo":{"cf":"log","col":"info","type":"string"}
+     | }
+     | }""".stripMargin
+
+
+
+
   # hive spark
   scala> spark.sql("show tables").show
   scala> spark.sql("create table emp (empno int, ename string, job string, mgr string, hiredate string,sal int, comm int) row format delimited fields terminated by ','")
