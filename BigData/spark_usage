@@ -78,7 +78,9 @@ def withCatalog(cat: String): DataFrame = {
 val df = withCatalog(catalog)
 df.show()
 
-val query = spark.sqlContext.sql("select personalName, officeAddress from contacts")
+df.registerTempTable("shc")
+
+val query = spark.sqlContext.sql("select personalName, officeAddress from shc")
 query.show()
 
   # hive spark
