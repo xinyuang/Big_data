@@ -52,6 +52,8 @@ download hbase-spark-2.0.0-20160316.173537-2.jar
 download shc-core-1.1.0-2.1-s_2.11.jar
 to /root/training/spark-2.1.0-bin-hadoop2.7/jars/hbase
 
+sudo cp ~/training/hbase-1.3.1/conf/hbase-site.xml ~/training/spark-2.1.0-bin-hadoop2.7/conf/
+
 vi conf/spark-env.sh
   export SPARK_DIST_CLASSPATH= $SPARK_HOME/jars/hbase/*
 
