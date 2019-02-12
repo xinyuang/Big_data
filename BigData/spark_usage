@@ -78,6 +78,9 @@ def withCatalog(cat: String): DataFrame = {
 val df = withCatalog(catalog)
 df.show()
 
+val query = spark.sqlContext.sql("select personalName, officeAddress from contacts")
+query.show()
+
   # hive spark
   scala> spark.sql("show tables").show
   scala> spark.sql("create table emp (empno int, ename string, job string, mgr string, hiredate string,sal int, comm int) row format delimited fields terminated by ','")
