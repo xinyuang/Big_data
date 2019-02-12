@@ -56,19 +56,27 @@ spark.sparkContext.parallelize(rawData).map(lambda x: (x[0],x.split(','))).saveA
  import spark.sqlContext.implicits._
  import org.apache.spark.sql.datasources.hbase.{HBaseTableCatalog}
 
-scala> def catalog = s"""{
-     | "table":{"namespace":"traxen", "name":"test"},
-     | "rowkey":"key",
-     | "columns":{
-     | "rowkey":{"cf":"rowkey", "col":"key", "type":"string"},
-     | "logGPS":{"cf":"log","col":"gps","type":"string"},
-     | "logSpeed":{"cf":"log","col":"speed","type":"string"},
-     | "logInfo":{"cf":"log","col":"info","type":"string"}
-     | }
-     | }""".stripMargin
+def catalog = s"""{
+      "table":{"namespace":"default", "name":"traxen_test"},
+      "rowkey":"key",
+      "columns":{
+      "rowkey":{"cf":"rowkey", "col":"key", "type":"string"},
+      "logGPS":{"cf":"log","col":"gps","type":"string"},
+      "logSpeed":{"cf":"log","col":"speed","type":"string"},
+      "logInfo":{"cf":"log","col":"info","type":"string"}
+      }
+      }""".stripMargin
 
+def withCatalog(cat: String): DataFrame = {
+         spark.sqlContext
+         .read
+         .options(Map(HBaseTableCatalog.tableCatalog->cat))
+         .format("org.apache.spark.sql.execution.datasources.hbase")
+         .load()
+     }
 
-
+val df = withCatalog(catalog)
+df.show()
 
   # hive spark
   scala> spark.sql("show tables").show
