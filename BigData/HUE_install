@@ -20,6 +20,7 @@
   
   cd training/hue/
   find . -name hue.ini
+  sudo nano hue/desktop/conf/hue.ini
   
   sudo vi hdfs-site.xml
         <property>
@@ -27,7 +28,6 @@
 	    <value>true</value>
   </property>
 
-sudo nano hue/desktop/conf
 
 
 cd /root/training/hue/build/env
