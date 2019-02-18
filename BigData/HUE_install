@@ -25,7 +25,28 @@
   cd training/hue/
   find . -name hue.ini
   sudo nano hue/desktop/conf/hue.ini
-  
+
+  http_host=192.168.1.112
+  http_port=8888
+  server_user=root
+  server_group=root
+  default_user=root
+  default_hdfs_superuser=root
+  fs_defaultfs=hdfs://192.168.1.112:9000
+  webhdfs_url=http://192.168.1.112:50070/webhdfs/v1
+  hadoop_conf_dir=/home/software/hadoop-2.7.3/etc/hadoop
+  resourcemanager_host=192.168.1.112
+  resourcemanager_api_url=http://192.168.1.112:8088
+  proxy_api_url=http://192.168.1.112:8088
+  history_server_api_url=http://192.168.1.112:19888
+  hbase_clusters=(Cluster|192.168.1.112:9090)
+  hbase_conf_dir=/home/software/hbase-1.3.1/con
+  hive_server_host=192.168.1.112
+  hive_server_port=10000
+  hive_conf_dir=/home/traxen/software/apache-hive-2.3.0-bin/conf
+
+
+
   cd hadoop-2.7.3/etc/hadoop
   sudo vi hdfs-site.xml
         <property>
