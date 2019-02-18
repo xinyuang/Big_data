@@ -1,8 +1,0 @@
-package wordCount
-
-object myWordCount {
-  def main(args: Array[String]): Unit = {
-    val conf = new SparkConf().setAppName("myWordCount").setMaster(master)
-    val sc = new SparkContext(conf)
-  }  
-}
