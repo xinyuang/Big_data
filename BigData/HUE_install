@@ -10,6 +10,9 @@
   yum install gcc g++ libxml2-devel libxslt-devel cyrus-sasl-devel cyrus-sasl-gssapi mysql-devel python-devel python-setuptools
   sqlite-devel ant ibsasl2-dev libsasl2-modules-gssapi-mit libkrb5-dev libtidy-0.99-0 mvn openldap-dev 
   libffi-devel gmp-devel openldap-devel
+  
+  for ubuntu
+  sudo apt-get install libxml2-dev libxslt-dev libsasl2-dev libsasl2-modules-gssapi-mit libmysqlclient-dev python-setuptools python-simplejson libsqlite3-dev ant 
 	
   tar -zxvf hue-4.0.1.tgz
   cd hue-4.0.0/
