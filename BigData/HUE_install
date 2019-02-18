@@ -26,12 +26,22 @@
   find . -name hue.ini
   sudo nano hue/desktop/conf/hue.ini
   
+  cd hadoop-2.7.3/etc/hadoop
   sudo vi hdfs-site.xml
         <property>
             <name>dfs.webhdfs.enabled</name>
 	    <value>true</value>
   </property>
-
+ 
+   sudo vi core-site.xml 
+        <property>
+	  <name>hadoop.proxyuser.hue.hosts</name>
+	  <value>*</value>
+	</property>
+	<property>
+	  <name>hadoop.proxyuser.hue.groups</name>
+	  <value>*</value>
+	</property>
 
 
 cd /root/training/hue/build/env
