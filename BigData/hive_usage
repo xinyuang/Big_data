@@ -1,4 +1,5 @@
 turn off safe mode of hdfs
+hdfs dfsadmin -safemode leave
 
 hive
 hive -S #without log
