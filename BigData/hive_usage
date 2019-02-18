@@ -73,4 +73,4 @@ select myconcat('hello','world');
 
 #for JDBC
 hiveserver2 &
-
+hive --service hiveserver2 --hiveconf hive.server2.thrift.port=10000 --hiveconf hive.root.logger=INFO,console
