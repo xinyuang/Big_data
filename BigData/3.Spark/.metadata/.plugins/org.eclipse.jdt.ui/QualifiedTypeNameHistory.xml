@@ -4,8 +4,8 @@
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="scala.collection.mutable.HashMap"/>
 <fullyQualifiedTypeName name="scala.collection.mutable.Queue"/>
-<fullyQualifiedTypeName name="org.apache.spark.streaming.Seconds"/>
 <fullyQualifiedTypeName name="org.apache.spark.sql.SparkSession"/>
 <fullyQualifiedTypeName name="org.apache.log4j.Level"/>
 <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+<fullyQualifiedTypeName name="org.apache.spark.streaming.Seconds"/>
 </qualifiedTypeNameHistroy>
