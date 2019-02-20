@@ -12,3 +12,5 @@ cd apache-flume-1.7.0-bin
 mkdir myagent
 bin/flume-ng agent -n a4 -f myagent/a4.conf -c conf -Dflume.root.logger=INFO,console
 
+spark-streaming-flume_2.10-2.1.0.jar add to scala IDE
+apache-flume-1.7.0-bin/lib/* add to scala IDE
