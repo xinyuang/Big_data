@@ -12,5 +12,30 @@ cd apache-flume-1.7.0-bin
 mkdir myagent
 bin/flume-ng agent -n a4 -f myagent/a4.conf -c conf -Dflume.root.logger=INFO,console
 
+# a4.conf
+
+  #bin/flume-ng agent -n a1 -f myagent/a1.conf -c conf -Dflume.root.logger=INFO,cons$
+  a1.channels = c1
+  a1.sinks = k1
+  a1.sources = r1
+
+  a1.sources.r1.type = spooldir
+  a1.sources.r1.spoolDir = /root/training/logs
+
+  a1.channels.c1.type = memory
+  a1.channels.c1.capacity = 100000
+  a1.channels.c1.transactionCapacity = 100000
+
+  #def server address
+  a1.sinks.k1.type = org.apache.spark.streaming.flume.sink.SparkSink
+  a1.sinks.k1.channel = c1
+  a1.sinks.k1.hostname = 192.168.137.111
+  a1.sinks.k1.port = 1234
+
+  #setup source、channel、sink
+  a1.sources.r1.channels = c1
+  a1.sinks.k1.channel = c1
+
+
 spark-streaming-flume_2.10-2.1.0.jar add to scala IDE
 apache-flume-1.7.0-bin/lib/* add to scala IDE
