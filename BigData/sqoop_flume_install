@@ -37,5 +37,5 @@ bin/flume-ng agent -n a4 -f myagent/a4.conf -c conf -Dflume.root.logger=INFO,con
   a1.sinks.k1.channel = c1
 
 
-spark-streaming-flume_2.10-2.1.0.jar add to scala IDE
+spark-streaming-flume_2.10-2.1.0.jar spark-streaming-flume-sink_2.10-2.1.0 add to scala IDE
 apache-flume-1.7.0-bin/lib/* add to scala IDE
