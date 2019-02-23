@@ -6,5 +6,6 @@ sudo nano /root/training/kafka_2.9.2-0.8.1.1/config/server.properties
   num.partitions=2
   zookeeper.connect=192.168.137.111:2181
   
+zkServer.sh start
+bin/kafka-server-start.sh config/server.properties 
 
-bin/kafka-server-start.sh 
