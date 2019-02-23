@@ -9,3 +9,5 @@ sudo nano /root/training/kafka_2.9.2-0.8.1.1/config/server.properties
 zkServer.sh start
 bin/kafka-server-start.sh config/server.properties 
 
+# create a topic named mydemo1
+bin/kafka-topics.sh  --create --zookeeper bigdata111:2181 -replication-factor 1 --partitions 3 --topic mydemo1
