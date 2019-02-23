@@ -311,5 +311,6 @@
 	<classpathentry kind="lib" path="flume_jars/xml-apis-1.3.04.jar"/>
 	<classpathentry kind="lib" path="flume_jars/xz-1.0.jar"/>
 	<classpathentry kind="lib" path="flume_jars/zkclient-0.7.jar"/>
+	<classpathentry kind="lib" path="flume_jars/spark-streaming-flume-sink_2.10-2.1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

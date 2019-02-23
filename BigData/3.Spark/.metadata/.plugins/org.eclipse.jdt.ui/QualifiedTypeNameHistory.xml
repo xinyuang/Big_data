@@ -8,4 +8,5 @@
 <fullyQualifiedTypeName name="org.apache.log4j.Level"/>
 <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
 <fullyQualifiedTypeName name="org.apache.spark.streaming.Seconds"/>
+<fullyQualifiedTypeName name="kafka.serializer.StringDecoder"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,12 @@
+package demo
+
+object KafkaReceiver {
+  def main(args: Array[String]): Unit = {
+    Logger.getLogger("org.apache.spark").setLevel(Level.ERROR)
+    Logger.getLogger("org.eclipse.jetty.server").setLevel(Level.OFF)
+    
+    val conf = new SparkConf().setAppName("windowWC").setMaster("local[2]")
+    val ssc = new StreamingContext(conf, Seconds(3))
+    
+  }
+}
