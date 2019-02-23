@@ -1,0 +1,10 @@
+tar -zxvf kafka_2.9.2-0.8.1.1.tgz -C ~/training/
+
+mkdir /root/training/kafka_2.9.2-0.8.1.1/logs
+sudo nano /root/training/kafka_2.9.2-0.8.1.1/config/server.properties
+  log.dirs=/root/training/kafka_2.9.2-0.8.1.1/logs
+  num.partitions=2
+  zookeeper.connect=192.168.137.111:2181
+  
+
+bin/kafka-server-start.sh 
