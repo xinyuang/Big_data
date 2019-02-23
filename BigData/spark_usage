@@ -1,4 +1,9 @@
 zookeeper -> hdfs -> hbase -> thrift -> spark
+zkServer.sh start
+start-all.sh
+start-hbase.sh
+hbase-daemon.sh start thrift
+
 
 bin/spark-submit --master spark://bigdata111:7077 --class org.apache.spark.examples.SparkPi
 examples/jars/spark-examples_2.11-2.1.0.jar 100
