@@ -11,3 +11,9 @@ bin/kafka-server-start.sh config/server.properties
 
 # create a topic named mydemo1
 bin/kafka-topics.sh  --create --zookeeper bigdata111:2181 -replication-factor 1 --partitions 3 --topic mydemo1
+
+# send message
+bin/kafka-console-producer.sh --broker-list bigdata111:9092 --topic mydemo1
+
+# receive message
+bin/kafka-console-consumer.sh --zookeeper bigdata111:2181 --topic mydemo1
