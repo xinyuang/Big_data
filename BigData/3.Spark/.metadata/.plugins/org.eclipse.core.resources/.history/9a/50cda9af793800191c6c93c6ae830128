@@ -1,0 +1,11 @@
+package demo
+
+object forwhile {
+  def main(args: Array[String]): Unit = {
+    
+    var list = List("marry","Tom","mike")
+    System.out.println("*********for case 1 *************")
+    for(s <- list) println(s)
+    
+  }
+}

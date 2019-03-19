@@ -1,0 +1,16 @@
+package demo
+
+import scala.collection.mutable.ArrayBuffer
+
+object ArrayDemo {
+  def main(args: Array[String]): Unit = {
+    val a = new Array[Int](10)    
+    val b = new Array[String](5)
+    val c = ArrayBuffer[Int]()
+    for( i <- 0 until 10) {
+      a(i) = i
+      print(a(i))
+    }
+
+  }
+}

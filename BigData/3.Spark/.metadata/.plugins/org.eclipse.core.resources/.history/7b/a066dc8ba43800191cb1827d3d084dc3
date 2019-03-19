@@ -1,0 +1,8 @@
+package demo
+
+object MapDemo {
+  def main(args: Array[String]): Unit = {
+    val scores = Map("Tom"->80,"Marry"->85,"Mike"->82)
+    println(scores)
+  }
+}

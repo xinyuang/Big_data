@@ -1,0 +1,23 @@
+package demo
+
+object forwhile {
+  def main(args: Array[String]): Unit = {
+    
+    var list = List("marry","Tom","mike")
+    System.out.println("*********for case 1 *************")
+    for(s <- list) println(s)
+    
+    System.out.println("*********for case 2 *************")
+    for{
+      s <- list
+      if(s.length() > 3)
+    }println(s)
+    
+    System.out.println("*********for case 3 *************")
+    
+    System.out.println("*********for case 4 *************")
+    
+    System.out.println("*********for case 1 *************")
+    
+  }
+}

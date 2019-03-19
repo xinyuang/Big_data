@@ -1,0 +1,10 @@
+package functionDemo
+
+object closure {
+  def main(args: Array[String]): Unit = {
+      def mulBy(factor:Int)= (x:Int) => x*factor
+      val triple = mulBy(3)
+      print(triple(4))
+  }
+
+}

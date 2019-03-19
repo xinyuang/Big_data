@@ -1,0 +1,7 @@
+package demo
+
+object TupleDemo {
+  def main(args: Array[String]): Unit = {
+    val t1 = Tuple3(1,3.14,"Hello")
+  }
+}

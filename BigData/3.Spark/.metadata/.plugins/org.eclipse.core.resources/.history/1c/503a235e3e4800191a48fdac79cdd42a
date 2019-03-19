@@ -1,0 +1,20 @@
+package classDemo
+
+object extend {
+  def main(args: Array[String]): Unit = {
+    var p = new Person("Tom",20)
+    println(p.name + '\t' + p.age)
+    println(p.sayHello())
+    
+    var p2:Person = new Employee("Jerry",25,1000)
+    print(p2.sayHello())
+  }
+}
+
+class Person(var name:String, var age:Int){
+  def sayHello():String = "Hello " + name + " and the age is " + age
+}
+
+class Employee(override var name:String, override var age:Int, var salary:Int) extends Person(name,age){
+  
+}

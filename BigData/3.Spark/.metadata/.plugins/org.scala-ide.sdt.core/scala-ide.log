@@ -8728,3 +8728,907 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/SparkDemo/src/
 2019-02-23 16:34:24,209  WARN [Worker-146] - ScalaProject - Project SparkStreamingKafka runs on platform default installation.
 2019-02-23 16:37:55,222  WARN [main] - ScalaProject - Project SparkDemo has platform default sourceLevel.
 2019-02-23 16:37:55,222  WARN [main] - ScalaProject - Project SparkDemo runs on platform default installation.
+2019-02-23 19:09:11,814  WARN [main] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2019-02-23 19:09:11,815  WARN [main] - ScalaProject - Project SparkDemo runs on platform default installation.
+2019-02-23 19:09:11,820  WARN [main] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2019-02-23 19:09:11,820  WARN [main] - ScalaProject - Project SparkDemo runs on platform default installation.
+2019-02-23 19:09:17,142 ERROR [Worker-5] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2019-02-23 19:09:17,143 ERROR [Worker-5] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2019-02-23 19:09:17,143 ERROR [Worker-5] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2019-02-23 19:09:18,441  WARN [Worker-5] - ScalaProject - Project SparkStreamingKafka has platform default sourceLevel.
+2019-02-23 19:09:18,442  WARN [Worker-5] - ScalaProject - Project SparkStreamingKafka runs on platform default installation.
+2019-02-24 15:56:32,674  WARN [main] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2019-02-24 15:56:32,675  WARN [main] - ScalaProject - Project SparkDemo runs on platform default installation.
+2019-02-24 15:56:32,681  WARN [main] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2019-02-24 15:56:32,681  WARN [main] - ScalaProject - Project SparkDemo runs on platform default installation.
+2019-02-24 15:56:42,939 ERROR [Worker-7] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2019-02-24 15:56:42,940 ERROR [Worker-7] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2019-02-24 15:56:42,940 ERROR [Worker-7] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2019-02-24 15:56:45,053  WARN [Worker-7] - ScalaProject - Project SparkStreamingKafka has platform default sourceLevel.
+2019-02-24 15:56:45,053  WARN [Worker-7] - ScalaProject - Project SparkStreamingKafka runs on platform default installation.
+2019-02-24 16:11:16,753  WARN [Worker-8] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:11:16,754  WARN [Worker-8] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:11:32,876  WARN [Worker-3] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:11:32,876  WARN [Worker-3] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:11:40,145  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:11:40,146  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:11:50,662  WARN [Worker-9] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:11:50,662  WARN [Worker-9] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:11:51,003  WARN [Java indexing] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:11:51,003  WARN [Java indexing] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:11:52,344  WARN [Worker-11] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:11:52,344  WARN [Worker-11] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:11:52,762 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - An error occurred while trying to create a file.
+org.eclipse.core.internal.resources.ResourceException: Resource '/BasicScala/src/demo/forwhile.scala' already exists.
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:320)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:307)
+	at org.eclipse.core.internal.resources.File.create(File.java:112)
+	at org.eclipse.core.internal.resources.File.create(File.java:188)
+	at org.scalaide.util.eclipse.FileUtils$$anonfun$createFile$1.apply$mcV$sp(FileUtils.scala:93)
+	at org.scalaide.util.eclipse.FileUtils$$anonfun$createFile$1.apply(FileUtils.scala:84)
+	at org.scalaide.util.eclipse.FileUtils$$anonfun$createFile$1.apply(FileUtils.scala:84)
+	at scala.util.Try$.apply(Try.scala:192)
+	at org.scalaide.util.eclipse.FileUtils$.createFile(FileUtils.scala:84)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$$anonfun$okPressed$1.apply(NewFileWizard.scala:284)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$$anonfun$okPressed$1.apply(NewFileWizard.scala:283)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$class.okPressed(NewFileWizard.scala:283)
+	at org.scalaide.ui.internal.wizards.NewFileWizardAdapter$$anon$1.okPressed(NewFileWizardAdapter.scala:28)
+	at org.scalaide.ui.internal.wizards.NewFileWizardAdapter.performFinish(NewFileWizardAdapter.scala:55)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:853)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:438)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:619)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.runEventLoop(EventLoopProgressMonitor.java:128)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.isCanceled(EventLoopProgressMonitor.java:102)
+	at org.eclipse.core.internal.jobs.ThreadJob.isCanceled(ThreadJob.java:144)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:233)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:197)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:92)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:290)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:118)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2251)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:356)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:465)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$class.openFileInSrcDir$1(NewFileWizard.scala:364)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$class.org$scalaide$ui$internal$wizards$NewFileWizard$$openEditor(NewFileWizard.scala:375)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$$anonfun$okPressed$1.apply(NewFileWizard.scala:287)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$$anonfun$okPressed$1.apply(NewFileWizard.scala:283)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$class.okPressed(NewFileWizard.scala:283)
+	at org.scalaide.ui.internal.wizards.NewFileWizardAdapter$$anon$1.okPressed(NewFileWizardAdapter.scala:28)
+	at org.scalaide.ui.internal.wizards.NewFileWizardAdapter.performFinish(NewFileWizardAdapter.scala:55)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:853)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:438)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:619)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+	at org.eclipse.jface.window.Window.open(Window.java:808)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:136)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:519)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+2019-02-24 16:13:46,848  WARN [Worker-0] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:13:46,849  WARN [Worker-0] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:15:45,717  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 198
+2019-02-24 16:15:47,257  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 200
+2019-02-24 16:15:47,257  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 200
+2019-02-24 16:15:48,287  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 201
+2019-02-24 16:16:17,295  WARN [Worker-9] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:16:17,295  WARN [Worker-9] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:17:33,391  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 294
+2019-02-24 16:17:34,925  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 296
+2019-02-24 16:17:37,967  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 300
+2019-02-24 16:18:10,254  WARN [Worker-13] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:18:10,254  WARN [Worker-13] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:18:44,247  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 553
+2019-02-24 16:18:44,247  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 553
+2019-02-24 16:18:45,781  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 554
+2019-02-24 16:18:45,782  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 554
+2019-02-24 16:18:48,833  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 556
+2019-02-24 16:18:48,833  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 556
+2019-02-24 16:18:50,371  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 556
+2019-02-24 16:18:50,371  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 556
+2019-02-24 16:19:39,285  WARN [Worker-6] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:19:39,286  WARN [Worker-6] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:19:50,765  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 555
+2019-02-24 16:19:55,803  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 558
+2019-02-24 16:19:55,803  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 558
+2019-02-24 16:19:56,821  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 559
+2019-02-24 16:20:00,904  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 573
+2019-02-24 16:21:12,466  WARN [Worker-11] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:21:12,466  WARN [Worker-11] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:23:43,425  WARN [Worker-13] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:23:43,426  WARN [Worker-13] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:26:13,090  WARN [Worker-6] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:26:13,090  WARN [Worker-6] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:27:00,813  WARN [Worker-12] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:27:00,813  WARN [Worker-12] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:34:54,838  WARN [Worker-12] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:34:54,838  WARN [Worker-12] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:35:20,059  WARN [Worker-12] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:35:20,059  WARN [Worker-12] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:35:30,012  WARN [Worker-11] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:35:30,012  WARN [Worker-11] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:35:55,404  WARN [Worker-16] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:35:55,404  WARN [Worker-16] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:36:12,388  WARN [Worker-9] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:36:12,388  WARN [Worker-9] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:36:24,825  WARN [Worker-12] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:36:24,826  WARN [Worker-12] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:36:52,690  WARN [Worker-13] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:36:52,691  WARN [Worker-13] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:39:19,309  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:39:19,310  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:39:19,483  WARN [Worker-12] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:39:19,484  WARN [Worker-12] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:50:24,929  WARN [Worker-8] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:50:24,930  WARN [Worker-8] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:54:26,260  WARN [Worker-24] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:54:26,261  WARN [Worker-24] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:54:42,880  WARN [Worker-12] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:54:42,880  WARN [Worker-12] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 16:54:55,640  WARN [Worker-12] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 16:54:55,640  WARN [Worker-12] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 17:07:55,441  WARN [Worker-18] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 17:07:55,442  WARN [Worker-18] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 17:08:18,736  WARN [Worker-25] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 17:08:18,736  WARN [Worker-25] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 17:08:34,598  WARN [Worker-25] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 17:08:34,598  WARN [Worker-25] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 17:15:06,584  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 551
+2019-02-24 17:15:09,635  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 552
+2019-02-24 17:15:11,195  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 554
+2019-02-24 17:15:11,197  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 554
+2019-02-24 17:15:12,250  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 555
+2019-02-24 17:15:12,251  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 555
+2019-02-24 17:15:13,809  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 554
+2019-02-24 17:15:13,809  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 554
+2019-02-24 17:15:15,872  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 555
+2019-02-24 17:15:16,887  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 556
+2019-02-24 17:15:40,116  WARN [Worker-18] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 17:15:40,116  WARN [Worker-18] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 17:15:46,532  WARN [Worker-18] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 17:15:46,533  WARN [Worker-18] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 17:16:03,261  WARN [Worker-18] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 17:16:03,262  WARN [Worker-18] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 17:25:19,220  WARN [Worker-31] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 17:25:19,221  WARN [Worker-31] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 17:25:41,620  WARN [Worker-25] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 17:25:41,621  WARN [Worker-25] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 17:26:10,767  WARN [Worker-27] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 17:26:10,768  WARN [Worker-27] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 17:27:06,435  WARN [Worker-25] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 17:27:06,435  WARN [Worker-25] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 17:27:31,879  WARN [Worker-28] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 17:27:31,879  WARN [Worker-28] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 17:28:26,996  WARN [Worker-18] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 17:28:26,996  WARN [Worker-18] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 17:29:07,384  WARN [Worker-28] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 17:29:07,385  WARN [Worker-28] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 17:42:48,474  WARN [Worker-33] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 17:42:48,475  WARN [Worker-33] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 17:43:16,757  WARN [Worker-22] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 17:43:16,758  WARN [Worker-22] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 17:55:14,686  WARN [Worker-22] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 17:55:14,687  WARN [Worker-22] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 17:55:34,993  WARN [Worker-38] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 17:55:34,993  WARN [Worker-38] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 17:56:17,446  WARN [Worker-33] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 17:56:17,446  WARN [Worker-33] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 17:56:30,629  WARN [Worker-33] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 17:56:30,630  WARN [Worker-33] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 17:56:40,097  WARN [Worker-25] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 17:56:40,097  WARN [Worker-25] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 17:57:00,115  WARN [Worker-38] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 17:57:00,115  WARN [Worker-38] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 17:57:15,212  WARN [Worker-37] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 17:57:15,213  WARN [Worker-37] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 17:58:51,026  WARN [Worker-39] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 17:58:51,026  WARN [Worker-39] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:00:22,134  WARN [main] - ScalaProject - Project SparkStreamingKafka has platform default sourceLevel.
+2019-02-24 18:00:22,135  WARN [main] - ScalaProject - Project SparkStreamingKafka runs on platform default installation.
+2019-02-24 18:01:24,350  WARN [Worker-40] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:01:24,350  WARN [Worker-40] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:01:55,690  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:01:55,690  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:01:55,847  WARN [Worker-25] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:01:55,848  WARN [Worker-25] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:02:36,363  WARN [Worker-22] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:02:36,364  WARN [Worker-22] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:04:29,755  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:04:29,756  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:04:29,882  WARN [Worker-42] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:04:29,882  WARN [Worker-42] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:04:39,248  WARN [Worker-42] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:04:39,248  WARN [Worker-42] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:05:17,614  WARN [Worker-39] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:05:17,614  WARN [Worker-39] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:05:29,047  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:05:29,047  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:05:29,210  WARN [Worker-36] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:05:29,211  WARN [Worker-36] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:05:44,618  WARN [Worker-33] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:05:44,619  WARN [Worker-33] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:13:53,506  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 231
+2019-02-24 18:15:19,418  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 231
+2019-02-24 18:15:24,431  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 231
+2019-02-24 18:16:39,480  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 231
+2019-02-24 18:16:41,989  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 231
+2019-02-24 18:16:50,714  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 237
+2019-02-24 18:17:08,748  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 237
+2019-02-24 18:17:10,769  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 231
+2019-02-24 18:17:13,805  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 233
+2019-02-24 18:17:14,825  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 234
+2019-02-24 18:17:16,864  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 235
+2019-02-24 18:17:16,865  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 235
+2019-02-24 18:18:11,816  WARN [Worker-33] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:18:11,816  WARN [Worker-33] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:18:37,829  WARN [Worker-44] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:18:37,829  WARN [Worker-44] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:18:56,971  WARN [Worker-36] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:18:56,971  WARN [Worker-36] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:19:11,294  WARN [Worker-42] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:19:11,294  WARN [Worker-42] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:19:34,612  WARN [Worker-36] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:19:34,612  WARN [Worker-36] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:21:47,958  WARN [Worker-39] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:21:47,958  WARN [Worker-39] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:24:02,225  WARN [Worker-43] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:24:02,225  WARN [Worker-43] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:25:59,177  WARN [Worker-43] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:25:59,177  WARN [Worker-43] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:26:19,805  WARN [Worker-42] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:26:19,805  WARN [Worker-42] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:35:32,472  WARN [Worker-44] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:35:32,472  WARN [Worker-44] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:35:43,549  WARN [Worker-43] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:35:43,550  WARN [Worker-43] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:38:47,372  WARN [Worker-49] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:38:47,373  WARN [Worker-49] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:39:11,867  WARN [Worker-48] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:39:11,867  WARN [Worker-48] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:40:44,339  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 769
+2019-02-24 18:40:47,889  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 773
+2019-02-24 18:42:15,341  WARN [Worker-49] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:42:15,341  WARN [Worker-49] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:42:37,210  WARN [Worker-46] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:42:37,210  WARN [Worker-46] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 18:43:18,460  WARN [Worker-49] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 18:43:18,460  WARN [Worker-49] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:12:10,569  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:12:10,570  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:12:10,573  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:12:10,573  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:12:12,868 ERROR [Worker-4] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2019-02-24 21:12:12,869 ERROR [Worker-4] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2019-02-24 21:12:12,869 ERROR [Worker-4] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2019-02-24 21:12:14,018  WARN [Worker-4] - ScalaProject - Project SparkStreamingKafka has platform default sourceLevel.
+2019-02-24 21:12:14,019  WARN [Worker-4] - ScalaProject - Project SparkStreamingKafka runs on platform default installation.
+2019-02-24 21:12:14,019  WARN [Worker-4] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2019-02-24 21:12:14,019  WARN [Worker-4] - ScalaProject - Project SparkDemo runs on platform default installation.
+2019-02-24 21:13:15,378  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:13:15,378  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:13:15,725  WARN [Worker-2] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:13:15,725  WARN [Worker-2] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:16:00,259  WARN [Worker-5] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:16:00,259  WARN [Worker-5] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:24:58,509  WARN [Worker-8] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:24:58,509  WARN [Worker-8] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:26:23,304  WARN [Worker-0] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:26:23,304  WARN [Worker-0] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:28:57,935  WARN [Worker-6] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:28:57,935  WARN [Worker-6] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:29:31,090  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 359
+2019-02-24 21:29:46,415  WARN [Worker-2] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:29:46,416  WARN [Worker-2] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:30:05,065  WARN [Worker-9] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:30:05,065  WARN [Worker-9] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:31:04,981  WARN [Worker-12] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:31:04,982  WARN [Worker-12] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:32:19,346  WARN [Worker-9] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:32:19,347  WARN [Worker-9] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:38:28,156  WARN [Worker-6] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:38:28,157  WARN [Worker-6] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:38:56,339  WARN [Worker-6] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:38:56,340  WARN [Worker-6] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:40:05,986  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 642
+2019-02-24 21:40:08,072  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 646
+2019-02-24 21:40:09,092  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 646
+2019-02-24 21:41:08,723  WARN [Worker-6] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:41:08,724  WARN [Worker-6] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:46:59,874  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:46:59,874  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:47:00,050  WARN [Worker-0] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:47:00,051  WARN [Worker-0] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:48:49,363  WARN [Worker-9] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:48:49,363  WARN [Worker-9] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:49:15,186  WARN [Worker-13] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:49:15,186  WARN [Worker-13] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:49:47,450  WARN [Worker-8] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:49:47,450  WARN [Worker-8] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:50:15,082  WARN [Worker-8] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:50:15,082  WARN [Worker-8] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:50:51,490  WARN [Worker-8] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:50:51,490  WARN [Worker-8] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:52:35,829  WARN [Worker-12] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:52:35,829  WARN [Worker-12] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:52:49,462  WARN [Worker-16] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:52:49,462  WARN [Worker-16] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 21:52:53,984  WARN [Worker-16] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 21:52:53,985  WARN [Worker-16] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 22:21:52,874  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 22:21:52,875  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 22:21:52,983  WARN [Worker-21] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 22:21:52,983  WARN [Worker-21] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 22:38:06,731  WARN [Worker-16] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 22:38:06,731  WARN [Worker-16] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 22:52:59,726  WARN [Worker-28] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 22:52:59,727  WARN [Worker-28] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 22:54:03,388  WARN [Worker-16] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 22:54:03,389  WARN [Worker-16] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 23:12:30,394  WARN [Worker-35] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 23:12:30,394  WARN [Worker-35] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 23:12:30,847  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 23:12:30,847  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 23:12:35,153  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 23:12:35,153  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 23:12:35,465  WARN [Worker-35] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 23:12:35,465  WARN [Worker-35] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 23:14:07,944  WARN [Worker-32] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 23:14:07,944  WARN [Worker-32] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 23:14:38,632  WARN [Worker-40] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 23:14:38,632  WARN [Worker-40] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 23:14:39,025  WARN [Java indexing] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 23:14:39,025  WARN [Java indexing] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 23:15:03,062  WARN [Worker-39] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 23:15:03,062  WARN [Worker-39] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 23:15:03,514  WARN [Java indexing] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 23:15:03,514  WARN [Java indexing] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 23:15:14,297  WARN [Worker-33] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 23:15:14,297  WARN [Worker-33] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 23:15:43,323  WARN [Worker-41] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 23:15:43,323  WARN [Worker-41] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 23:21:13,870  WARN [Worker-40] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 23:21:13,870  WARN [Worker-40] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 23:25:06,038  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 896
+2019-02-24 23:25:06,039  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 896
+2019-02-24 23:25:07,119  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 897
+2019-02-24 23:25:08,702  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 898
+2019-02-24 23:25:17,220  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 898
+2019-02-24 23:25:56,159  WARN [Worker-43] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 23:25:56,159  WARN [Worker-43] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-02-24 23:26:49,291  WARN [Worker-33] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-02-24 23:26:49,291  WARN [Worker-33] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 16:00:35,705  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 16:00:35,706  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 16:00:35,711  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 16:00:35,711  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 16:00:40,959 ERROR [Worker-0] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2019-03-16 16:00:40,959 ERROR [Worker-0] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2019-03-16 16:00:40,959 ERROR [Worker-0] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2019-03-16 16:00:43,744  WARN [Worker-0] - ScalaProject - Project SparkStreamingKafka has platform default sourceLevel.
+2019-03-16 16:00:43,745  WARN [Worker-0] - ScalaProject - Project SparkStreamingKafka runs on platform default installation.
+2019-03-16 16:00:43,745  WARN [Worker-0] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2019-03-16 16:00:43,745  WARN [Worker-0] - ScalaProject - Project SparkDemo runs on platform default installation.
+2019-03-16 16:12:28,751  WARN [main] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2019-03-16 16:12:28,751  WARN [main] - ScalaProject - Project SparkDemo runs on platform default installation.
+2019-03-16 16:28:12,016  WARN [Worker-0] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 16:28:12,016  WARN [Worker-0] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 17:57:45,256  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 17:57:45,256  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 17:57:45,377  WARN [Worker-36] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 17:57:45,378  WARN [Worker-36] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:01:52,728  WARN [Worker-38] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:01:52,728  WARN [Worker-38] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:02:21,131 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:379)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:130)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:105)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:95)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:147)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:812)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:842)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:842)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:708)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.getTypedTreeAt(Global.scala:842)
+	at scala.tools.nsc.interactive.CompilerControl$AskTypeAtItem.apply$mcV$sp(CompilerControl.scala:333)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:506)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.Global.checkForMoreWork(Global.scala:520)
+	at scala.tools.nsc.interactive.Global.signalParseProgress(Global.scala:331)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefRest(Parsers.scala:2670)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefOrDcl(Parsers.scala:2627)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.defOrDcl(Parsers.scala:2512)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.nonLocalDefOrDcl(Parsers.scala:2524)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3087)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3087)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3087)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3082)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3014)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStats(Parsers.scala:3081)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3068)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3045)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStatSeq(Parsers.scala:3045)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBody(Parsers.scala:2974)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBodyOpt(Parsers.scala:2981)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateOpt(Parsers.scala:2945)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.objectDef(Parsers.scala:2830)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.tmplDef(Parsers.scala:2766)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topLevelTmplDef(Parsers.scala:2747)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:3037)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:3037)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:3037)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:3030)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3014)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topStatSeq(Parsers.scala:3029)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.topstats$1(Parsers.scala:3227)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.topstats$1(Parsers.scala:3219)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3233)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3195)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.compilationUnit(Parsers.scala:3195)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parseRule(Parsers.scala:345)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parse(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$UnitParser.smartParse(Parsers.scala:241)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer.scala$tools$nsc$ast$parser$SyntaxAnalyzer$$initialUnitBody(SyntaxAnalyzer.scala:87)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer$ParserPhase.apply(SyntaxAnalyzer.scala:99)
+	at scala.tools.nsc.Global$GlobalPhase$$anonfun$applyPhase$1.apply$mcV$sp(Global.scala:440)
+	at scala.tools.nsc.Global$GlobalPhase.withCurrentUnit(Global.scala:431)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:440)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.reflect.internal.SymbolTable.enteringPhase(SymbolTable.scala:235)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1608)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:893)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1336)
+	at scala.tools.nsc.Global$Run.compileLate(Global.scala:1608)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$parseAndEnter(Global.scala:658)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:564)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+2019-03-16 18:02:21,133 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:379)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:130)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:105)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:95)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:147)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:812)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$scopeMembers(Global.scala:1028)
+	at scala.tools.nsc.interactive.Global$$anonfun$getScopeCompletion$2.apply(Global.scala:985)
+	at scala.tools.nsc.interactive.Global$$anonfun$getScopeCompletion$2.apply(Global.scala:985)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:708)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.getScopeCompletion(Global.scala:985)
+	at scala.tools.nsc.interactive.CompilerControl$AskScopeCompletionItem.apply$mcV$sp(CompilerControl.scala:357)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:506)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.Global.checkForMoreWork(Global.scala:520)
+	at scala.tools.nsc.interactive.Global.signalParseProgress(Global.scala:331)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefRest(Parsers.scala:2670)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefOrDcl(Parsers.scala:2627)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.defOrDcl(Parsers.scala:2512)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.nonLocalDefOrDcl(Parsers.scala:2524)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3087)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3087)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3087)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3082)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3014)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStats(Parsers.scala:3081)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3068)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3045)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStatSeq(Parsers.scala:3045)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBody(Parsers.scala:2974)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBodyOpt(Parsers.scala:2981)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateOpt(Parsers.scala:2945)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$classDef$1.apply(Parsers.scala:2808)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$classDef$1.apply(Parsers.scala:2788)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.savingClassContextBounds(Parsers.scala:327)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.classDef(Parsers.scala:2788)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.tmplDef(Parsers.scala:2762)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topLevelTmplDef(Parsers.scala:2747)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:3037)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:3037)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:3037)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:3030)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3014)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topStatSeq(Parsers.scala:3029)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.topstats$1(Parsers.scala:3227)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.topstats$1(Parsers.scala:3219)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3233)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3195)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.compilationUnit(Parsers.scala:3195)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parseRule(Parsers.scala:345)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parse(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$UnitParser.smartParse(Parsers.scala:241)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer.scala$tools$nsc$ast$parser$SyntaxAnalyzer$$initialUnitBody(SyntaxAnalyzer.scala:87)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer$ParserPhase.apply(SyntaxAnalyzer.scala:99)
+	at scala.tools.nsc.Global$GlobalPhase$$anonfun$applyPhase$1.apply$mcV$sp(Global.scala:440)
+	at scala.tools.nsc.Global$GlobalPhase.withCurrentUnit(Global.scala:431)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:440)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.reflect.internal.SymbolTable.enteringPhase(SymbolTable.scala:235)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1608)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:893)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1336)
+	at scala.tools.nsc.Global$Run.compileLate(Global.scala:1608)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$parseAndEnter(Global.scala:658)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:564)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+2019-03-16 18:03:14,527 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:379)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:130)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:105)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:95)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:147)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:812)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:842)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:842)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:708)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.getTypedTreeAt(Global.scala:842)
+	at scala.tools.nsc.interactive.CompilerControl$AskTypeAtItem.apply$mcV$sp(CompilerControl.scala:333)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:506)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.Global.checkForMoreWork(Global.scala:520)
+	at scala.tools.nsc.interactive.Global.signalParseProgress(Global.scala:331)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefRest(Parsers.scala:2670)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefOrDcl(Parsers.scala:2627)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.defOrDcl(Parsers.scala:2512)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.nonLocalDefOrDcl(Parsers.scala:2524)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3087)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3087)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3087)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3082)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3014)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStats(Parsers.scala:3081)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3068)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3045)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStatSeq(Parsers.scala:3045)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBody(Parsers.scala:2974)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBodyOpt(Parsers.scala:2981)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateOpt(Parsers.scala:2945)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.objectDef(Parsers.scala:2830)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.tmplDef(Parsers.scala:2766)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topLevelTmplDef(Parsers.scala:2747)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:3037)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:3037)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:3037)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:3030)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3014)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topStatSeq(Parsers.scala:3029)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.topstats$1(Parsers.scala:3227)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.topstats$1(Parsers.scala:3219)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3233)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3195)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.compilationUnit(Parsers.scala:3195)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parseRule(Parsers.scala:345)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parse(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$UnitParser.smartParse(Parsers.scala:241)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer.scala$tools$nsc$ast$parser$SyntaxAnalyzer$$initialUnitBody(SyntaxAnalyzer.scala:87)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer$ParserPhase.apply(SyntaxAnalyzer.scala:99)
+	at scala.tools.nsc.Global$GlobalPhase$$anonfun$applyPhase$1.apply$mcV$sp(Global.scala:440)
+	at scala.tools.nsc.Global$GlobalPhase.withCurrentUnit(Global.scala:431)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:440)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.reflect.internal.SymbolTable.enteringPhase(SymbolTable.scala:235)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1608)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:893)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1336)
+	at scala.tools.nsc.Global$Run.compileLate(Global.scala:1608)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$parseAndEnter(Global.scala:658)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:564)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+2019-03-16 18:03:14,529 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:379)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:130)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:105)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:95)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:147)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:812)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$scopeMembers(Global.scala:1028)
+	at scala.tools.nsc.interactive.Global$$anonfun$getScopeCompletion$2.apply(Global.scala:985)
+	at scala.tools.nsc.interactive.Global$$anonfun$getScopeCompletion$2.apply(Global.scala:985)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:708)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.getScopeCompletion(Global.scala:985)
+	at scala.tools.nsc.interactive.CompilerControl$AskScopeCompletionItem.apply$mcV$sp(CompilerControl.scala:357)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:506)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.Global.checkForMoreWork(Global.scala:520)
+	at scala.tools.nsc.interactive.Global.signalParseProgress(Global.scala:331)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefRest(Parsers.scala:2670)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefOrDcl(Parsers.scala:2627)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.defOrDcl(Parsers.scala:2512)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.nonLocalDefOrDcl(Parsers.scala:2524)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3087)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3087)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3087)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3082)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3014)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStats(Parsers.scala:3081)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3068)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3045)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStatSeq(Parsers.scala:3045)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBody(Parsers.scala:2974)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBodyOpt(Parsers.scala:2981)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateOpt(Parsers.scala:2945)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$classDef$1.apply(Parsers.scala:2808)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$classDef$1.apply(Parsers.scala:2788)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.savingClassContextBounds(Parsers.scala:327)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.classDef(Parsers.scala:2788)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.tmplDef(Parsers.scala:2762)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topLevelTmplDef(Parsers.scala:2747)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:3037)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:3037)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:3037)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:3030)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3014)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topStatSeq(Parsers.scala:3029)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.topstats$1(Parsers.scala:3227)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.topstats$1(Parsers.scala:3219)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3233)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3195)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.compilationUnit(Parsers.scala:3195)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parseRule(Parsers.scala:345)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parse(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$UnitParser.smartParse(Parsers.scala:241)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer.scala$tools$nsc$ast$parser$SyntaxAnalyzer$$initialUnitBody(SyntaxAnalyzer.scala:87)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer$ParserPhase.apply(SyntaxAnalyzer.scala:99)
+	at scala.tools.nsc.Global$GlobalPhase$$anonfun$applyPhase$1.apply$mcV$sp(Global.scala:440)
+	at scala.tools.nsc.Global$GlobalPhase.withCurrentUnit(Global.scala:431)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:440)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.reflect.internal.SymbolTable.enteringPhase(SymbolTable.scala:235)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1608)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:893)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1336)
+	at scala.tools.nsc.Global$Run.compileLate(Global.scala:1608)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$parseAndEnter(Global.scala:658)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:564)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+2019-03-16 18:03:43,521  WARN [Worker-34] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:03:43,521  WARN [Worker-34] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:04:28,453  WARN [Worker-37] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:04:28,454  WARN [Worker-37] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:05:08,866  WARN [Worker-36] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:05:08,866  WARN [Worker-36] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:05:34,152  WARN [Worker-39] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:05:34,152  WARN [Worker-39] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:05:34,535  WARN [Java indexing] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:05:34,535  WARN [Java indexing] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:05:49,658  WARN [Worker-38] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:05:49,658  WARN [Worker-38] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:07:08,927  WARN [Worker-36] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:07:08,927  WARN [Worker-36] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:07:39,647  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:07:39,647  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:07:39,806  WARN [Worker-38] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:07:39,806  WARN [Worker-38] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:08:55,629  WARN [Worker-36] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:08:55,630  WARN [Worker-36] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:21:04,411  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:21:04,411  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:21:05,095  WARN [Worker-38] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:21:05,095  WARN [Worker-38] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:25:18,515  WARN [Worker-38] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:25:18,515  WARN [Worker-38] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:26:57,772  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:26:57,772  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:26:57,933  WARN [Worker-36] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:26:57,933  WARN [Worker-36] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:27:31,418  WARN [Worker-44] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:27:31,418  WARN [Worker-44] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:28:37,623  WARN [Worker-40] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:28:37,623  WARN [Worker-40] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:30:43,156  WARN [Worker-44] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:30:43,156  WARN [Worker-44] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:36:24,645  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:36:24,645  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:36:24,812  WARN [Worker-45] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:36:24,813  WARN [Worker-45] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:40:07,499  WARN [Worker-51] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:40:07,500  WARN [Worker-51] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:40:25,075  WARN [Worker-51] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:40:25,075  WARN [Worker-51] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:40:46,285  WARN [Worker-40] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:40:46,286  WARN [Worker-40] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:46:31,422  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:46:31,422  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:46:31,590  WARN [Worker-47] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:46:31,591  WARN [Worker-47] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:52:45,889  WARN [Worker-58] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:52:45,890  WARN [Worker-58] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:53:51,619  WARN [Worker-45] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:53:51,619  WARN [Worker-45] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 18:59:45,648  WARN [Worker-37] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 18:59:45,648  WARN [Worker-37] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 19:02:57,435  WARN [Worker-54] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 19:02:57,435  WARN [Worker-54] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 19:03:21,143  WARN [Worker-59] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 19:03:21,143  WARN [Worker-59] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 19:03:35,447  WARN [Worker-58] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 19:03:35,448  WARN [Worker-58] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 19:09:02,515  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 19:09:02,516  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 19:09:02,687  WARN [Worker-40] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 19:09:02,687  WARN [Worker-40] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 21:42:33,089  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 21:42:33,105  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 21:42:33,139  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 21:42:33,139  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 21:42:37,752 ERROR [Worker-6] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2019-03-16 21:42:37,753 ERROR [Worker-6] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2019-03-16 21:42:37,753 ERROR [Worker-6] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2019-03-16 21:42:40,835  WARN [Worker-6] - ScalaProject - Project SparkStreamingKafka has platform default sourceLevel.
+2019-03-16 21:42:40,835  WARN [Worker-6] - ScalaProject - Project SparkStreamingKafka runs on platform default installation.
+2019-03-16 21:42:40,836  WARN [Worker-6] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2019-03-16 21:42:40,836  WARN [Worker-6] - ScalaProject - Project SparkDemo runs on platform default installation.
+2019-03-16 21:47:33,253 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-16 21:47:33,265 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-16 21:47:33,266 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-16 21:47:33,268 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-16 21:47:53,245  WARN [Worker-2] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 21:47:53,245  WARN [Worker-2] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 21:50:33,397  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 21:50:33,397  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 21:50:33,553  WARN [Worker-4] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 21:50:33,553  WARN [Worker-4] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 21:54:16,465  WARN [Worker-7] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 21:54:16,465  WARN [Worker-7] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 21:57:04,590  WARN [Worker-8] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 21:57:04,590  WARN [Worker-8] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 21:57:11,479  WARN [Worker-6] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 21:57:11,479  WARN [Worker-6] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 21:57:22,459  WARN [Worker-7] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 21:57:22,459  WARN [Worker-7] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 21:57:38,089 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-16 21:57:38,090 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-16 21:57:38,090 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-16 21:58:03,202  WARN [Worker-3] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 21:58:03,203  WARN [Worker-3] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 21:58:57,568  WARN [Worker-3] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 21:58:57,568  WARN [Worker-3] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 21:59:27,642 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-16 21:59:27,643 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-16 21:59:30,412  WARN [Worker-3] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 21:59:30,412  WARN [Worker-3] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 21:59:47,366  WARN [Worker-0] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 21:59:47,367  WARN [Worker-0] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 22:00:14,596  WARN [Worker-9] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 22:00:14,596  WARN [Worker-9] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 22:00:34,905  WARN [Worker-2] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 22:00:34,906  WARN [Worker-2] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 22:00:47,476  WARN [Worker-8] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 22:00:47,476  WARN [Worker-8] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 22:00:59,475  WARN [Worker-5] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 22:00:59,475  WARN [Worker-5] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 22:08:19,543  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 22:08:19,543  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 22:08:19,727  WARN [Worker-4] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 22:08:19,727  WARN [Worker-4] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 22:13:27,073  WARN [Worker-4] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 22:13:27,074  WARN [Worker-4] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 22:14:11,637  WARN [Worker-6] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 22:14:11,637  WARN [Worker-6] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 22:14:38,817  WARN [Worker-6] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 22:14:38,818  WARN [Worker-6] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 22:15:03,710  WARN [Worker-4] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 22:15:03,711  WARN [Worker-4] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 22:15:48,418  WARN [Worker-8] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 22:15:48,418  WARN [Worker-8] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 22:16:04,447  WARN [Worker-9] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 22:16:04,447  WARN [Worker-9] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-16 22:16:13,658  WARN [Worker-6] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-16 22:16:13,658  WARN [Worker-6] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-17 00:48:52,183  WARN [Worker-39] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-17 00:48:52,183  WARN [Worker-39] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-17 00:48:52,764  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-17 00:48:52,764  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-17 00:50:08,110  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-17 00:50:08,110  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-17 00:50:08,331  WARN [Worker-23] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-17 00:50:08,332  WARN [Worker-23] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-17 00:52:34,108  WARN [Worker-41] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-17 00:52:34,109  WARN [Worker-41] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-17 00:55:56,955  WARN [Worker-43] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-17 00:55:56,955  WARN [Worker-43] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-17 01:02:34,962  WARN [Worker-39] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-17 01:02:34,962  WARN [Worker-39] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-17 01:02:47,869  WARN [Worker-34] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-17 01:02:47,869  WARN [Worker-34] - ScalaProject - Project BasicScala runs on platform default installation.

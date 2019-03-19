@@ -1,0 +1,8 @@
+package demo
+
+object function {
+  def main(args: Array[String]): Unit = {
+    // call by value ： (calculate first and only once)
+    // call by name  :=> (every time when the parameter is used, calculate)
+  }
+}

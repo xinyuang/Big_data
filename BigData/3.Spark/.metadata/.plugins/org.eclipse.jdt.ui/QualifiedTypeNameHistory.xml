@@ -9,4 +9,5 @@
 <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
 <fullyQualifiedTypeName name="org.apache.spark.streaming.Seconds"/>
 <fullyQualifiedTypeName name="kafka.serializer.StringDecoder"/>
+<fullyQualifiedTypeName name="scala.collection.mutable.ArrayBuffer"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,19 @@
+package classDemo
+
+class Student3(var stuName:String)
+
+
+object Student3 {
+  def apply(name:String) = {
+    print("---------using apply method---------")
+    new Student3(name)
+  }
+  
+  def main(args: Array[String]): Unit = {
+    var s1 = new Student3("Tom")
+    print(s1.stuName)
+    
+    var s2 = Student3("Jerry")
+    print(s2.stuName)
+  }
+}

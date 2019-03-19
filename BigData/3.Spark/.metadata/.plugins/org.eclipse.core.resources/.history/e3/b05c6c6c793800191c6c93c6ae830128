@@ -1,0 +1,8 @@
+package demo
+
+object forwhile {
+  def main(args: Array[String]): Unit = {
+    System.out.println("*********for case1*************")
+    
+  }
+}

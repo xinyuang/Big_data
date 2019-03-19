@@ -1,0 +1,13 @@
+package demo
+
+object Array {
+  def main(args: Array[String]): Unit = {
+    val a = new Array[Int](10)
+    println(a)
+    
+    val b = new Array[String](5)
+    println(b)
+    
+    
+  }
+}

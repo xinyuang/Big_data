@@ -1,0 +1,16 @@
+package classDemo
+
+class student3(var stuName:String, var age:Int) {
+  // main constructor is above inputs
+  // auxiliary constructor this 
+  def this(age:Int){
+    this("no name",age)
+    println("using auxiliary constructor")
+  }
+}
+
+object constructor {
+  def def main(args: Array[String]): Unit = {
+    
+  }
+}
