@@ -9632,3 +9632,746 @@ java.lang.NullPointerException
 2019-03-17 01:02:34,962  WARN [Worker-39] - ScalaProject - Project BasicScala runs on platform default installation.
 2019-03-17 01:02:47,869  WARN [Worker-34] - ScalaProject - Project BasicScala has platform default sourceLevel.
 2019-03-17 01:02:47,869  WARN [Worker-34] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:09:17,796  WARN [Worker-2] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:09:17,813  WARN [Worker-2] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:09:18,316  WARN [Worker-2] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:09:18,317  WARN [Worker-2] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:09:20,195 ERROR [Worker-5] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2019-03-23 15:09:20,198 ERROR [Worker-5] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2019-03-23 15:09:20,198 ERROR [Worker-5] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2019-03-23 15:09:20,527  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:09:20,527  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:09:25,011  WARN [Worker-8] - ScalaProject - Project SparkStreamingKafka has platform default sourceLevel.
+2019-03-23 15:09:25,011  WARN [Worker-8] - ScalaProject - Project SparkStreamingKafka runs on platform default installation.
+2019-03-23 15:09:25,011  WARN [Worker-8] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2019-03-23 15:09:25,011  WARN [Worker-8] - ScalaProject - Project SparkDemo runs on platform default installation.
+2019-03-23 15:10:28,773  WARN [Worker-5] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:10:28,774  WARN [Worker-5] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:10:29,544  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:10:29,544  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:10:40,393  WARN [Worker-6] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:10:40,393  WARN [Worker-6] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:10:40,764  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:10:40,765  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:10:57,628  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:10:57,628  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:10:57,709  WARN [Worker-8] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:10:57,709  WARN [Worker-8] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:12:19,793  WARN [Worker-7] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:12:19,794  WARN [Worker-7] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:12:47,114  WARN [Worker-1] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:12:47,114  WARN [Worker-1] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:13:08,664  WARN [Worker-9] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:13:08,664  WARN [Worker-9] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:13:43,248  WARN [Worker-0] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:13:43,249  WARN [Worker-0] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:14:07,961  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 209
+2019-03-23 15:14:07,962  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 230
+2019-03-23 15:14:38,810  WARN [Worker-2] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:14:38,810  WARN [Worker-2] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:14:49,824  WARN [Worker-3] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:14:49,824  WARN [Worker-3] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:15:21,303  WARN [Worker-3] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:15:21,304  WARN [Worker-3] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:16:49,065  WARN [Worker-2] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:16:49,065  WARN [Worker-2] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:17:23,384  WARN [Worker-6] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:17:23,384  WARN [Worker-6] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:18:09,315  WARN [Worker-1] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:18:09,315  WARN [Worker-1] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:18:10,716  WARN [Worker-0] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:18:10,717  WARN [Worker-0] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:18:56,097  WARN [Worker-3] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:18:56,097  WARN [Worker-3] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:18:57,195  WARN [Worker-4] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:18:57,195  WARN [Worker-4] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:22:19,650  WARN [Worker-3] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:22:19,650  WARN [Worker-3] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:22:20,696  WARN [Worker-3] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:22:20,696  WARN [Worker-3] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:22:42,104  WARN [Worker-9] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:22:42,104  WARN [Worker-9] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:22:49,656  WARN [Worker-3] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:22:49,656  WARN [Worker-3] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:22:57,269  WARN [Worker-11] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:22:57,269  WARN [Worker-11] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:22:58,309  WARN [Worker-6] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:22:58,309  WARN [Worker-6] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:23:30,091  WARN [Worker-5] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:23:30,091  WARN [Worker-5] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:23:42,718  WARN [Worker-2] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:23:42,718  WARN [Worker-2] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:23:54,055  WARN [Worker-8] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:23:54,055  WARN [Worker-8] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:23:55,120  WARN [Worker-9] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:23:55,120  WARN [Worker-9] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:24:11,700  WARN [Worker-11] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:24:11,700  WARN [Worker-11] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:24:12,004  WARN [Worker-8] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:24:12,004  WARN [Worker-8] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:24:25,904  WARN [Worker-2] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:24:25,904  WARN [Worker-2] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:24:26,046  WARN [Worker-9] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:24:26,047  WARN [Worker-9] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:24:42,357  WARN [Worker-6] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:24:42,357  WARN [Worker-6] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:24:43,399  WARN [Worker-6] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:24:43,399  WARN [Worker-6] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:27:14,169  WARN [Worker-5] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:27:14,169  WARN [Worker-5] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:27:15,268  WARN [Worker-3] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:27:15,268  WARN [Worker-3] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:27:31,916  WARN [Worker-6] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:27:31,916  WARN [Worker-6] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:27:32,954  WARN [Worker-6] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:27:32,954  WARN [Worker-6] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:27:55,556  WARN [Worker-10] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:27:55,557  WARN [Worker-10] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:27:56,641  WARN [Worker-6] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:27:56,641  WARN [Worker-6] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:28:38,318  WARN [Worker-6] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:28:38,318  WARN [Worker-6] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:28:39,351  WARN [Worker-10] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:28:39,351  WARN [Worker-10] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:29:39,203  WARN [Worker-2] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:29:39,203  WARN [Worker-2] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:30:25,899  WARN [Worker-3] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:30:25,899  WARN [Worker-3] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:31:35,782  WARN [Worker-7] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:31:35,782  WARN [Worker-7] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:31:39,361  WARN [Worker-10] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:31:39,361  WARN [Worker-10] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:31:41,551  WARN [Worker-3] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:31:41,552  WARN [Worker-3] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:33:23,639  WARN [Worker-5] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:33:23,639  WARN [Worker-5] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:33:24,732  WARN [Worker-6] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:33:24,732  WARN [Worker-6] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:35:03,117  WARN [Worker-7] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:35:03,117  WARN [Worker-7] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:35:04,150  WARN [Worker-10] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:35:04,150  WARN [Worker-10] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:39:03,115  WARN [Worker-3] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:39:03,115  WARN [Worker-3] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:39:04,200  WARN [Worker-11] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:39:04,200  WARN [Worker-11] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:39:39,088  WARN [Worker-10] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:39:39,088  WARN [Worker-10] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:39:52,358  WARN [Worker-11] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:39:52,358  WARN [Worker-11] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:40:54,770  WARN [Worker-11] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:40:54,770  WARN [Worker-11] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:40:56,576  WARN [Worker-7] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:40:56,576  WARN [Worker-7] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 15:40:57,660  WARN [Worker-5] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 15:40:57,660  WARN [Worker-5] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 16:10:31,437  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 16:10:31,437  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 16:10:31,622  WARN [Worker-20] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 16:10:31,622  WARN [Worker-20] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 16:12:30,724  WARN [Worker-7] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 16:12:30,725  WARN [Worker-7] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 16:18:31,712  WARN [Worker-17] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 16:18:31,712  WARN [Worker-17] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 16:19:22,497  WARN [Worker-20] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 16:19:22,497  WARN [Worker-20] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 16:25:24,318  WARN [Worker-24] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 16:25:24,318  WARN [Worker-24] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 16:25:46,278  WARN [Worker-22] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 16:25:46,278  WARN [Worker-22] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 16:26:28,608  WARN [Worker-22] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 16:26:28,608  WARN [Worker-22] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 16:31:12,368  WARN [Worker-7] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 16:31:12,369  WARN [Worker-7] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 16:35:54,030  WARN [Worker-21] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 16:35:54,030  WARN [Worker-21] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 16:36:58,123  WARN [Worker-25] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 16:36:58,123  WARN [Worker-25] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 16:37:47,658  WARN [Worker-26] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 16:37:47,658  WARN [Worker-26] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 16:45:45,556  WARN [Worker-21] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 16:45:45,556  WARN [Worker-21] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 16:46:15,481  WARN [Worker-5] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 16:46:15,481  WARN [Worker-5] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 16:46:32,298  WARN [Worker-19] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 16:46:32,299  WARN [Worker-19] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 16:51:57,965  WARN [Worker-5] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 16:51:57,965  WARN [Worker-5] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 16:53:44,462 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.FatalError: ThisType(method main) for sym which is not a class
+	at scala.reflect.internal.Reporting$class.abort(Reporting.scala:59)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$ThisType.<init>(Types.scala:1167)
+	at scala.reflect.internal.Types$UniqueThisType.<init>(Types.scala:1187)
+	at scala.reflect.internal.Types$ThisType$.apply(Types.scala:1191)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$findMirrorSymbol(Global.scala:875)
+	at scala.tools.nsc.interactive.Global$$anonfun$getDocComment$2$$anonfun$apply$16$$anonfun$apply$18.apply(Global.scala:948)
+	at scala.tools.nsc.interactive.Global$$anonfun$getDocComment$2$$anonfun$apply$16$$anonfun$apply$18.apply(Global.scala:947)
+	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:733)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:732)
+	at scala.tools.nsc.interactive.Global$$anonfun$getDocComment$2$$anonfun$apply$16.apply(Global.scala:947)
+	at scala.tools.nsc.interactive.Global$$anonfun$getDocComment$2$$anonfun$apply$16.apply(Global.scala:946)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$withTempUnits(Global.scala:859)
+	at scala.tools.nsc.interactive.Global$$anonfun$getDocComment$2.apply(Global.scala:946)
+	at scala.tools.nsc.interactive.Global$$anonfun$getDocComment$2.apply(Global.scala:946)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:708)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.getDocComment(Global.scala:945)
+	at scala.tools.nsc.interactive.CompilerControl$AskDocCommentItem.apply$mcV$sp(CompilerControl.scala:383)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:506)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-03-23 16:53:57,124  WARN [Worker-5] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 16:53:57,124  WARN [Worker-5] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 16:54:04,316  WARN [Worker-22] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 16:54:04,316  WARN [Worker-22] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 16:54:25,217  WARN [Worker-5] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 16:54:25,218  WARN [Worker-5] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 17:06:13,553  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 17:06:13,553  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 17:06:13,734  WARN [Worker-21] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 17:06:13,734  WARN [Worker-21] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 17:18:35,364  WARN [Worker-21] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 17:18:35,365  WARN [Worker-21] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 17:19:10,942  WARN [Worker-5] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 17:19:10,942  WARN [Worker-5] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 17:20:42,802  WARN [Worker-29] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 17:20:42,802  WARN [Worker-29] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 17:21:12,446  WARN [Worker-21] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 17:21:12,446  WARN [Worker-21] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 17:27:21,854  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 17:27:21,854  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 17:27:22,047  WARN [Worker-19] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 17:27:22,048  WARN [Worker-19] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 17:27:32,278  WARN [Worker-21] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 17:27:32,279  WARN [Worker-21] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 18:53:13,315  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 18:53:13,315  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 18:53:13,498  WARN [Worker-50] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 18:53:13,498  WARN [Worker-50] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 18:53:54,548  WARN [Worker-49] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 18:53:54,548  WARN [Worker-49] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 18:54:05,250  WARN [Worker-52] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 18:54:05,250  WARN [Worker-52] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 18:54:07,249  WARN [Worker-33] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 18:54:07,250  WARN [Worker-33] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 18:58:43,435  WARN [Worker-33] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 18:58:43,436  WARN [Worker-33] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 18:58:48,271  WARN [Worker-21] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 18:58:48,271  WARN [Worker-21] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 18:59:00,341  WARN [Worker-49] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 18:59:00,341  WARN [Worker-49] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 18:59:16,017  WARN [Worker-51] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 18:59:16,017  WARN [Worker-51] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 19:00:13,652  WARN [Worker-19] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 19:00:13,652  WARN [Worker-19] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 19:00:24,412  WARN [Worker-52] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 19:00:24,412  WARN [Worker-52] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 19:01:28,932  WARN [Worker-53] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 19:01:28,932  WARN [Worker-53] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 19:02:52,726  WARN [Worker-51] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 19:02:52,726  WARN [Worker-51] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 19:04:57,942  WARN [Worker-53] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 19:04:57,942  WARN [Worker-53] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 19:07:17,145  WARN [Worker-52] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 19:07:17,145  WARN [Worker-52] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 19:19:02,848  WARN [Worker-21] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 19:19:02,848  WARN [Worker-21] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 19:19:11,252  WARN [Worker-56] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 19:19:11,252  WARN [Worker-56] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 19:20:09,677  WARN [Worker-33] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 19:20:09,677  WARN [Worker-33] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 19:21:52,868  WARN [Worker-50] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 19:21:52,868  WARN [Worker-50] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 19:22:11,271  WARN [Worker-21] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 19:22:11,271  WARN [Worker-21] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 19:30:20,543  WARN [Worker-52] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 19:30:20,544  WARN [Worker-52] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 19:30:34,502  WARN [Worker-33] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 19:30:34,503  WARN [Worker-33] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 19:30:40,675  WARN [Worker-21] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 19:30:40,675  WARN [Worker-21] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 22:58:55,780  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 22:58:55,780  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 22:58:55,962  WARN [Worker-73] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 22:58:55,962  WARN [Worker-73] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-23 23:50:18,524  WARN [Worker-90] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-23 23:50:18,524  WARN [Worker-90] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 00:03:20,089  WARN [Worker-89] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 00:03:20,089  WARN [Worker-89] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 00:03:49,943  WARN [Worker-92] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 00:03:49,943  WARN [Worker-92] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 09:16:12,497  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 09:16:12,497  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 09:16:13,706  WARN [Worker-82] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 09:16:13,706  WARN [Worker-82] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 09:16:13,855  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-24 09:16:13,891  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-24 09:16:13,894  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-24 09:16:13,898  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-24 09:16:14,056  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-24 09:16:14,094  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-24 09:16:14,095  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-24 09:16:14,100  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-24 09:16:14,161  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-24 09:16:14,161  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-24 09:16:14,161  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-24 09:16:14,296  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-24 09:16:14,300  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-24 09:16:14,361  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-24 09:41:30,665  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 09:41:30,666  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 09:41:30,760  WARN [Worker-105] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 09:41:30,760  WARN [Worker-105] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 09:44:10,372  WARN [Worker-97] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 09:44:10,372  WARN [Worker-97] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 09:48:07,357  WARN [Worker-109] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 09:48:07,357  WARN [Worker-109] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 09:48:11,740  WARN [Worker-89] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 09:48:11,740  WARN [Worker-89] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 09:51:47,152  WARN [main] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 09:51:47,152  WARN [main] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 09:51:47,329  WARN [Worker-109] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 09:51:47,329  WARN [Worker-109] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 09:57:37,661  WARN [Worker-104] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 09:57:37,661  WARN [Worker-104] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 09:57:47,035  WARN [Worker-111] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 09:57:47,036  WARN [Worker-111] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 09:58:08,225  WARN [Worker-111] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 09:58:08,226  WARN [Worker-111] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 09:58:44,176  WARN [Worker-111] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 09:58:44,176  WARN [Worker-111] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 09:59:14,518  WARN [Worker-104] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 09:59:14,518  WARN [Worker-104] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 10:03:02,872  WARN [Worker-110] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 10:03:02,872  WARN [Worker-110] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 10:03:13,226  WARN [Worker-109] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 10:03:13,226  WARN [Worker-109] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 10:03:19,325  WARN [Worker-111] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 10:03:19,325  WARN [Worker-111] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 10:03:27,665  WARN [Worker-110] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 10:03:27,666  WARN [Worker-110] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 10:05:08,144  WARN [Worker-114] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 10:05:08,144  WARN [Worker-114] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 10:06:21,611  WARN [Worker-113] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 10:06:21,611  WARN [Worker-113] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 10:21:47,007  WARN [Worker-107] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 10:21:47,008  WARN [Worker-107] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 10:21:57,437 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:21:57,438 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Unapplies$class.constrParamss(Unapplies.scala:57)
+2019-03-24 10:21:57,438 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Unapplies$class.factoryMeth(Unapplies.scala:131)
+2019-03-24 10:21:57,438 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anon$1.factoryMeth(ScalaPresentationCompiler.scala:76)
+2019-03-24 10:21:57,438 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth$ImplicitClassWrapper.derivedTree(MethodSynthesis.scala:367)
+2019-03-24 10:21:57,438 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth$ImplicitClassWrapper.createAndEnterSymbol(MethodSynthesis.scala:357)
+2019-03-24 10:21:57,438 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth$class.enterImplicitWrapper(MethodSynthesis.scala:134)
+2019-03-24 10:21:57,439 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:54)
+2019-03-24 10:21:57,439 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer$class.enterExistingSym(Global.scala:82)
+2019-03-24 10:21:57,439 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$7.enterExistingSym(Global.scala:41)
+2019-03-24 10:21:57,439 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:300)
+2019-03-24 10:21:57,439 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.AnalyzerPlugins$class.pluginsEnterSym(AnalyzerPlugins.scala:422)
+2019-03-24 10:21:57,439 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anon$1.pluginsEnterSym(ScalaPresentationCompiler.scala:76)
+2019-03-24 10:21:57,439 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:275)
+2019-03-24 10:21:57,439 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1855)
+2019-03-24 10:21:57,439 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1850)
+2019-03-24 10:21:57,439 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:1891)
+2019-03-24 10:21:57,439 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1808)
+2019-03-24 10:21:57,439 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typedMemberDef$1(Typers.scala:5310)
+2019-03-24 10:21:57,440 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5359)
+2019-03-24 10:21:57,440 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.runTyper$1(Typers.scala:5396)
+2019-03-24 10:21:57,440 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.scala$tools$nsc$typechecker$Typers$Typer$$typedInternal(Typers.scala:5423)
+2019-03-24 10:21:57,440 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.body$2(Typers.scala:5370)
+2019-03-24 10:21:57,440 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5374)
+2019-03-24 10:21:57,440 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typedByValueExpr(Typers.scala:5452)
+2019-03-24 10:21:57,440 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.scala$tools$nsc$typechecker$Typers$Typer$$typedStat$1(Typers.scala:3047)
+2019-03-24 10:21:57,440 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$65.apply(Typers.scala:3151)
+2019-03-24 10:21:57,440 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$65.apply(Typers.scala:3151)
+2019-03-24 10:21:57,440 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.collection.immutable.List.loop$1(List.scala:173)
+2019-03-24 10:21:57,440 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.collection.immutable.List.mapConserve(List.scala:189)
+2019-03-24 10:21:57,440 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3151)
+2019-03-24 10:21:57,440 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5015)
+2019-03-24 10:21:57,440 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typedMemberDef$1(Typers.scala:5312)
+2019-03-24 10:21:57,440 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5359)
+2019-03-24 10:21:57,440 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.runTyper$1(Typers.scala:5396)
+2019-03-24 10:21:57,440 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.scala$tools$nsc$typechecker$Typers$Typer$$typedInternal(Typers.scala:5423)
+2019-03-24 10:21:57,440 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.body$2(Typers.scala:5370)
+2019-03-24 10:21:57,441 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5374)
+2019-03-24 10:21:57,441 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5448)
+2019-03-24 10:21:57,441 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.typechecker.Analyzer$typerFactory$$anon$3.apply(Analyzer.scala:102)
+2019-03-24 10:21:57,441 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.Global$GlobalPhase$$anonfun$applyPhase$1.apply$mcV$sp(Global.scala:440)
+2019-03-24 10:21:57,441 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.Global$GlobalPhase.withCurrentUnit(Global.scala:431)
+2019-03-24 10:21:57,441 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:440)
+2019-03-24 10:21:57,441 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.interactive.Global$TyperRun$$anonfun$applyPhase$1.apply(Global.scala:1338)
+2019-03-24 10:21:57,441 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.interactive.Global$TyperRun$$anonfun$applyPhase$1.apply(Global.scala:1338)
+2019-03-24 10:21:57,441 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.reflect.internal.SymbolTable.enteringPhase(SymbolTable.scala:235)
+2019-03-24 10:21:57,441 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1338)
+2019-03-24 10:21:57,441 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1331)
+2019-03-24 10:21:57,441 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:670)
+2019-03-24 10:21:57,441 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.interactive.Global$$anonfun$backgroundCompile$5$$anonfun$apply$8.apply(Global.scala:585)
+2019-03-24 10:21:57,441 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.interactive.Global$$anonfun$backgroundCompile$5.apply(Global.scala:581)
+2019-03-24 10:21:57,441 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.interactive.Global$$anonfun$backgroundCompile$5.apply(Global.scala:581)
+2019-03-24 10:21:57,441 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:733)
+2019-03-24 10:21:57,441 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.collection.immutable.List.foreach(List.scala:381)
+2019-03-24 10:21:57,441 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:732)
+2019-03-24 10:21:57,441 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:581)
+2019-03-24 10:21:57,442 ERROR [Scala Presentation Compiler [BasicScala]] - System.err - at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+2019-03-24 10:21:57,572 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - AT: RangePosition(D:\GS63\Big_data-master\Big_data-master\BigData\3.Spark\BasicScala\src\functionDemo\Implicit.scala, 173, 180, 490)
+scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+	at scala.tools.nsc.typechecker.Unapplies$class.constrParamss(Unapplies.scala:57)
+	at scala.tools.nsc.typechecker.Unapplies$class.factoryMeth(Unapplies.scala:131)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anon$1.factoryMeth(ScalaPresentationCompiler.scala:76)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth$ImplicitClassWrapper.derivedTree(MethodSynthesis.scala:367)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth$ImplicitClassWrapper.createAndEnterSymbol(MethodSynthesis.scala:357)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth$class.enterImplicitWrapper(MethodSynthesis.scala:134)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:54)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer$class.enterExistingSym(Global.scala:82)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$7.enterExistingSym(Global.scala:41)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:300)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins$class.pluginsEnterSym(AnalyzerPlugins.scala:422)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anon$1.pluginsEnterSym(ScalaPresentationCompiler.scala:76)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:275)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1855)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1850)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:1891)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1808)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedMemberDef$1(Typers.scala:5310)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5359)
+	at scala.tools.nsc.typechecker.Typers$Typer.runTyper$1(Typers.scala:5396)
+	at scala.tools.nsc.typechecker.Typers$Typer.scala$tools$nsc$typechecker$Typers$Typer$$typedInternal(Typers.scala:5423)
+	at scala.tools.nsc.typechecker.Typers$Typer.body$2(Typers.scala:5370)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5374)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedByValueExpr(Typers.scala:5452)
+	at scala.tools.nsc.typechecker.Typers$Typer.scala$tools$nsc$typechecker$Typers$Typer$$typedStat$1(Typers.scala:3047)
+	at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$65.apply(Typers.scala:3151)
+	at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$65.apply(Typers.scala:3151)
+	at scala.collection.immutable.List.loop$1(List.scala:173)
+	at scala.collection.immutable.List.mapConserve(List.scala:189)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3151)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5015)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedMemberDef$1(Typers.scala:5312)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5359)
+	at scala.tools.nsc.typechecker.Typers$Typer.runTyper$1(Typers.scala:5396)
+	at scala.tools.nsc.typechecker.Typers$Typer.scala$tools$nsc$typechecker$Typers$Typer$$typedInternal(Typers.scala:5423)
+	at scala.tools.nsc.typechecker.Typers$Typer.body$2(Typers.scala:5370)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5374)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5448)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$$anon$3.apply(Analyzer.scala:102)
+	at scala.tools.nsc.Global$GlobalPhase$$anonfun$applyPhase$1.apply$mcV$sp(Global.scala:440)
+	at scala.tools.nsc.Global$GlobalPhase.withCurrentUnit(Global.scala:431)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:440)
+	at scala.tools.nsc.interactive.Global$TyperRun$$anonfun$applyPhase$1.apply(Global.scala:1338)
+	at scala.tools.nsc.interactive.Global$TyperRun$$anonfun$applyPhase$1.apply(Global.scala:1338)
+	at scala.reflect.internal.SymbolTable.enteringPhase(SymbolTable.scala:235)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1338)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1331)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:670)
+	at scala.tools.nsc.interactive.Global$$anonfun$backgroundCompile$5$$anonfun$apply$8.apply(Global.scala:585)
+	at scala.tools.nsc.interactive.Global$$anonfun$backgroundCompile$5.apply(Global.scala:581)
+	at scala.tools.nsc.interactive.Global$$anonfun$backgroundCompile$5.apply(Global.scala:581)
+	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:733)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:732)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:581)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+2019-03-24 10:21:57,573 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:21:57,591 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:21:57,593 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:22:02,102 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:22:02,103 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:22:02,104 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:22:03,610 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:22:03,610 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:22:03,610 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:22:04,614 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:22:04,614 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:22:04,614 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:22:06,619 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:22:06,619 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:22:06,619 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:22:09,539  WARN [Worker-107] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 10:22:09,539  WARN [Worker-107] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 10:22:16,132 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:22:16,133 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:22:16,133 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:22:16,691  WARN [Worker-119] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 10:22:16,691  WARN [Worker-119] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 10:22:44,621 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:22:44,622 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:22:44,622 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:22:45,669 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - AT: RangePosition(D:\GS63\Big_data-master\Big_data-master\BigData\3.Spark\BasicScala\src\functionDemo\Implicit.scala, 173, 180, 519)
+scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+	at scala.tools.nsc.typechecker.Unapplies$class.constrParamss(Unapplies.scala:57)
+	at scala.tools.nsc.typechecker.Unapplies$class.factoryMeth(Unapplies.scala:131)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anon$1.factoryMeth(ScalaPresentationCompiler.scala:76)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth$ImplicitClassWrapper.derivedTree(MethodSynthesis.scala:367)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth$ImplicitClassWrapper.createAndEnterSymbol(MethodSynthesis.scala:357)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth$class.enterImplicitWrapper(MethodSynthesis.scala:134)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:54)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer$class.enterExistingSym(Global.scala:82)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$7.enterExistingSym(Global.scala:41)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:300)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins$class.pluginsEnterSym(AnalyzerPlugins.scala:422)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anon$1.pluginsEnterSym(ScalaPresentationCompiler.scala:76)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:275)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1855)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1850)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:1891)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1808)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedMemberDef$1(Typers.scala:5310)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5359)
+	at scala.tools.nsc.typechecker.Typers$Typer.runTyper$1(Typers.scala:5396)
+	at scala.tools.nsc.typechecker.Typers$Typer.scala$tools$nsc$typechecker$Typers$Typer$$typedInternal(Typers.scala:5423)
+	at scala.tools.nsc.typechecker.Typers$Typer.body$2(Typers.scala:5370)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5374)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedByValueExpr(Typers.scala:5452)
+	at scala.tools.nsc.typechecker.Typers$Typer.scala$tools$nsc$typechecker$Typers$Typer$$typedStat$1(Typers.scala:3047)
+	at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$65.apply(Typers.scala:3151)
+	at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$65.apply(Typers.scala:3151)
+	at scala.collection.immutable.List.loop$1(List.scala:173)
+	at scala.collection.immutable.List.mapConserve(List.scala:189)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3151)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5015)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedMemberDef$1(Typers.scala:5312)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5359)
+	at scala.tools.nsc.typechecker.Typers$Typer.runTyper$1(Typers.scala:5396)
+	at scala.tools.nsc.typechecker.Typers$Typer.scala$tools$nsc$typechecker$Typers$Typer$$typedInternal(Typers.scala:5423)
+	at scala.tools.nsc.typechecker.Typers$Typer.body$2(Typers.scala:5370)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5374)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5448)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$$anon$3.apply(Analyzer.scala:102)
+	at scala.tools.nsc.Global$GlobalPhase$$anonfun$applyPhase$1.apply$mcV$sp(Global.scala:440)
+	at scala.tools.nsc.Global$GlobalPhase.withCurrentUnit(Global.scala:431)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:440)
+	at scala.tools.nsc.interactive.Global$TyperRun$$anonfun$applyPhase$1.apply(Global.scala:1338)
+	at scala.tools.nsc.interactive.Global$TyperRun$$anonfun$applyPhase$1.apply(Global.scala:1338)
+	at scala.reflect.internal.SymbolTable.enteringPhase(SymbolTable.scala:235)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1338)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1331)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:670)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:819)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:842)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:842)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:708)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.getTypedTreeAt(Global.scala:842)
+	at scala.tools.nsc.interactive.CompilerControl$AskTypeAtItem.apply$mcV$sp(CompilerControl.scala:333)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:506)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-03-24 10:22:47,637 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:22:47,637 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:22:47,639 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:22:47,641 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+	at scala.tools.nsc.typechecker.Unapplies$class.constrParamss(Unapplies.scala:57)
+	at scala.tools.nsc.typechecker.Unapplies$class.factoryMeth(Unapplies.scala:131)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anon$1.factoryMeth(ScalaPresentationCompiler.scala:76)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth$ImplicitClassWrapper.derivedTree(MethodSynthesis.scala:367)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth$ImplicitClassWrapper.createAndEnterSymbol(MethodSynthesis.scala:357)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth$class.enterImplicitWrapper(MethodSynthesis.scala:134)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:54)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer$class.enterExistingSym(Global.scala:82)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$7.enterExistingSym(Global.scala:41)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:300)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins$class.pluginsEnterSym(AnalyzerPlugins.scala:422)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anon$1.pluginsEnterSym(ScalaPresentationCompiler.scala:76)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:275)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1855)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1850)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:1891)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1808)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedMemberDef$1(Typers.scala:5310)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5359)
+	at scala.tools.nsc.typechecker.Typers$Typer.runTyper$1(Typers.scala:5396)
+	at scala.tools.nsc.typechecker.Typers$Typer.scala$tools$nsc$typechecker$Typers$Typer$$typedInternal(Typers.scala:5423)
+	at scala.tools.nsc.typechecker.Typers$Typer.body$2(Typers.scala:5370)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5374)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedByValueExpr(Typers.scala:5452)
+	at scala.tools.nsc.typechecker.Typers$Typer.scala$tools$nsc$typechecker$Typers$Typer$$typedStat$1(Typers.scala:3047)
+	at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$65.apply(Typers.scala:3151)
+	at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$65.apply(Typers.scala:3151)
+	at scala.collection.immutable.List.loop$1(List.scala:173)
+	at scala.collection.immutable.List.mapConserve(List.scala:189)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3151)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5015)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedMemberDef$1(Typers.scala:5312)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5359)
+	at scala.tools.nsc.typechecker.Typers$Typer.runTyper$1(Typers.scala:5396)
+	at scala.tools.nsc.typechecker.Typers$Typer.scala$tools$nsc$typechecker$Typers$Typer$$typedInternal(Typers.scala:5423)
+	at scala.tools.nsc.typechecker.Typers$Typer.body$2(Typers.scala:5370)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5374)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5448)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$$anon$3.apply(Analyzer.scala:102)
+	at scala.tools.nsc.Global$GlobalPhase$$anonfun$applyPhase$1.apply$mcV$sp(Global.scala:440)
+	at scala.tools.nsc.Global$GlobalPhase.withCurrentUnit(Global.scala:431)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:440)
+	at scala.tools.nsc.interactive.Global$TyperRun$$anonfun$applyPhase$1.apply(Global.scala:1338)
+	at scala.tools.nsc.interactive.Global$TyperRun$$anonfun$applyPhase$1.apply(Global.scala:1338)
+	at scala.reflect.internal.SymbolTable.enteringPhase(SymbolTable.scala:235)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1338)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1331)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:670)
+	at scala.tools.nsc.interactive.Global$$anonfun$backgroundCompile$5$$anonfun$apply$8.apply(Global.scala:585)
+	at scala.tools.nsc.interactive.Global$$anonfun$backgroundCompile$5.apply(Global.scala:581)
+	at scala.tools.nsc.interactive.Global$$anonfun$backgroundCompile$5.apply(Global.scala:581)
+	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:733)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:732)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:581)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+2019-03-24 10:23:38,094  WARN [Worker-116] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 10:23:38,094  WARN [Worker-116] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 10:23:46,234 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:23:46,235 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:23:46,235 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:23:56,248 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:23:56,249 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:23:56,250 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:23:59,255 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:23:59,255 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:23:59,255 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:01,761 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:01,761 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:01,762 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:04,769 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:04,769 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:04,770 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:06,274 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:06,275 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:06,275 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:09,281 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:09,282 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:09,282 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:10,237  WARN [Worker-114] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 10:24:10,237  WARN [Worker-114] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 10:24:35,954 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:35,956 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:35,956 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:40,464 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:40,465 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:40,465 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:42,472 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:42,472 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:42,474 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:45,981 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:45,982 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:45,982 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:49,989 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:49,990 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:49,990 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:53,496 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:53,497 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:53,497 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:24:53,754  WARN [Worker-107] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 10:24:53,754  WARN [Worker-107] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 10:26:07,929 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:07,931 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:07,932 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:08,945 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:08,946 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:08,950 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:11,964 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:11,965 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:11,969 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:13,473 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:13,473 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:13,474 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:14,476 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:14,477 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:14,477 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:15,982 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:15,982 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:15,984 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:17,496 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:17,496 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:17,500 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:21,066  WARN [Worker-120] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 10:26:21,066  WARN [Worker-120] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 10:26:21,506 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:21,507 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:21,507 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:26,521 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:26,526 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:26:26,530 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:27:30,935 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:27:30,935 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:27:30,935 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:57:48,610 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:57:48,611 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:57:48,611 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:57:53,124 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:57:53,127 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:57:53,130 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:57:57,139 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:57:57,140 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:57:57,140 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:57:59,646 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:57:59,647 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:57:59,647 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:03,154 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:03,154 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:03,154 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:06,664 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:06,665 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:06,665 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:12,199  WARN [Worker-131] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 10:58:12,199  WARN [Worker-131] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 10:58:16,177 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:16,178 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:16,179 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:17,683 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:17,684 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:17,685 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:19,690 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:19,690 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:19,691 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:21,697 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:21,698 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:21,698 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:23,705 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:23,706 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:23,706 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:25,212 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:25,213 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:25,213 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:29,220 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:29,220 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:29,221 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:32,227 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:32,228 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:32,229 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:33,735 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:33,736 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:33,737 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:34,743 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:34,744 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:34,744 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:36,750 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:36,751 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:36,752 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:39,259 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:39,261 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:39,261 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:40,767 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:40,768 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:40,768 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:42,775 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:42,776 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:42,777 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:44,782 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:44,783 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:44,784 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:49,290 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:49,290 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:49,291 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:52,297 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:52,297 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:52,298 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 10:58:58,218  WARN [Worker-114] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 10:58:58,218  WARN [Worker-114] - ScalaProject - Project BasicScala runs on platform default installation.

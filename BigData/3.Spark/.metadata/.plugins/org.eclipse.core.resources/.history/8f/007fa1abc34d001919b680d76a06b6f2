@@ -1,0 +1,41 @@
+package functionDemo
+
+import scala.reflect.ClassTag
+
+class GenericClassInt {
+  private var content:Int = 10
+  def set(value:Int) = {content = value}
+  def get():Int = {content}
+}
+
+class GenericClassString {
+  private var content:String = ""
+  def set(value:String) = {content = value}
+  def get():String = {content}
+}
+
+class genericClass[T:ClassTag] {
+  private var content:T = _
+  def set(value:T) = {content = value}
+  def get():T = {content}
+}
+
+object genericClass {
+    def main(args: Array[String]): Unit = {
+      var v1 = new GenericClassInt
+      v1.set(1000)
+      println(v1.get())
+      var v2 = new GenericClassString
+      v2.set("test")
+      println(v2.get())
+      var v3 = new genericClass[Int]
+      v3.set(100)
+      println(v3.get())
+      
+      def mkArray[T](elem:T*)=Array[T](elem:_*)
+      println(mkArray(1,2,3).deep.mkString("\t"))
+      println(mkArray("1","2","3").deep.mkString("\t"))
+    
+  }
+}
+

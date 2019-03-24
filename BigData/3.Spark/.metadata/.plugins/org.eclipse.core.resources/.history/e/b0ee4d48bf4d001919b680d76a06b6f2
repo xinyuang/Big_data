@@ -1,0 +1,31 @@
+package functionDemo
+
+class GenericClassInt {
+  private var content:Int = 10
+  def set(value:Int) = {content = value}
+  def get():Int = {content}
+}
+
+class GenericClassString {
+  private var content:String = ""
+  def set(value:String) = {content = value}
+  def get():String = {content}
+}
+
+class GenericClass[T] {
+  private var content:T = _
+  def set(value:T) = {content = value}
+  def get():T = {content}
+}
+object genericClass {
+    def main(args: Array[String]): Unit = {
+    var v1 = new GenericClass[Int]
+    v1.set(1000)
+    println(v1.get())
+    var v2 = new GenericClass[String]
+    v2.set("test")
+    println(v2.get())
+    
+  }
+}
+

@@ -1,0 +1,19 @@
+package demo
+
+import scala.collection.mutable.LinkedList
+
+object ListDemo {
+  def main(args: Array[String]): Unit = {
+    var nameList = List("tom","mary","jerry")
+    println(nameList.head)
+    var myList = LinkedList(1,2,3,4)
+    println(myList)   
+    var cur = myList
+    while(cur != Nil) {
+      cur.elem = cur.elem * 2
+      cur = cur.next
+    }
+    println(myList)
+  }
+
+}

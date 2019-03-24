@@ -1,0 +1,22 @@
+package functionDemo
+
+class Fruit(name:String){
+  def getFruitName():String = name
+}
+
+class Monkey(f:Fruit){
+  def say() = {println("Monkey like " + f.getFruitName())}
+}
+  
+object Implicit {
+  
+
+  
+  def main(args: Array[String]): Unit = {
+    implicit def fuit2Monkey(f:Fruit):Monkey = {
+      new Monkey(f)
+    }
+    var f:Fruit = new Fruit("Banana")
+    f.say()
+  }
+}

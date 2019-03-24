@@ -1,0 +1,15 @@
+package functionDemo
+
+//inverter -T 
+class Animal
+
+class Bird extends Animal
+class Sparrow extends Bird
+// +T allow parent class accept child class
+class Eat[T](t:T)
+
+object Inverter {
+    var c1:Eat[Bird] = new Eat[Bird](new Bird)
+    
+    var c3:Eat[Sparrow] = new Eat[Sparrow](new Sparrow)
+}

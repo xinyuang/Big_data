@@ -1,0 +1,8 @@
+package demo
+
+import scala.collection.mutable.LinkedList
+
+object ListDemo {
+  var myList = LinkedList(1,2,3,4)
+  println(myList)
+}

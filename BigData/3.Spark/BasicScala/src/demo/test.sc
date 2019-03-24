@@ -1,0 +1,21 @@
+package demo
+
+object test {
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  var name = List(1,2,3)                          //> name  : List[Int] = List(1, 2, 3)
+  val v = Vector(1,2,3,4,5,6)                     //> v  : scala.collection.immutable.Vector[Int] = Vector(1, 2, 3, 4, 5, 6)
+  val name2 = List(1,2,3)                         //> name2  : List[Int] = List(1, 2, 3)
+  print(Range(0,5))                               //> Range(0, 1, 2, 3, 4)
+  print(0 to 4)                                   //> Range(0, 1, 2, 3, 4)
+  print(0 until 5)                                //> Range(0, 1, 2, 3, 4)
+  var s1 = Set(1,2,10,8)                          //> s1  : scala.collection.immutable.Set[Int] = Set(1, 2, 10, 8)
+  s1 + 3                                          //> res0: scala.collection.immutable.Set[Int] = Set(10, 1, 2, 3, 8)
+  var s2 = scala.collection.mutable.SortedSet(1,3,2,7,6,5)
+                                                  //> s2  : scala.collection.mutable.SortedSet[Int] = TreeSet(1, 2, 3, 5, 6, 7)
+  s1 union s2                                     //> res1: scala.collection.immutable.Set[Int] = Set(5, 10, 1, 6, 2, 7, 3, 8)
+  s1 intersect s2                                 //> res2: scala.collection.immutable.Set[Int] = Set(1, 2)
+  
+  
+  
+  
+}

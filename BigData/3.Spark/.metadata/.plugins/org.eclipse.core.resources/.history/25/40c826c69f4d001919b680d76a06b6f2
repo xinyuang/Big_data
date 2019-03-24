@@ -1,0 +1,11 @@
+package demo
+
+import scala.collection.mutable.LinkedList
+
+object ListDemo {
+  def main(args: Array[String]): Unit = {
+    var myList = scala.collection.mutable.LinkedList(1,2,3,4)
+    println(myList)    
+  }
+
+}
