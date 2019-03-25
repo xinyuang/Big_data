@@ -1,0 +1,28 @@
+tar -zxvf redis-3.0.5.tar.gz
+cd redis-3.0.5/
+make
+make PREFIX=/root/training/redis install
+cd /root/training/redis
+mkdir conf
+cp ~/tools/redis-3.0.5/redis.conf conf/
+sudo nano conf/redis.conf
+
+  daemonize yes
+
+bin/redis-server conf/redis.conf 
+ps -ef |grep redis
+bin/redis-cli 
+ 
+example:
+  set tom 1000
+  set mike 1000
+  multi  # start Transaction
+  decrby tom 100
+  incrby mike 100
+  exec
+ 
+  set ticket 1
+  watch ticket # add lock
+  
+  
+  
