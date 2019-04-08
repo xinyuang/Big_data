@@ -16,6 +16,7 @@ bin/redis-cli
 example:
   set tom 1000
   set mike 1000
+  
   multi  # start Transaction
   decrby tom 100
   incrby mike 100
@@ -23,6 +24,14 @@ example:
  
   set ticket 1
   watch ticket # add lock
+  
+  decrby ticket 1
+  exec
+  
+  discard
+  
+  SUBSCRIBE c1
+  PUBLISH   c1 helloworld
   
   
   
