@@ -30,8 +30,25 @@ example:
   
   discard
   
-  SUBSCRIBE c1
-  PUBLISH   c1 helloworld
+  SUBSCRIBE c1 #receive channel c1
+  PSUBSCRIBE c* #receive all channels contains c
+  PUBLISH c1 helloworld #publish msg in channel c1
+  
+  SHUTDOWN
+  
+#set RDB save to HD (time second) (key number changed)
+vi conf/redis.conf
+  save 900 1
+  save 300 10
+  save 60 10000
+  
+  stop-writes-on-bgsave-error yes # when error, no HD save
+  rdbcompression yes # affect recover backup performance
+  
+# or set AOF (append only mode) log file
+  appendonly yes # enable AOF
+  appendsync everysec #save every one second
+  
   
   
   
