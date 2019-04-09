@@ -11,7 +11,7 @@ sudo nano conf/redis.conf
 
 bin/redis-server conf/redis.conf 
 ps -ef |grep redis
-bin/redis-cli 
+bin/redis-cli -p 6379
  
 example:
   set tom 1000
@@ -49,6 +49,39 @@ vi conf/redis.conf
   appendonly yes # enable AOF
   appendsync everysec #save every one second
   
-  
-  
-  
+# master slave cluster set up (master 6379, slave 6380,6381)
+  sudo nano conf/redis.conf
+    on master : no save log
+    on slave: save log
+    set port (i.e. 6380)
+    dbfilename dump6380.rdb (6380 is the port)
+    dbfilename "appendonly6380.aof"
+    slaveof 192.168.157.111 6379
+    
+ # Install Load balancer (Twemproxy)
+   tar -zxvf nutcracker-0.3.0.tar.gz 
+   cd nutcracker-0.3.0/
+   ./configure --prefix=/root/training/proxy
+   make
+   make isntall
+   cd /root/training/proxy
+   mkdir conf
+   cp /root/tools/nutcracker-0.3.0/conf/nutcracker.yml ./conf/
+   vi nutcracker.yml
+     - 192.168.137.111:6380:1
+     - 192.168.137.111:6381:1
+   sbin/nutcracker -t conf/nutcracker.yml #check yml is ok
+   sbin/nutcracker -d -c conf/nutcracker.yml 
+   
+ # Redis sentinel (realize HA)
+ cp ~/tools/redis-3.0.5/sentinel.conf ~training/redis/conf/
+ vi sentinel.con
+    sentinel monitor mymaster 192.168.137.111 6379 1
+                                                   (number of snetinel 1)
+    bin/redis-sentinel conf/sentinel.conf 
+ bin/redis-sentinel
+
+
+
+
+
