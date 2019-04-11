@@ -31,6 +31,8 @@ scp -r apache-storm-1.0.3/ root@bigdata113:/root/training/
 #start web
   storm ui
   http://192.168.137.111:8080/index.html
+#view process
+  storm logviewer
 
 #enable debug function
   vi storm.yaml
