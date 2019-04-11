@@ -18,7 +18,7 @@ vi storm.yaml
     - "bigdata111"
     - "bigdata112"
     - "bigdata113"
-  nimbus.seeds: ["bigdata111"]
+  nimbus.seeds: ["bigdata111","bigdata112"] #only one is primary, the other is standby
   storm.local.dir: "/root/training/apache-storm-1.0.3/tmp"
 
 scp -r apache-storm-1.0.3/ root@bigdata112:/root/training/
