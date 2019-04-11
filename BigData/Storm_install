@@ -32,4 +32,6 @@ scp -r apache-storm-1.0.3/ root@bigdata113:/root/training/
   storm ui
   http://192.168.137.111:8080/index.html
 
-
+#enable debug function
+  vi storm.yaml
+    "topology.eventlogger.executors": 1
