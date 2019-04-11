@@ -35,3 +35,6 @@ scp -r apache-storm-1.0.3/ root@bigdata113:/root/training/
 #enable debug function
   vi storm.yaml
     "topology.eventlogger.executors": 1
+
+#run example
+storm jar storm-starter-topologies-1.0.3.jar org.apache.storm.starter.WordCountTopology mywordCount1
