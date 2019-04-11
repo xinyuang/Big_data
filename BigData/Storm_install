@@ -1,1 +1,35 @@
 zkServer.sh start
+
+tar -zxvf apache-storm-1.0.3.tar.gz -C ~/training/
+
+vi ~/.bash_profile 
+  STORM_HOME=/root/training/apache-storm-1.0.3
+  export STORM_HOME
+
+  PATH=$STORM_HOME/bin:$PATH
+  export PATH
+  
+source ~/.bash_profile
+
+mkdir /root/training/apache-storm-1.0.3/tmp
+cd ~/training/apache-storm-1.0.3/conf/
+vi storm.yaml 
+  storm.zookeeper.servers:
+    - "bigdata111"
+    - "bigdata112"
+    - "bigdata113"
+  nimbus.seeds: ["bigdata111"]
+  storm.local.dir: "/root/training/apache-storm-1.0.3/tmp"
+
+scp -r apache-storm-1.0.3/ root@bigdata112:/root/training/
+scp -r apache-storm-1.0.3/ root@bigdata113:/root/training/
+
+#start nimbus
+  storm nimbus
+#start supervisor
+  storm supervisor
+#start web
+  storm ui
+  http://192.168.137.111:8080/index.html
+
+
