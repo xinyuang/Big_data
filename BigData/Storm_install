@@ -40,3 +40,17 @@ scp -r apache-storm-1.0.3/ root@bigdata113:/root/training/
 
 #run example
 storm jar storm-starter-topologies-1.0.3.jar org.apache.storm.starter.WordCountTopology mywordCount1
+
+#storm integration
+  #HDFS
+    storm/external/storm_hdfs/storm-hdfs-1.0.3.jar
+    HDFS/share/hadoop/common/*.jar 
+    HDFS/share/hadoop/common/lib/*.jar
+    HDFS/share/hadoop/hdfs/*.jar 
+    HDFS/share/hadoop/hdfs/lib/*.jar
+  #redis
+    storm/external/storm_redis/storm-redis-1.0.3.jar
+    commons-pool2-2.3.jar
+    jedis-2.7.0.jar
+  #Hbase
+    Hbase/lib/*.jar
