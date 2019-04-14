@@ -30,6 +30,9 @@ example:
   
   discard
   
+  hgetall wordcount #wordcount is the name of HASH table
+
+  
   SUBSCRIBE c1 #receive channel c1
   PSUBSCRIBE c* #receive all channels contains c
   PUBLISH c1 helloworld #publish msg in channel c1
