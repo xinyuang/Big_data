@@ -1,0 +1,90 @@
+tar -zxvf redis-3.0.5.tar.gz
+cd redis-3.0.5/
+make
+make PREFIX=/root/training/redis install
+cd /root/training/redis
+mkdir conf
+cp ~/tools/redis-3.0.5/redis.conf conf/
+sudo nano conf/redis.conf
+
+  daemonize yes
+
+bin/redis-server conf/redis.conf 
+ps -ef |grep redis
+bin/redis-cli -p 6379
+ 
+example:
+  set tom 1000
+  set mike 1000
+  
+  multi  # start Transaction
+  decrby tom 100
+  incrby mike 100
+  exec
+ 
+  set ticket 1
+  watch ticket # add lock
+  
+  decrby ticket 1
+  exec
+  
+  discard
+  
+  hgetall wordcount #wordcount is the name of HASH table
+
+  
+  SUBSCRIBE c1 #receive channel c1
+  PSUBSCRIBE c* #receive all channels contains c
+  PUBLISH c1 helloworld #publish msg in channel c1
+  
+  SHUTDOWN
+  
+#set RDB save to HD (time second) (key number changed)
+vi conf/redis.conf
+  save 900 1
+  save 300 10
+  save 60 10000
+  
+  stop-writes-on-bgsave-error yes # when error, no HD save
+  rdbcompression yes # affect recover backup performance
+  
+# or set AOF (append only mode) log file
+  appendonly yes # enable AOF
+  appendsync everysec #save every one second
+  
+# master slave cluster set up (master 6379, slave 6380,6381)
+  sudo nano conf/redis.conf
+    on master : no save log
+    on slave: save log
+    set port (i.e. 6380)
+    dbfilename dump6380.rdb (6380 is the port)
+    dbfilename "appendonly6380.aof"
+    slaveof 192.168.157.111 6379
+    
+ # Install Load balancer (Twemproxy)
+   tar -zxvf nutcracker-0.3.0.tar.gz 
+   cd nutcracker-0.3.0/
+   ./configure --prefix=/root/training/proxy
+   make
+   make isntall
+   cd /root/training/proxy
+   mkdir conf
+   cp /root/tools/nutcracker-0.3.0/conf/nutcracker.yml ./conf/
+   vi nutcracker.yml
+     - 192.168.137.111:6380:1
+     - 192.168.137.111:6381:1
+   sbin/nutcracker -t conf/nutcracker.yml #check yml is ok
+   sbin/nutcracker -d -c conf/nutcracker.yml 
+   
+ # Redis sentinel (realize HA)
+ cp ~/tools/redis-3.0.5/sentinel.conf ~training/redis/conf/
+ vi sentinel.con
+    sentinel monitor mymaster 192.168.137.111 6379 1
+                                                   (number of snetinel 1)
+    bin/redis-sentinel conf/sentinel.conf 
+ bin/redis-sentinel
+
+
+
+
+
