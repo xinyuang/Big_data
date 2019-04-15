@@ -10,4 +10,5 @@
 <fullyQualifiedTypeName name="org.apache.spark.streaming.Seconds"/>
 <fullyQualifiedTypeName name="kafka.serializer.StringDecoder"/>
 <fullyQualifiedTypeName name="scala.collection.mutable.ArrayBuffer"/>
+<fullyQualifiedTypeName name="scala.collection.mutable.LinkedList"/>
 </qualifiedTypeNameHistroy>

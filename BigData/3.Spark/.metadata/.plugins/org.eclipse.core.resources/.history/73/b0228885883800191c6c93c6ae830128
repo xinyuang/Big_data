@@ -1,8 +1,0 @@
-package demo
-
-object Array {
-  def main(args: Array[String]): Unit = {
-    val a = new Array[Int](10)
-    println(a)
-  }
-}

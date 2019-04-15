@@ -10375,3 +10375,16 @@ scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
 2019-03-24 10:58:52,298 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
 2019-03-24 10:58:58,218  WARN [Worker-114] - ScalaProject - Project BasicScala has platform default sourceLevel.
 2019-03-24 10:58:58,218  WARN [Worker-114] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 17:50:27,875 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 17:50:27,876 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 17:50:27,877 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 17:50:28,084  WARN [Worker-229] - ScalaProject - Project BasicScala has platform default sourceLevel.
+2019-03-24 17:50:28,084  WARN [Worker-229] - ScalaProject - Project BasicScala runs on platform default installation.
+2019-03-24 22:50:50,014 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 22:50:50,014 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 22:50:50,015 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 23:28:56,194 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 23:28:56,194 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 23:28:56,194 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - scala.MatchError: <empty> (of class scala.reflect.internal.Trees$EmptyTree$)
+2019-03-24 23:29:04,744  WARN [main] - ScalaProject - Project SparkStreamingKafka has platform default sourceLevel.
+2019-03-24 23:29:04,744  WARN [main] - ScalaProject - Project SparkStreamingKafka runs on platform default installation.

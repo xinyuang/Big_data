@@ -1,7 +1,0 @@
-package Streaming
-
-object MyFlumeStreaming {
-  def main(args: Array[String]): Unit = {
-    
-  }
-}
