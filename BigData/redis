@@ -40,6 +40,7 @@ example:
   SHUTDOWN
   
 #set RDB save to HD (time second) (key number changed)
+sudo nano /etc/redis/redis.conf
 vi conf/redis.conf
   save 900 1
   save 300 10
