@@ -99,6 +99,26 @@ srem set-key item2
 sismember set-key item4
 smembers set-key
 
+For Hash
+127.0.0.1:6379> HMSET user:1000 username antirez password P1pp0 age 34
+OK
+127.0.0.1:6379> HGETALL user:1000
+1) "username"
+2) "antirez"
+3) "password"
+4) "P1pp0"
+5) "age"
+6) "34"
+
+127.0.0.1:6379> HSET user:1000 password 12345
+(integer) 0
+127.0.0.1:6379> HGETALL user:1000
+1) "username"
+2) "antirez"
+3) "password"
+4) "12345"
+5) "age"
+6) "34"
 
 
 
