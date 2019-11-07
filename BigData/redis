@@ -127,6 +127,21 @@ OK
 127.0.0.1:6379> save
 OK
 
+For Sorted Set
+redis>  ZADD myzset 1 "one"
+
+(integer) 1
+
+redis>  ZADD myzset 1 "uno"
+
+(integer) 1
+
+redis>  ZADD myzset 2 "two" 3 "three"
+
+(integer) 2
+
+redis>  ZRANGE myzset 0 -1 WITHSCORES
+
 
 
 
