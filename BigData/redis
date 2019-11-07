@@ -85,6 +85,19 @@ vi conf/redis.conf
     bin/redis-sentinel conf/sentinel.conf 
  bin/redis-sentinel
 
+For list:
+lpush mylist a
+rpush mylist b
+lpop mylist
+rpop mylist
+lrange list 0 -1
+
+For Set:
+sadd set-key item
+sadd set-key item2
+srem set-key item2
+sismember set-key item4
+smembers set-key
 
 
 
