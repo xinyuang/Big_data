@@ -120,5 +120,13 @@ OK
 5) "age"
 6) "34"
 
+127.0.0.1:6379> config get dir
+1) "dir"
+2) "/var/lib/redis"
+
+127.0.0.1:6379> save
+OK
+
+
 
 
