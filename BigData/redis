@@ -85,6 +85,8 @@ vi conf/redis.conf
     bin/redis-sentinel conf/sentinel.conf 
  bin/redis-sentinel
 
+KEYS '*'
+
 For list:
 lpush mylist a
 rpush mylist b
