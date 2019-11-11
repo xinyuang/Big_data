@@ -85,6 +85,7 @@ vi conf/redis.conf
     bin/redis-sentinel conf/sentinel.conf 
  bin/redis-sentinel
 
+auth password
 KEYS '*'
 
 For list:
